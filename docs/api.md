@@ -46,7 +46,7 @@ checksum | string(32) | Each request must have a checksum to validate the data. 
 	"error code": "message 2"
 	...
 	},
-	data: {
+	"data": {
 		// structure will be explained in detail each request below
 	}
 }
