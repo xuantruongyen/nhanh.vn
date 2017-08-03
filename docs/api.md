@@ -44,7 +44,6 @@ checksum | string(32) | Each request must have a checksum to validate the data. 
 	messages: { // if the status == 0 the server will return error messages
 	"error code": "message 1",
 	"error code": "message 2"
-	...
 	},
 	"data": {
 		// structure will be explained in detail each request below
