@@ -10,7 +10,7 @@ An API account includes:
 Param | Data type (Max-length) | Description
 ------| -----------------------|------------
 apiUsername | string(32) | API Username
-secretKey | string(32) | used to create the checksum
+secretKey | string(32) | used to [create the checksum](#create-checksum)
 
 ## Environment
 - Môi trường kiểm thử (testing domain): http://dev.nhanh.vn
