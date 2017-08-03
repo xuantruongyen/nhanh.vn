@@ -41,7 +41,7 @@ checksum | string(32) | Each request must have a checksum to validate the data. 
 ```js
 {
 	"code": 1, // 1 == success, 0 == failed (see errors in messages)
-	messages: { // if the status == 0 the server will return error messages
+	"messages": { // if the status == 0 the server will return error messages
 		"error code": "message 1",
 		"error code": "message 2"
 	},
