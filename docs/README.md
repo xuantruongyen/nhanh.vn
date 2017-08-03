@@ -18,7 +18,7 @@ Các dịch vụ chính của Nhanh.vn bao gồm:
 
 * [Khởi tạo tài khoản API](api.md#get-api-account)
 * [Environment](api.md#environment)
-* [Request](api.md#request),  [Response](api.md#response),  [Checksum](api.md#create-checksum),[Code Sample](api.md#code-sample)
+* [Request](api.md#request),  [Response](api.md#response),  [Checksum](api.md#create-checksum),  [Code Sample](api.md#code-sample)
 
 ## Get data from Nhanh.vn
 
