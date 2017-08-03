@@ -99,20 +99,20 @@ Simple request: send product information
 	$curlResult = curl_exec($curl);
 
 	if(!curl_error($curl)) {
-	// success
-	$response = json_decode($curlResult);
+		// success
+		$response = json_decode($curlResult);
 	} else {
-	// failed, cannot connect nhanh.vn
-	$response = new stdClass();
-	$response->code = 0;
-	$response->messages = array(curl_error($curl));
+		// failed, cannot connect nhanh.vn
+		$response = new stdClass();
+		$response->code = 0;
+		$response->messages = array(curl_error($curl));
 	}
 	curl_close($curl);
 
 	if ($response->code == 1) {
-	// send product successfully
+		// send product successfully
 	} else {
-	// failed
+		// failed
 		if(isset($response->messages) && is_array($response->messages)) {
 			// error messages
 			foreach($response->messages as $message) {
