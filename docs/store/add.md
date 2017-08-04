@@ -2,7 +2,9 @@
 
 - Tính năng này được sử dụng cho các sàn thương mại điện tử có nhiều gian hàng, mỗi gian hàng sẽ tương ứng với 1 gian hàng ở trên Nhanh.vn. Các website bình thường không cần quan tâm tới chức năng này.
 
-- The data array:
+## Request
+- See [common request params](/api.md#request)
+- The data structure of the store: 
 
 Key | Data type(Max-length) | Mandatory | Description
 -------- | ---------- | ----------- | ---------
@@ -16,6 +18,8 @@ adminEmail | string(255) | No | the email address of store manager (used to chec
 mobile | string(12) | Yes | the mobile number
 website | string(255) | No | <p></p>
 
-- The response: see: [Response](/api/response.html)
+## Response: 
+
+- See: [Response](/api.md#response)
 
 
