@@ -1,6 +1,7 @@
 # /api/order/add
 
-- Tính năng này dùng để gửi thông tin đơn hàng từ website của bạn sang Nhanh.vn. Khi khách hàng đặt hàng trên website của bạn, sau khi lưu thông tin đơn hàng vào cơ sở dữ liệu, website của bạn gửi thông tin đơn hàng sang Nhanh.vn, sau đó chủ gian hàng có thể xử lý toàn bộ các bước từ việc xác nhận đơn hàng, nhặt hàng và đóng gói, gửi đơn hàng sang hãng vận chuyển, đối soát tình trạng thanh toán (tiền thu hộ) các đơn hàng với hãng vận chuyển bên trong hệ thống Nhanh.vn. Mỗi khi trạng thái đơn hàng có sự thay đổi, website của bạn sẽ nhận được 1 request cập nhật trạng thái đơn hàng từ Nhanh.vn (Xem mục [Listen order’s status updated from Nhanh.vn](listen.html)).
+- Tính năng này dùng để gửi thông tin đơn hàng từ website của bạn sang Nhanh.vn. Khi khách hàng đặt hàng trên website của bạn, sau khi lưu thông tin đơn hàng vào cơ sở dữ liệu, website của bạn gửi thông tin đơn hàng sang Nhanh.vn, sau đó chủ gian hàng có thể xử lý toàn bộ các bước từ việc xác nhận đơn hàng, nhặt hàng và đóng gói, gửi đơn hàng sang hãng vận chuyển, đối soát tình trạng thanh toán (tiền thu hộ) các đơn hàng với hãng vận chuyển bên trong hệ thống Nhanh.vn. 
+- Mỗi khi trạng thái đơn hàng có sự thay đổi, website của bạn sẽ nhận được 1 request cập nhật trạng thái đơn hàng từ Nhanh.vn (Xem mục [Listen order’s status updated from Nhanh.vn](listen.html)).
 
 **Chú ý**: Các sàn thương mại điện tử nên có cài đặt riêng cho từng gian hàng (vì không phải toàn bộ gian hàng muốn sử dụng tính năng này). Nhanh.vn cũng có cài đặt này, vì vậy request gửi sang Nhanh có thể nhận được thông báo lỗi là: “This store disabled this feature”.
 
