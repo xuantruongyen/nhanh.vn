@@ -39,8 +39,8 @@ checksum | string(32) | Yes | Each request must have a checksum to validate the 
 - The response is a JSON encoded string, which decodes into the following structure:
 ```js
 {
-	"code": 1, // 1 == success, 0 == failed (see errors in messages)
-	"messages": { // if the status == 0 the server will return error messages
+	"code": 1, // 1 = success, 0 = failed (see errors in messages)
+	"messages": { // if the code = 0 the server will return error messages
 		"error code": "message 1",
 		"error code": "message 2"
 	},
