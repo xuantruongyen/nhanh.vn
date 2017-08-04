@@ -45,7 +45,7 @@ trafficSource | string |No| Nguồn truy cập đơn hàng, bạn có thể đá
 createdDateTime | datetime | No | Thời gian khách đặt hàng, định dạng là yyyy-mm-dd hh:mm:ss
 productList | array | Yes|Danh sách sản phẩm của đơn hàng: xem bảng dữ liệu bên dưới
  
-- Các thuộc tính của 1 sản phẩm bao gồm:
+- Các thuộc tính của 1 sản phẩm trong **productList** bao gồm:
 
 Key | Data type | Mandatory | Description
 ------- | ----------- | --------- | ----------
