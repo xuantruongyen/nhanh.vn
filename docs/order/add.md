@@ -69,7 +69,6 @@ Response from Nhanh.vn
 		"codFee" => 13000, // int: Phí thu tiền hộ
 		"shipFeeDiscount" => 0, // int: Phí vận chuyển được giảm giá
 		"codFeeDiscount" => 0, // int: Phí thu tiền hộ được giảm giá
-
 	]
 }
 ```
