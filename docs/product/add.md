@@ -15,8 +15,7 @@ checksum | string(32) | use **secretKey** and received **data** param to create 
 ```js
 // each request can send maximum 300 products
 [
-	[ // product 1: see the structure in the table below
- ],
+	[ // product 1: see the structure in the table below],
 	[ // product 2 ],
 	// ...
 ]
