@@ -14,7 +14,7 @@ Trong đó:
 **checksum**:
 
 ```php
-$data = $merchantId . $privateStoreId . $privateId; (deprecated)
+$data = $merchantId . $privateStoreId . $privateId; // @deprecated
 // or
 $data = $apiUsername . $privateStoreId . $privateId;
 checksum = md5(md5(SECRET_KEY . $data) . $data);
