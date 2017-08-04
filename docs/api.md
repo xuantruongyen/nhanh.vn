@@ -103,7 +103,7 @@ Simple request: send product information
 
 	$curlResult = curl_exec($curl);
 
-	if(!curl_error($curl)) {
+	if(! curl_error($curl)) {
 		// success
 		$response = json_decode($curlResult);
 	} else {
