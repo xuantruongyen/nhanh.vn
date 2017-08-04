@@ -6,14 +6,6 @@
 
 * The POST params: [common request params](/api.md#request)
 
-|Key | Data type | Mandatory | Description|
-| ------------ | - --------- | ---------- | ----------- |
-|version | string | Yes | 1.0|
-|apiUsername | string | Yes | _YOUR_API_USERNAME_|
-|storeId | string(20) | No | required for e-commerce platforms|
-|data | string | Yes | JSON encoded string, see the array structure in the table below|
-|checksum | string | Yes| <p></p> |     
-
 - The structure of data array:
 
 
