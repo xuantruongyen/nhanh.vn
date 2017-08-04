@@ -2,16 +2,12 @@
 
 [Nhanh.vn](https://nhanh.vn) là giải pháp quản lý bán hàng trên nền tảng điện toán đám mây, đồng bộ dữ liệu với website, dịch vụ vận chuyển, giúp doanh nghiệp quản lý toàn bộ quy trình bán hàng, chăm sóc khách hàng, tăng doanh thu, giảm chi phí, phát triển kinh doanh hiệu quả hơn.
 
-<table>
-    <tr>
-        <td></td>
-        <td><img src="https://nhanh.vn/images/v4/banner/banner22Right.png"></td>
-    </tr>
-</table>
 * [Phần mềm quản lý bán hàng](https://nhanh.vn)
 * [Dịch vụ vận chuyển](https://nhanh.vn/dich-vu-van-chuyen)
 * [Thiết kế website bán hàng](https://nhanh.vn/gioi-thieu-tinh-nang-website)
 * [Phần mềm quản lý Facebook Fanpage, Zalo Page](https://crm.nhanh.vn)
+
+<img src="https://nhanh.vn/images/v4/banner/banner22Right.png">
 
 ## Nhanh API là gì?
 
