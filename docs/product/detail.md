@@ -19,7 +19,7 @@ Key | Data Type(Max-length) | Description
 messages | [ ] | is an array of error messages if code = 0
 data | [ ] | is an array of the parent and all child products (if the requested has child products)
  
-```json
+```js
 data = [
 	{
 		// all properties are listed in the table below
