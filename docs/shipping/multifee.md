@@ -4,15 +4,10 @@
 
     **Chú ý**: API này dùng cho các sàn thương mại điện tử, giỏ hàng hỗ trợ mua hàng từ nhiều gian hàng, mỗi gian hàng có 1 địa chỉ lấy hàng khác nhau. Nếu website của bạn chỉ hỗ trợ lấy hàng từ 1 địa chỉ, xin vui lòng sử dụng[/api/shipping/fee(shipping/fee.md) bên dưới. 
 
-* The POST params:
+## Request
 
-| Key | Data type | Mandatory | Description | 
-|----------- | ---------- | --------- | -----------|
-|version | string | Yes| 1.0|
-|apiUsername | string | Yes | _YOUR_API_USERNAME_|
-|storeId | string(20) | No | required for e-commerce platforms|
-|data | string | Yes | JSON encoded string, see the array structure in the table below|
-|checksum | string | Yes| <p></p> |
+* The POST params: [common request params](/api.md#request)
+
 
 * The structure of data array:
 ```js
