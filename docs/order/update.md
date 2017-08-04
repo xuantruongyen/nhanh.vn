@@ -1,7 +1,7 @@
 # /api/order/update
 - Tính năng này dùng để cập nhật thông tin đơn hàng khi khách hàng thực hiện việc chuyển khoản online (Khi website của bạn nhận được cập nhật từ cổng thanh toán, website của bạn sẽ gửi thông tin này sang Nhanh.vn) hoặc khi khách hàng hủy đơn hàng. Hoặc dùng trong tình huống website của bạn muốn gửi đơn hàng qua các hãng vận chuyển.
 
-##### Request  
+#### Request  
 - See [common request params](/api.md#request)
 - The data structure of an order: 
 
@@ -15,7 +15,7 @@ paymentGateway | string(255) | No | Tên của cổng thanh toán
 status | string | No | Trạng thái đơn hàng, có thể là:<br>Confirmed // Đã xác nhận<br>Canceled // Khách hủy<br>Aborted // Hệ thống hủy
 reasonDescription | string | No | Mô tả lý do hủy đơn hàng
 
-#### Response
+### Response
 ```js
 {
 	"code": 1, // 1 is success, 0 is error
