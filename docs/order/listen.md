@@ -36,12 +36,12 @@ paymentForSender | double | Số tiền thanh toán cho người gửi hàng (đ
 deliveryDate | date | Ngày giao hàng (yyyy-mm-dd)
 
  Sau khi nhận được kết quả từ Nhanh gửi sang, bạn cần trả lại response cho Nhanh đánh dấu trạng thái của lần đồng bộ này: 
- ```json
+ ```js
 {
-  code: 1,
+  "code": 1,
   // Nếu tình huống updateType = CheckPayment, trả thêm kết quả cho từng đơn
-  data: [
-      id: 0 | 1 // id là id đơn hàng từ website của bạn gửi sang Nhanh, 1 là check thanh toán thành công, 0 là check thanh toán không thành công
+  "data": [
+      "id": 1 // id là id đơn hàng từ website của bạn gửi sang Nhanh, 1 là check thanh toán thành công, 0 là check thanh toán không thành công
   ]
 }
  ```
