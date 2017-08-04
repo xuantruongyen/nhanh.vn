@@ -65,9 +65,6 @@ Response from Nhanh.vn
 	"messages": [ ], // error messages if code is 0
 	"data": [
 		"3256" => 5174985, // id đơn hàng trên website của bạn => bigint: order id of Nhanh.vn
-		// shipFee và codFee dùng trong tình huống đơn hàng có sử dụng dịch vụ 
-		// vận chuyển, thông tin đơn hàng gửi sang có kèm theo 
-		// carrierId, carrierServiceId và weight.
 		"shipFee" => 30000, // int: Phí vận chuyển
 		"codFee" => 13000, // int: Phí thu tiền hộ
 		"shipFeeDiscount" => 0, // int: Phí vận chuyển được giảm giá
@@ -77,8 +74,9 @@ Response from Nhanh.vn
 }
 ```
 **Chú ý**: 
- - shipFeeDiscount là phí vận chuyển được chiết khấu, VD shipFee = 25.000, shipFeeDiscount = 7.000 thì shipFee thực tế của đơn hàng này sẽ chỉ = 18.000
- - codFeeDiscount là phí thu tiền hộ được chiết khấu, VD codFee = 15.000, codFeeDiscount = 3.000 thì codFee thực tế của đơn hàng này sẽ chỉ = 12.000
+- **shipFee **và **codFee **dùng trong tình huống đơn hàng có sử dụng dịch vụ vận chuyển, thông tin đơn hàng gửi sang có kèm theo carrierId, carrierServiceId và weight.
+- **shipFeeDiscount **là phí vận chuyển được chiết khấu, VD **shipFee **= 25.000, **shipFeeDiscount **= 7.000 thì **shipFee **thực tế của đơn hàng này sẽ chỉ = 18.000
+- **codFeeDiscount **là phí thu tiền hộ được chiết khấu, VD **codFee **= 15.000, **codFeeDiscount **= 3.000 thì **codFee **thực tế của đơn hàng này sẽ chỉ = 12.000
 
 
 
