@@ -147,7 +147,7 @@ data = [
      <tr>
         <td>showHot</td>
         <td>int</td>
-        <td>(Giá trị 0 | 1) Sản phẩm được đánh dấu là sản <br><br><br>phẩm hot</td>
+        <td>(Giá trị 0 | 1) Sản phẩm được đánh dấu là sản <br><br><br>phẩm hot</td>  
     </tr>
      <tr>
         <td>showNew</td>
