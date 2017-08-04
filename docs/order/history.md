@@ -13,7 +13,7 @@ orderId | Int | Yes | Id đơn hàng trên Nhanh cần xem lịch sử thao tác
  
  ## Response
  
--JSON decode the response to get the structure:
+- JSON decode the response to get the structure:
  
 Key | Data Type(Max-length) | Description
 ----------- | -------------- | -----------
