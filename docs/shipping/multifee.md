@@ -33,7 +33,7 @@ Param | Data type (Max-length) | Mandatory | Description
 fromCityName | string | Yes | Tên thành phố của kho gửi hàng (Lấy từ [/api/shipping/location](location.html))  
 fromDistrictName| string | Yes | Tên quận huyện của kho gửi hàng (Lấy từ [/api/shipping/location](location.html))
 toCityName | string | Yes | Tên thành phố của khách nhận hàng (Lấy từ [/api/shipping/location](location.html)) 
-toDistrictName | string | Yes| Tên quận huyện của khách nhận hàng (Lấy từ [/api/shipping/location](location.html))
+toDistrictName | string | Yes| Tên quận huyện của khách nhận hàng (Lấy từ [/api/shipping/location](location.md))
 codMoney | int | No | Giá trị của đơn hàng (Tổng giá nhân số lượng sản phẩm trong đơn hàng) dùng để tính phí thu tiền hộ, set 0 nếu đơn hàng này không cần thu tiền hộ (VD tình huống khách đã chuyển khoản trước)
 shippingWeight | int | No | Tổng trọng lượng của đơn hàng tính bằng gram (Tổng toàn bộ shipping weight của các sản phẩm trong đơn hàng). Hiện tại Nhanh.vn hỗ trợ đơn hàng tối đa 100000 gr (100 kg).
 productIds | array | No | Danh sách các ID sản phẩm được đồng bộ từ Nhanh.vn sang website của bạn (idNhanh), dùng để tính khối lượng đơn hàng theo giá trị sản phẩm khai báo bên Nhanh.vn.
