@@ -1,8 +1,8 @@
 # /api/product/category
 
 - Tính năng này được sử dụng để lấy toàn bộ danh mục sản phẩm trên Nhanh.vn.
-- The POST params:
 
+- The POST params:
 
 Key | Data type | Mandatory | Description
 ---------- | ----------- | ---------- | -----------
