@@ -64,30 +64,33 @@ Simple request: send product information
 	$secretKey = “_YOUR_SECRET_KEY_”;
 
 	$dataArray = array(
-		array( // product 1
-		'id' => “1741235”,
-   		 'parentId' => null,
-   		 'code' => “SSGS2”,
-   		 'barcode' => null,
-   		 'name'  => “Samsung galaxy S2”,
-   		 'image' => “http://example.com/images/samsung-galaxy-s-2.jpg”,
-   		 'images' => array(),
-   		 'shippingWeight' => “370”,
-   		 'importPrice' => 12000000,
-   		 'price' => 13500000,
-   		 'vat' => 10, // 10%
-   		 'status' => “Active”,
+		// product 1
+		array( 
+			'id' => “1741235”,
+			'parentId' => null,
+			'code' => “SSGS2”,
+			'barcode' => null,
+			'name'  => “Samsung galaxy S2”,
+			'image' => “http://example.com/images/samsung-galaxy-s-2.jpg”,
+			'images' => array(),
+			'shippingWeight' => “370”,
+			'importPrice' => 12000000,
+			'price' => 13500000,
+			'vat' => 10, // 10%
+			'status' => “Active”,
 		)
+		// product 2
+		// ...
 	);
 
 	$dataString = json_encode($dataArray);
 	$checksum = md5(md5($secretKey . $dataString) . $dataString);
 
 	$postArray = array(
-		“version” => “1.0”,
-		“apiUsername” => $apiUsername,
-		“data” => $dataString,
-		“checksum” => $checksum
+		"version" => "1.0",
+		"apiUsername" => $apiUsername,
+		"data" => $dataString,
+		"checksum" => $checksum
 	);
 
 	$curl = curl_init(“http://dev.nhanh.vn/api/product/add”);
