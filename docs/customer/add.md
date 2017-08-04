@@ -10,7 +10,7 @@ data|string|JSON encoded string, see structure in the table below
 checksum|string(32)|use secretKey and received data param to create the checksum and compare with checksum param.
 
 - The **data array**:
-```
+```js
 // each request can send maximum 50 customer
 [
 	[ // customer 1 ], // see the structure in the table below
