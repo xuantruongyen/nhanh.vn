@@ -11,7 +11,9 @@ Param | |  Mandatory | Description
 ------- | ---------- | ----------- | --------------
 orderId | Int | Yes | Id đơn hàng trên Nhanh cần xem lịch sử thao tác đơn hàng.
  
- - The response: JSON decode the response to get the structure:
+ ## Response
+ 
+-JSON decode the response to get the structure:
  
 Key | Data Type(Max-length) | Description
 ----------- | -------------- | -----------
