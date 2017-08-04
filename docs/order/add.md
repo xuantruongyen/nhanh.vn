@@ -43,7 +43,7 @@ description | string | No | Ghi chú của khách hàng về đơn hàng này
 weight | int | No | Tổng khối lượng của đơn hàng tính theo gram. Hiện tại Nhanh.vn hỗ trợ đơn hàng tối đa 100000 gr (100 kg).
 trafficSource | string |No| Nguồn truy cập đơn hàng, bạn có thể đánh dấu xem đơn hàng đến từ nguồn nào qua referrer hoặc marketing campaign (utm_source, utm_medium, utm_campaign) và gửi kèm thông tin này theo đơn hàng để xem báo cáo thống kê theo nguồn truy cập ở bên Nhanh.vn
 createdDateTime | datetime | No | Thời gian khách đặt hàng, định dạng là yyyy-mm-dd hh:mm:ss
-productList | array | Yes|Danh sách sản phẩm của đơn hàng: xem bảng dữ liệu bên dưới
+productList | array | Yes|Danh sách sản phẩm của đơn hàng: xem bảng dữ liệu bên dưới.
  
 - Các thuộc tính của 1 sản phẩm trong **productList** bao gồm:
 
