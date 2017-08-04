@@ -24,25 +24,24 @@ status | string | No | Trạng thái đơn hàng, có thể là:<br>Confirmed //
 reasonDescription | string | No | Mô tả lý do hủy đơn hàng
 
 - Response from Nhanh.vn
-```
+```js
 {
-	code: 1 | 0 // 1 is success, 0 is error
-	messages: [ ], // error messages if code is 0
-	data: [
-		// id đơn hàng trên website của bạn
-		id => order id of Nhanh.vn,
-		// trạng thái hiện tại của đơn hàng
-		status: string,
-		// shipFee và codFee dùng trong tình huống đơn hàng có sử dụng dịch vụ 
-		// vận chuyển, thông tin đơn hàng gửi sang có kèm theo 
-		// carrierId, carrierServiceId và weight.
-		shipFee => Phí vận chuyển,
-		codFee => Phí thu tiền hộ,
-		shipFeePromotion => Phí vận chuyển được giảm giá,
-		codFeePromotion => Phí thu tiền hộ được giảm giá
+	"code": 1, // 1 is success, 0 is error
+	"messages": [ ], // error messages if code is 0
+	"data": [
+		"3256" => 5174985, // id đơn hàng trên website của bạn => bigint: order id of Nhanh.vn
+		"status": "Shipping", // trạng thái hiện tại của đơn hàng
+		"shipFee" => 30000, // int: Phí vận chuyển
+		"codFee" => 13000, // int: Phí thu tiền hộ
+		"shipFeeDiscount" => 0, // int: Phí vận chuyển được giảm giá
+		"codFeeDiscount" => 0, // int: Phí thu tiền hộ được giảm giá
 	]
 }
 ```
+**Chú ý**: 
+- **shipFee **và **codFee **dùng trong tình huống đơn hàng có sử dụng dịch vụ vận chuyển, thông tin đơn hàng gửi sang có kèm theo carrierId, carrierServiceId và weight.
+- **shipFeeDiscount **là phí vận chuyển được chiết khấu, VD **shipFee **= 25.000, **shipFeeDiscount **= 7.000 thì **shipFee **thực tế của đơn hàng này sẽ chỉ = 18.000
+- **codFeeDiscount **là phí thu tiền hộ được chiết khấu, VD **codFee **= 15.000, **codFeeDiscount **= 3.000 thì **codFee **thực tế của đơn hàng này sẽ chỉ = 12.000
 
 
 
