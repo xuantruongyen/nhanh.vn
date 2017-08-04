@@ -33,7 +33,8 @@ height |int |No | Chiều cao gói hàng tính theo cm.
 
   Nếu bạn có truyền sang các tham số length, width, height: Nhanh.vn sẽ tính toán trọng lượng của đơn hàng theo công thức quy ra kg: A = dài * rộng * cao / 6000 (so sánh số A và shippingWeight tham số nào lớn hơn sẽ lấy theo tham số đó để tính toán cước phí) và trả về kết quả đánh dấu nếu gói hàng thuộc loại hàng cồng kềnh
 
-- The response: JSON decode the response to get the structure:
+## Response 
+- JSON decode the response to get the structure:
   
 Key | Data Type(Max-length) | Description
 ------| --------- | -----------
