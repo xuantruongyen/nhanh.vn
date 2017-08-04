@@ -1,4 +1,4 @@
-# /api/shipping/location
+  # /api/shipping/location
 
 - Lấy danh sách thành phố, quận huyện từ Nhanh.vn.
 Các API [đồng bộ đơn hàng](/order/add.md), [tính phí vận chuyển](/shipping/fee.md) sẽ cần sử dụng đến các dữ liệu này.
@@ -28,7 +28,7 @@ messages | [ ] |is an array of error messages if code = 0
 data | [ ] | Mảng danh sách thành phố hoặc quận huyện
 
 - Nếu **type = CITY**
-```json
+```js
   data = [
             [
      	       id: id của thành phố,
@@ -38,7 +38,7 @@ data | [ ] | Mảng danh sách thành phố hoặc quận huyện
         ]
 ```
 - Nếu **type = DISTRICT**
-```json
+```js
  data = [
 		    [
 				id: id của quận huyện,
