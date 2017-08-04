@@ -48,7 +48,7 @@ messages | [ ] | is an array of error messages if code = 0
 data | [ ] | is an array of all supported shipping services
 
 - data is an array of all supported shipping services
-```json
+```js
 [
     {
         carrierId: int // id hãng vận chuyển
