@@ -2,7 +2,9 @@
 
 - Tính năng này dùng để tính phí vận chuyển cho một đơn hàng. Mỗi khi khách hàng vào trang Giỏ hàng, hoặc ở bước thanh toán, website của bạn có thể call API này để tính phí vận chuyển cho đơn hàng và hiển thị chi tiết tổng tiền của đơn hàng bao gồm cả phí vận chuyển và phí thu tiền hộ (nếu khách hàng chọn hình thức thanh toán khi nhận hàng).
 
-- The POST params:
+## Request
+
+* The POST params: [common request params](/api.md#request)
 
 |Key | Data type | Mandatory | Description|
 | ------------ | - --------- | ---------- | ----------- |
