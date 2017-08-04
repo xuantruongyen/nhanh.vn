@@ -16,7 +16,7 @@ checksum|string(32)|use **secretKey** and received **data** param to create the 
 
 Key | Data type | Mandatory | Description
 ---- | ------|------|-----
-id | string(20) | Yes | the order’s id in merchant website
+id | string(20) | Yes | id đơn hàng trên website của bạn
 autoSend | int | No | Biến đánh dấu gửi luôn đơn hàng sang hãng vận chuyển (Dùng trong tình huống bạn có hệ thống xác nhận đơn hàng từ trước, chỉ dùng Nhanh để hỗ trợ vận chuyển).<br>Set value = 1 để gửi đơn hàng sang hãng vận chuyển.
 moneyTransfer | int | No | Số tiền khách đã chuyển khoản
 paymentCode | string(255) | No | Mã giao dịch thanh toán
