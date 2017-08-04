@@ -15,7 +15,7 @@ paymentGateway | string(255) | No | Tên của cổng thanh toán
 status | string | No | Trạng thái đơn hàng, có thể là:<br>Confirmed // Đã xác nhận<br>Canceled // Khách hủy<br>Aborted // Hệ thống hủy
 reasonDescription | string | No | Mô tả lý do hủy đơn hàng
 
-## Response from Nhanh.vn
+## Response
 ```js
 {
 	"code": 1, // 1 is success, 0 is error
