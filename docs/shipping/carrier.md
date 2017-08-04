@@ -8,7 +8,7 @@
 
 ## Response
 
-```json
+```js
 [
 	// carrier 1
 	{
