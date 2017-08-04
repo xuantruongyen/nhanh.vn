@@ -1,6 +1,7 @@
 # /api/store/add
 
-- Tính năng này được sử dụng cho các sàn thương mại điện tử có nhiều gian hàng, mỗi gian hàng sẽ tương ứng với 1 gian hàng ở trên Nhanh.vn. Các website bình thường không cần quan tâm tới chức năng này.
+- Tính năng này được sử dụng để đồng bộ thông tin gian hàng sang Nhanh.vn, được dùng cho các sàn thương mại điện tử có nhiều gian hàng, mỗi gian hàng sẽ tương ứng với 1 gian hàng ở trên Nhanh.vn. 
+- Các website bình thường không sử dụng chức năng này.
 
 ## Request
 - See [common request params](/api.md#request)
