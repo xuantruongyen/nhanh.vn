@@ -59,20 +59,20 @@ importPrice | int | No | Giá nhập của sản phẩm
 description | string | No |Mô tả riêng của từng sản phẩm trong đơn hàng
 
 Response from Nhanh.vn
-```
+```js
 {
-	code: 1 | 0 // 1 is success, 0 is error
-	messages: [ ], // error messages if code is 0
-	data: [
-		// id đơn hàng trên website của bạn
-		id => order id of Nhanh.vn,
+	"code": 1 | 0 // 1 is success, 0 is error
+	"messages": [ ], // error messages if code is 0
+	"data": [
+		"3256" => 5174985, // id đơn hàng trên website của bạn => bigint: order id of Nhanh.vn
 		// shipFee và codFee dùng trong tình huống đơn hàng có sử dụng dịch vụ 
 		// vận chuyển, thông tin đơn hàng gửi sang có kèm theo 
 		// carrierId, carrierServiceId và weight.
-		shipFee => Phí vận chuyển,
-		codFee => Phí thu tiền hộ,
-		shipFeeDiscount => Phí vận chuyển được giảm giá,
-		codFeeDiscount => Phí thu tiền hộ được giảm giá
+		"shipFee" => 30000, // int: Phí vận chuyển
+		"codFee" => 13000, // int: Phí thu tiền hộ
+		"shipFeeDiscount" => 0, // int: Phí vận chuyển được giảm giá
+		"codFeeDiscount" => 0, // int: Phí thu tiền hộ được giảm giá
+
 	]
 }
 ```
