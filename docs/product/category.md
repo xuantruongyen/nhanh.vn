@@ -21,7 +21,7 @@ messages | [ ] | is an array of error messages if code = 0
 data | [ ] | is an array of product category (multi-level)
 
 Mảng đệ quy toàn bộ danh mục của doanh nghiệp
-```json
+```js
 data = [
 	{
 		id: int // id danh mục
