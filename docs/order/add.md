@@ -5,6 +5,7 @@
 
 **Chú ý**: Các sàn thương mại điện tử nên có cài đặt riêng cho từng gian hàng (vì không phải toàn bộ gian hàng muốn sử dụng tính năng này). Nhanh.vn cũng có cài đặt này, vì vậy request gửi sang Nhanh có thể nhận được thông báo lỗi là: “This store disabled this feature”.
 
+## Request: 
 - The POST params:
 
 Param | Data type (Max-length)|Description
@@ -59,7 +60,7 @@ price | int | Yes | Giá của sản phẩm. Bắt buộc để thêm sản ph�
 importPrice | int | No | Giá nhập của sản phẩm
 description | string | No |Mô tả riêng của từng sản phẩm trong đơn hàng
 
-Response from Nhanh.vn
+## Response from Nhanh.vn
 ```js
 {
 	"code": 1, // 1 is success, 0 is error
