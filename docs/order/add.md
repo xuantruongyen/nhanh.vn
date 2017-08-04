@@ -61,7 +61,7 @@ description | string | No |Mô tả riêng của từng sản phẩm trong đơn
 Response from Nhanh.vn
 ```js
 {
-	"code": 1 | 0 // 1 is success, 0 is error
+	"code": 1, // 1 is success, 0 is error
 	"messages": [ ], // error messages if code is 0
 	"data": [
 		"3256" => 5174985, // id đơn hàng trên website của bạn => bigint: order id of Nhanh.vn
