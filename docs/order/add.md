@@ -6,17 +6,16 @@
 **Chú ý**: Các sàn thương mại điện tử nên có cài đặt riêng cho từng gian hàng (vì không phải toàn bộ gian hàng muốn sử dụng tính năng này). Nhanh.vn cũng có cài đặt này, vì vậy request gửi sang Nhanh có thể nhận được thông báo lỗi là: “This store disabled this feature”.
 
 ## Request
-- The POST params:
+- See [common request params](/api.md#request)
 
-Param | Data type (Max-length)|Description
--- | -----------| -------------
-version|string|“1.0”
-apiUsername|string(32)|_YOUR_API_USERNAME_
-storeId|string(20)|id của gian hàng trên các sàn thương mại điện tử (các website bình thường không cần quan tâm đến tham số này)
-data|string|JSON encoded string, see structure in the table below
-checksum|string(32)|use **secretKey** to create the checksum.
-
-- The structure of an order: [ id => , type => , ... ]
+- The data structure of an order: 
+```js
+[
+	"id" => 3256, 
+	"type" => "Shipping", 
+	// more detail in the table below... 
+]
+```
 
 Key | Data type | Mandatory |Description
 --|----------|-----------|----------
