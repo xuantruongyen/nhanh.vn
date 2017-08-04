@@ -13,7 +13,7 @@ data | string | Yes | The json encoded string of search params array (see the ta
 checksum | string | Yes | <p></p>
 
 - Cấu trúc data đẩy lên
-```json
+```js
 data = [
 	page: int, //page load
 	icpp: int, //số records / page
