@@ -27,6 +27,7 @@ if(ini_get("magic_quotes_runtime")) {
     $data = stripslashes($data);
 }
 ```
+
 ## SSL certificate problem
 
 **SSL certificate problem: unable to get local issuer certificate**
