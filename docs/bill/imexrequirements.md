@@ -45,7 +45,7 @@ code | int | 1 = success or 0 = failed
 messages | [ ] | is an array of error messages if code = 0
 data | [ ] | Mảng danh sách sản phẩm yêu cầu xuất nhập kho
 
-```json
+```js
 data = [
     totalPage: Tổng số trang,
 	page: Trang hiện tại,
