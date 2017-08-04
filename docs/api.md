@@ -73,7 +73,7 @@ Simple request: send product information
 			'name'  => "Samsung galaxy S2",
 			'image' => "http://example.com/images/samsung-galaxy-s-2.jpg",
 			'images' => array(),
-			'shippingWeight' => 370,
+			'shippingWeight' => 370, // in gram
 			'importPrice' => 12000000,
 			'price' => 13500000,
 			'vat' => 10, // 10%
