@@ -30,7 +30,7 @@ code | int |1 = success or 0 = failed
 messages | [ ] |is an array of error messages if code = 0
 data | [ ]| is an array of customer list
 
-```json
+```js
 data = [
         totalPages: int,
         bill: [
