@@ -147,12 +147,12 @@ data = [
      <tr>
         <td>showHot</td>
         <td>int</td>
-        <td>(Giá trị 0 | 1) Sản phẩm được đánh dấu là sản phẩm hot</td>
+        <td>(Giá trị 0 | 1) Sản phẩm được đánh dấu là sản <br><br><br>phẩm hot</td>
     </tr>
      <tr>
         <td>showNew</td>
         <td>int</td>
-        <td>(Giá trị 0 | 1) Sản phẩm được đánh dấu là sản phẩm mới</td>
+        <td>(Giá trị 0 | 1) Sản phẩm được đánh dấu là sản <br>phẩm mới</td>
     </tr>
      <tr>
         <td>showHome</td>
