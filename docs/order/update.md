@@ -26,7 +26,7 @@ reasonDescription | string | No | Mô tả lý do hủy đơn hàng
 		"shipFee" => 30000, // int: Phí vận chuyển
 		"codFee" => 13000, // int: Phí thu tiền hộ
 		"shipFeeDiscount" => 0, // int: Phí vận chuyển được giảm giá
-		"codFeeDiscount" => 0, // int: Phí thu tiền hộ được giảm giá
+		"codFeeDiscount" => 0 // int: Phí thu tiền hộ được giảm giá
 	]
 }
 ```
