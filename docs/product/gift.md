@@ -26,7 +26,7 @@ code | int | 1 = success or 0 = failed
 messages | [ ] | is an array of error messages if code = 0
 data | [ ] | Mảng danh sách sản phẩm có quà tặng
 
-```json
+```js
 data = [
 [
 	productId: int // id sản phẩm có quà tặng
