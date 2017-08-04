@@ -27,14 +27,16 @@ if(ini_get("magic_quotes_runtime")) {
 ```
 ## SSL certificate problem
 
-- **SSL certificate problem: unable to get local issuer certificate**
+**SSL certificate problem: unable to get local issuer certificate**
+
 Bạn có thể thử 1 trong các cách sau:
- - Tải file http://curl.haxx.se/ca/cacert.pem mở file php.ini của web server, add setting
+- Tải file http://curl.haxx.se/ca/cacert.pem mở file php.ini của web server, add setting
 ```php
     curl.cainfo=<path-to>cacert.pem
 ```
 Restart web server.
- - Mở file NhanhService.php
+
+- Mở file NhanhService.php
 Hàm sendRequest add thêm dòng 
 ```php
     curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false); 
