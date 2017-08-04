@@ -27,13 +27,13 @@ Môi trường kiểm thử | Môi trường thật
 # Request
 - RESTful applications use HTTP requests to post data. The POST params include:
 
-Param | Data Type (Max-length) | Description
--------- | ----------- | ---------
-version | string(10) | The current version is 1.0
-storeId | string(20) | Required if the merchant is an e-commerce platforms that have multiple stores.
-apiUsername | string(32) | <p></p>
-data | string | The JSON encoded string of an array (the structure of **data array** will be explained in detail each request below).
-checksum | string(32) | Each request must have a checksum to validate the data. See [How to create the checksum below](#create-checksum).
+Param | Data Type (Max-length) | Mandatory | Description
+-------- | ----------- | -------- | ---------
+version | string(10) | Yes | The current version is 1.0
+storeId | string(20) | No | id gian hàng trên các sàn thương mại điện tử. Param này chỉ bắt buộc với các sàn.
+apiUsername | string(32) | Yes | API Username
+data | string | Yes | The JSON encoded string of an array (the structure of **data array** will be explained in detail each request below).
+checksum | string(32) | Yes | Each request must have a checksum to validate the data. See [How to create the checksum below](#create-checksum).
 
 ## Response
 - The response is a JSON encoded string, which decodes into the following structure:
