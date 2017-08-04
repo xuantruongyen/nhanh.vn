@@ -7,30 +7,31 @@
 
 - The search param - (Data array)
 
-Param | |  Mandatory | Description
+Param | Data Type |  Mandatory | Description
 ------- | ---------- | ----------- | --------------
-orderId | Int | Yes | Id đơn hàng trên Nhanh cần xem lịch sử thao tác đơn hàng.
+orderId | Int | Yes | ID đơn hàng trên Nhanh.vn
  
  ## Response
  
 - JSON decode the response to get the structure:
  
-Key | Data Type(Max-length) | Description
+Key | Data Type (Max-length) | Description
 ----------- | -------------- | -----------
 code | int | 1 = success or 0 = failed
 messages | [ ] | is an array of error messages if code = 0
-data | [ ] | Mảng danh sách sản phẩm yêu cầu xuất nhập kho
+data | [ ] | Mảng danh sách lịch sử thao tác của đơn hàng
 ```js
-data = [
-		[
-			step: Hành động,
-			createdBy: Được thao tác bởi ai,
-			createdDateTime: Thời gian thao tác,
-			oldStatus: Trạng thái trước khi thao tác,
-			newStatus: Trạng thái sau khi thao tác
-	    ],
-		….
-	    [...]
+[
+	// history 1
+	[
+		"step": Hành động,
+		"createdBy": Được thao tác bởi ai,
+		"createdDateTime": Thời gian thao tác, định dạng yyyy-mm-dd hh:mm:ii
+		"oldStatus": Trạng thái trước khi thao tác,
+		"newStatus": Trạng thái sau khi thao tác
+	]
+	// history 2
+	// ...
 ]
 ```
 
