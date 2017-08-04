@@ -15,7 +15,7 @@
 		"id": 2, // int: id hãng vận chuyển trên Nhanh.vn
 		"name": "Vietnam Post", // string: tên hãng vận chuyển trên Nhanh.vn,
 		"logo": "absolute path of carrier’s logo",
-		"businessName": "Tổng ty cổ phần Bưu Điện Việt Nam",	
+		"businessName": "Tổng công ty Bưu Điện Việt Nam",	
 		"services": [ // các dịch vụ vận chuyển
 			{
 				"id": 2, // int: id dịch vụ
