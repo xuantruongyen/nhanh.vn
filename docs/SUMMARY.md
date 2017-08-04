@@ -17,7 +17,7 @@
 * [/api/order/history](order/history.md)
 * [/api/product/category](product/category.md)
 * [/api/product/search](product/search.md)
-* [/api/product/detail](shipping/detail.md)
+* [/api/product/detail](product/detail.md)
 * [/api/product/gift](product/gift.md)
 * [/api/product/imei](product/imei.md)
 * [/api/customer/search](customer/search.md)
