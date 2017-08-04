@@ -58,7 +58,7 @@ price | int | Yes | Giá của sản phẩm. Bắt buộc để thêm sản ph�
 importPrice | int | No | Giá nhập của sản phẩm
 description | string | No |Mô tả riêng của từng sản phẩm trong đơn hàng
 
-## Response from Nhanh.vn
+## Response
 ```js
 {
 	"code": 1, // 1 is success, 0 is error
