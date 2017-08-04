@@ -32,7 +32,7 @@ Param | Data Type (Max-length) | Mandatory | Description
 version | string(10) | Yes | The current version is 1.0
 storeId | string(20) | No | id gian hàng trên các sàn thương mại điện tử. Param này chỉ bắt buộc với các sàn.
 apiUsername | string(32) | Yes | API Username
-data | string | Yes | The JSON encoded string of an array (the structure of **data array** will be explained in each request below).
+data | string | Yes | The JSON encoded string of an array (**data structure** will be explained in each request below).
 checksum | string(32) | Yes | Each request must have a checksum to validate the data. See [How to create the checksum below](#create-checksum).
 
 ## Response
