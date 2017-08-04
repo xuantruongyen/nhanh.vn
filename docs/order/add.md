@@ -7,7 +7,6 @@
 
 ## Request
 - See [common request params](/api.md#request)
-
 - The data structure of an order: 
 ```js
 [

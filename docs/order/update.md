@@ -2,17 +2,8 @@
 - Tính năng này dùng để cập nhật thông tin đơn hàng khi khách hàng thực hiện việc chuyển khoản online (Khi website của bạn nhận được cập nhật từ cổng thanh toán, website của bạn sẽ gửi thông tin này sang Nhanh.vn) hoặc khi khách hàng hủy đơn hàng. Hoặc dùng trong tình huống website của bạn muốn gửi đơn hàng qua các hãng vận chuyển.
 
 ## Request
-- The POST params:
-
-Param | Data type(Max-length)|Description
----- | ------|------
-version|string|“1.0”
-apiUsername|string(32)|_YOUR_API_USERNAME_
-storeId|string(20)|id của gian hàng trên các sàn thương mại điện tử (các website bình thường không cần quan tâm đến tham số này)
-data|string|JSON encoded string, see structure in the table below
-checksum|string(32)|use **secretKey** and received **data** param to create the checksum and compare with **checksum param**.
-
-- The structure of an order:
+- See [common request params](/api.md#request)
+- The data structure of an order: 
 
 Key | Data type | Mandatory | Description
 ---- | ------|------|-----
