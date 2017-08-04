@@ -5,7 +5,7 @@
 
 - The POST params: [common request params](/api.md#request)
 
- - The search param - (Data array)
+- The search param - (Data array)
 
 Param | |  Mandatory | Description
 ------- | ---------- | ----------- | --------------
