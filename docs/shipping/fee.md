@@ -17,14 +17,14 @@
 
 Param | Data type (Max-length) | Mandatory | Description
 ------------ | ----------- | ---------- | ----------------
-fromCityName | string | Yes | Tên thành phố của kho gửi hàng (Lấy từ [/api/shipping/location](location.html))
-fromDistrictName |string | Yes | Tên quận huyện của kho gửi hàng (Lấy từ [/api/shipping/location](location.html))
-toCityName | string | Yes | Tên thành phố của khách nhận hàng (Lấy từ [/api/shipping/location](location.html))
-toDistrictName | string | Yes | Tên quận huyện của khách nhận hàng (Lấy từ [/api/shipping/location](location.html))
+fromCityName | string | Yes | Tên thành phố của kho gửi hàng (Lấy từ [/api/shipping/location](location.md))
+fromDistrictName |string | Yes | Tên quận huyện của kho gửi hàng (Lấy từ [/api/shipping/location](location.md))
+toCityName | string | Yes | Tên thành phố của khách nhận hàng (Lấy từ [/api/shipping/location](location.md))
+toDistrictName | string | Yes | Tên quận huyện của khách nhận hàng (Lấy từ [/api/shipping/location](location.md))
 codMoney | int | No | Giá trị tiền cần thu hộ của đơn hàng (Tổng giá nhân số lượng sản phẩm trong đơn hàng), set 0 nếu đơn hàng này không cần thu tiền hộ (VD tình huống khách đã chuyển khoản trước)
 shippingWeight | int | No | Tổng trọng lượng các sản phẩm của đơn hàng tính bằng gram. Hiện tại Nhanh.vn hỗ trợ đơn hàng tối đa 100000 gr (100 kg).
 productIds | array |No | Danh sách các ID sản phẩm được đồng bộ từ Nhanh.vn sang website của bạn (idNhanh), dùng để tính khối lượng đơn hàng theo giá trị sản phẩm khai báo bên Nhanh.
-carrierIds | array | No | Dùng để giới hạn các hãng vận chuyển muốn dùng (Lấy từ [/api/shipping/carrier](carrier.html)). VD: [5,7,8,9]
+carrierIds | array | No | Dùng để giới hạn các hãng vận chuyển muốn dùng (Lấy từ [/api/shipping/carrier](carrier.md)). VD: [5,7,8,9]
 length | int | No | Chiều dài gói hàng tính theo cm.
 width | int | No | Chiều rộng gói hàng tính theo cm.
 height |int |No | Chiều cao gói hàng tính theo cm.
