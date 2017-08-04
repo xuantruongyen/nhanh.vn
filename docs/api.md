@@ -117,9 +117,8 @@ Simple request: send product information
 	if ($response->code == 1) {
 		// send product successfully
 	} else {
-		// failed
+		// failed, show error messages
 		if(isset($response->messages) && is_array($response->messages)) {
-			// error messages
 			foreach($response->messages as $message) {
 				echo $message;
 			}
