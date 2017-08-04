@@ -1,14 +1,10 @@
 # /api/order/history 
 - Tính năng này dùng để lấy lịch sử thao tác với đơn hàng.
-- The POST params:
 
-|Key | Data type | Mandatory | Description|
-|--------- | ---------- | ----------- | ----------|
-|version | string | Yes | 1.0 | 
-|apiUsername |string | Yes | _YOUR_API_USERNAME_|
-|data | string | Yes | The json encoded string of search params array (see the table structure below)|
-|checksum | string | Yes| <p></p>|
- 
+## Request
+
+- The POST params: [common request params](/api.md#request)
+
  - The search param - (Data array)
 
 Param | |  Mandatory | Description
