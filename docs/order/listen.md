@@ -1,11 +1,8 @@
 # Listen order status
 
-- Website của bạn cần đăng kí một URL để nhận trạng thái đơn hàng cập nhật từ Nhanh.vn (cập nhật realtime khi trạng thái 
+- Website của bạn cần đăng kí một URL để nhận trạng thái đơn hàng cập nhật từ Nhanh.vn (cập nhật realtime khi trạng thái đơn hàng thay đổi bên trong Nhanh.vn)
  
- đơn hàng thay đổi bên trong Nhanh.vn)
- 
- - The POST params:
-
+- The POST params:
 
 Param | Data type (Max-length) | Description
 ----------- | ---------------- | --------
