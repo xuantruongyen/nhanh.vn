@@ -5,7 +5,7 @@
 
 **Chú ý**: Các sàn thương mại điện tử nên có cài đặt riêng cho từng gian hàng (vì không phải toàn bộ gian hàng muốn sử dụng tính năng này). Nhanh.vn cũng có cài đặt này, vì vậy request gửi sang Nhanh có thể nhận được thông báo lỗi là: “This store disabled this feature”.
 
-## Request: 
+## Request
 - The POST params:
 
 Param | Data type (Max-length)|Description
