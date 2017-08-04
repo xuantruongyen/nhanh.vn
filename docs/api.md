@@ -66,18 +66,18 @@ Simple request: send product information
 	$dataArray = array(
 		// product 1
 		array( 
-			'id' => "1741235",
+			'id' => '1741235',
 			'parentId' => null,
-			'code' => "SSGS2",
+			'code' => 'SSGS2',
 			'barcode' => null,
-			'name'  => "Samsung galaxy S2",
-			'image' => "http://example.com/images/samsung-galaxy-s-2.jpg",
+			'name'  => 'Samsung galaxy S2',
+			'image' => 'http://example.com/images/samsung-galaxy-s-2.jpg',
 			'images' => array(),
 			'shippingWeight' => 370, // gram
 			'importPrice' => 12000000,
 			'price' => 13500000,
 			'vat' => 10, // 10%
-			'status' => "Active",
+			'status' => 'Active',
 		)
 		// product 2
 		// ...
