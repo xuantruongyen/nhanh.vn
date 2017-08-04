@@ -10,6 +10,7 @@
 
 ```json
 [
+	// carrier 1
 	{
 		"id": 2, // int: id hãng vận chuyển trên Nhanh.vn
 		"name": "Vietnam Post", // string: tên hãng vận chuyển trên Nhanh.vn,
@@ -27,6 +28,7 @@
  			// ...
 		]
 	}
+	// carrier 2
 	// ...
 ]
 ```
