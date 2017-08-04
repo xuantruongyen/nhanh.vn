@@ -15,7 +15,7 @@
 |checksum | string | Yes| <p></p> |
 
 * The structure of data array:
-```json
+```js
   [
 	    [
 		// đơn hàng 1, xem cấu trúc ở bảng bên dưới
@@ -56,7 +56,7 @@ messages | [ ] | is an array of error messages if code = 0
 data | [ ] | is an array of all supported shipping services
 
   - The response: JSON decode the response to get the structure:
-```json
+```js
  [
 	 [
 		// dữ liệu tính phí cho đơn hàng 1
