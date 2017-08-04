@@ -13,6 +13,7 @@ apiUsername | string(32) | API Username
 secretKey | string(32) | used to [create the checksum](#create-checksum)
 
 ## Environment
+
 - Môi trường kiểm thử (testing domain): http://dev.nhanh.vn
 - Môi trường thật (production domain): https://graph.nhanh.vn
 - Mỗi một API request có 1 URL, nối testing domain hoặc production domain để có 1 đường dẫn request đầy đủ. VD:
@@ -25,6 +26,7 @@ Môi trường kiểm thử | Môi trường thật
 ... | ...
 
 # Request
+
 - RESTful applications use HTTP requests to post data. The POST params include:
 
 Param | Data Type (Max-length) | Mandatory | Description
@@ -36,6 +38,7 @@ data | string | Yes | The JSON encoded string of an array (**data structure** wi
 checksum | string(32) | Yes | Each request must have a checksum to validate the data. See [How to create the checksum below](#create-checksum).
 
 ## Response
+
 - The response is a JSON encoded string, which decodes into the following structure:
 ```js
 {
