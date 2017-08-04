@@ -19,10 +19,9 @@ secretKey | string(32) | used to [create the checksum](#create-checksum)
  
 Môi trường kiểm thử | Môi trường thật
 ---- | ------------
-http://dev.nhanh.vn/api/store/add|https://graph.nhanh.vn/api/store/add
-http://dev.nhanh.vn/api/product/add|https://graph.nhanh.vn/api/product/add
-http://dev.nhanh.vn/api/product/detail | https://graph.nhanh.vn/api/product/detail
-http://dev.nhanh.vn/api/order/add|https://graph.nhanh.vn/api/order/add
+[http://dev.nhanh.vn/api/order/add](/order/add.md)|[https://graph.nhanh.vn/api/order/add](/order/add.md)
+[http://dev.nhanh.vn/api/product/add](/product/add.md)|[https://graph.nhanh.vn/api/product/add](/product/add.md)
+[http://dev.nhanh.vn/api/product/detail](/product/detail.md)| [https://graph.nhanh.vn/api/product/detail](/product/detail.md)
 ... | ...
 
 # Request
