@@ -25,7 +25,7 @@ code | int | 1 = success or 0 = failed
 messages | [ ] | is an array of error messages if code = 0
 data | [ ] | Mảng danh sách kho của doanh nghiệp
 
-```
+```js
 data = [
    id1: Tên kho 1,
    id2: Tên kho 2,
