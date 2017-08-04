@@ -52,9 +52,6 @@ Dữ liệu về hoá đơn:
 * [/api/bill/imexrequirements](/bill/imexrequirements.md): Lấy danh sách sản phẩm yêu cầu xuất nhập kho
 * [/api/bill/imexs](bill/imexs.md): Lấy danh sách sản phẩm xuất nhập kho
 
-Dữ liệu về đơn hàng
-* [/api/order/history](order/history.md): Lấy lịch sử thao tác đơn hàng
-
 ## Send data to Nhanh.vn
 * [/api/store/add](store/add.md): Gửi thông tin doanh nghiệp
 * [/api/product/add](product/add.md): Đồng bộ sản phẩm từ các website khác về Nhanh.vn
