@@ -14,7 +14,7 @@ data = [
 	categoryId: int // lọc theo category id
 ]
 ```
-- Response:
+## Response:
 
 Key | Data Type(Max-length) | Description
 ------- | ------ | -----------
