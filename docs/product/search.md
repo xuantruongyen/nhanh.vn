@@ -4,7 +4,7 @@
 
 ## Request
 
--The POST params: [common request params](/api.md#request)
+- The POST params: [common request params](/api.md#request)
 
 - The search params:
 
