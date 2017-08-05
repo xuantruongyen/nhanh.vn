@@ -2,14 +2,9 @@
 
 - Mỗi website cần đăng kí 1 URL để nhận cập nhật thông tin sản phẩm từ Nhanh.vn (cập nhật realtime khi sản phẩm được thêm, sửa trong Nhanh.vn). Để sử dụng tính năng này, website của bạn phải thêm 1 trường để lưu **idNhanh** ứng với từng sản phẩm được đồng bộ từ Nhanh.vn sang, mỗi khi nhận được 1 request từ Nhanh, website sử dụng **idNhanh** để kiểm tra xem sản phẩm này đã tồn tại hay chưa để áp dụng việc thêm mới hoặc cập nhật thông tin sản phẩm tương ứng theo key **idNhanh**.
 
-- The POST params:
+## Request
 
-Param |Data type (Max-length)|Description
--------- | -------- | ----------
-storeId|string(20)|id của gian hàng trên các sàn thương mại điện tử (các website bình thường không cần quan tâm đến tham số này)
-data|string|the JSON encoded string: decode this string to get an array of products:<br>[<br>{<br> see structure in the table below <br>},...<br>]
-checksum|string(32)|use **secretKey** and received **data** param to create the **[checksum](api.md#create-checksum)** and compare with **[checksum](api.md#create-checksum)** param.
-
+- See: [common request params](/api.md#request)
 - Product item’s properties:
 
  <table> 
