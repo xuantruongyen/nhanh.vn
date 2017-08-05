@@ -13,7 +13,8 @@ Param | | Mandatory | Description
 type | string | No | CITY/DISTRICT (mặc định là CITY)
 parentId | int | No | Nếu type = DISTRICT thì parentId = id của thành phố cần lấy ra danh sách quận huyện.
 
-- The response: JSON decode the response to get the structure:
+## Response 
+- JSON decode the response to get the structure:
 
 Key | Data Type(Max-length) | Description
 ------| ------- | ---------
