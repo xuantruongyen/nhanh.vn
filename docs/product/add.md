@@ -2,13 +2,8 @@
 
 - Tính năng này dùng để gửi thông tin sản phẩm từ website của bạn sang Nhanh.vn.
 
-- The POST params:
-
-Param | Data type(Max-length) | Description
----- | ------------ |---------
-storeId | string(20) | id của gian hàng trên các sàn thương mại điện tử (các website bình thường không cần quan tâm đến tham số này)
-data | string | JSON encoded string, see structure in the table below
-checksum | string(32) | use **secretKey** and received **data** param to create the checksum and compare with **checksum** param.
+## Request
+- See: [common request params](/api.md#request)
 
 - The **data array**:
 
