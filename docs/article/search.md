@@ -3,7 +3,7 @@
 - Tính năng này được sử dụng để lấy danh sach bài viết trên Nhanh, phân trang tối đa 50 tin tức/page, hỗ trợ lấy theo id bài viết > id bài viết truyền lên, hỗ trợ lọc bài viết theo danh mục.
 
 ## Request
-- See [common request params](/api.md#request
+- See [common request params](/api.md#request)
 
 - Cấu trúc data đẩy lên
 ```js
