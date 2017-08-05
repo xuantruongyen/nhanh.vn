@@ -6,7 +6,7 @@
  
 - See: [common request params](/api.md#request)
 
- - The properties of each order if **updateType** is **Status** or **CheckPayment**:
+- The properties of each order if **updateType** is **Status** or **CheckPayment**:
   
 Param | Data type (Max-length) | Description
 ----------- | ---------------- | --------
