@@ -1,15 +1,8 @@
-# /api/customer/search
++# /api/customer/search
 - Tính năng này dùng để tìm kiếm thông tin khách hàng thông qua id hoặc số điện thoại của khách hàng. hoặc lấy danh sách khách hàng. Tối đa ko quá 50 khác hàng / page
 
-- The POST params:
-
-Key | Data type | Mandatory | Description
-------- | ------- | --------- |------
-version | string | Yes | 1.0
-apiUsername | string | Yes | _YOUR_API_USERNAME_
-storeId | string(20) |No | Chỉ sử dụng cho các sàn thương mại điện tự với nhiều doanh nghiệp như lazada, vật giá
-data | string | Yes | The json encoded string of search params array (see the table structure below), data không thể để null; nếu không tìm kiếm theo một tiêu chí nào data sẽ là một mảng rỗng.
-checksum | string | Yes | <p></p>
+## Request
+- The POST params: [common request params](/api.md#request)
 
 - The search params:
 
