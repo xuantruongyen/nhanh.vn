@@ -1,17 +1,12 @@
 # /api/product/detail 
 - Tính năng này dùng để lấy thông tin chi tiết của sản phẩm. Nếu sản phẩm được đồng bộ từ Nhanh.vn sang website của bạn, đôi khi bạn sẽ muốn lấy thêm thông tin chi tiết của sản phẩm đó.
 
-- The POST params:
+## Request
+See: [common request params](/api.md#request)
 
-Key| Data type | Mandatory | Description
------- | ----------- | -------- | -------
-version | string | Yes | 1.0
-apiUsername | string | Yes | _YOUR_API_USERNAME_
-storeId | string(20) | No | required for e-commerce platforms
-data | string | Yes | The id of product was synchronied from Nhanh.vn to merchant website
-checksum | string | Yes | <p></p>
+## Response
 
-- The response: JSON decode the response to get the structure:
+JSON decode the response to get the structure:
 
 Key | Data Type(Max-length) | Description 
 ---- | ---- | --------
