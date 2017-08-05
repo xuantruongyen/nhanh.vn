@@ -1,15 +1,9 @@
 # /api/bill/search 
 - Tính năng này dùng lấy danh sách hóa đơn bán buôn và bán lẻ của doanh nghiệp. Hỗ trợ tìm kiếm thống qua: ID đơn hàng, thời gian tạo đơn hàng, số điện thoại khách hàng Tối đa ko quá 20 hóa đơn/ page
  
-- The POST params:
+## Request 
 
-Key | Data type | Mandatory | Description
------|------------|-------------|--------
-version | string | Yes | 1.0
-apiUsername | string | Yes | _YOUR_API_USERNAME_
-storeId | string(20) | No| Chỉ sử dụng cho các sàn thương mại điện tự với nhiều doanh nghiệp như lazada, vật giá
-data |string | Yes| The json encoded string of search params array (see the table structure below), data không thể để null; nếu không tìm kiếm theo một tiêu chí nào data sẽ là một mảng rỗng.
-checksum | string | Yes | <p></p>
+- The POST params: [common request params](/api.md#request)
 
 - The search param - (Data content)
 
@@ -22,7 +16,9 @@ customerMobile | int | No|Tìm kiếm theo số điện thoại khách hàng
 fromDate| date |No| Tìm kiếm ngày tạo hóa đơn >= fromeDate. Format yyyy-mm-dd (.e.g. 2015-07-16)
 toDate | date | No | Tìm kiếm ngày tạo hóa đơn =< toDate Format yyyy-mm-dd (.e.g. 2015-08-16)
  
-The response: JSON decode the response to get the structure:
+## Response
+
+JSON decode the response to get the structure:
 
 Key |Data Type(Max-length) |Description
 ----- | --------- | --------
