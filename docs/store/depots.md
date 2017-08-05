@@ -2,14 +2,8 @@
 
 - Tính năng này dùng để lấy danh sách kho của doanh nghiệp. Hỗ trợ tìm kiếm thông qua ID kho.
 
-- The POST params:
-
-Key | Data type | Mandatory | Description
--------- | -------- | ---------- |--------
-version | string | Yes | 1.0
-apiUsername | string | Yes | _YOUR_API_USERNAME_
-data | string | No | The json encoded string of search params array (see the table structure below); nếu không tìm kiếm theo một tiêu chí nào data sẽ là một mảng rỗng.
-checksum | string | Yes | <p></p>
+## Request
+- The POST params: [common request params](/api.md#request)
  
 - The search param - (Data array)
 
