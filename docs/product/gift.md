@@ -1,14 +1,9 @@
 # /api/product/gift
 - Tính năng này dùng để lấy danh sách quà tặng theo sản phẩm. Hỗ trợ tìm kiếm thông qua ID sản phẩm.
 
-- The POST params:
+## Request
 
-Key | Data type | Mandatory | Description
------- | ----------- | -----------
-version | string | Yes | 1.0
-apiUsername | string | Yes | _YOUR_API_USERNAME_
-data | string | Yes | The json encoded string of search params array (see the table structure below), data không thể để null; nếu không tìm kiếm theo một tiêu chí nào data sẽ là một mảng rỗng.
-checksum | string | Yes | <p></p>
+- The POST params: [common request params](/api.md#request)
 
 - The search param - (Data array)
 
@@ -18,7 +13,8 @@ Param | | Mandatory | Description
 icpp | int | No | Số lượng sản phẩm trên 1 trang. Mặc định là 10. Tối đa không quá 20.
 ids | array | No | Tìm kiếm theo ID sản phẩm có quà tặng
 
- - The response: JSON decode the response to get the structure:
+ ## Response
+ JSON decode the response to get the structure:
  
 Key | Data Type(Max-length) | Description
 --------- | ------ | ---------
