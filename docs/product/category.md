@@ -2,17 +2,13 @@
 
 - Tính năng này được sử dụng để lấy toàn bộ danh mục sản phẩm trên Nhanh.vn.
 
-- The POST params:
+## Request
 
-Key | Data type | Mandatory | Description
----------- | ----------- | ---------- | -----------
-version | string | Yes | 1.0
-apiUsername | string | Yes | _YOUR_API_USERNAME_
-storeId | string(20) | No | required for e-commerce platforms
-data | string | Yes | Fixed string: productcategory
-checksum |  string | Yes | <p></p>
+See [common request params](/api.md#request)
 
-- The response: JSON decode the response to get the structure:
+## Response
+
+- JSON decode the response to get the structure:
 
 Key | Data Type(Max-length) | Description
 -------- | -------------- | -----------
