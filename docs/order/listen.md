@@ -4,7 +4,7 @@
  
  ## Request
  
-- See: [common request params](/api.md#request)
+- See [common request params](/api.md#request)
 
 - The properties of each order if **updateType** is **Status** or **CheckPayment**:
   
