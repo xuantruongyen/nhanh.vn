@@ -2,14 +2,8 @@
 
 - Tính năng này dùng để lấy danh sách sản phẩm yêu cầu xuất nhập kho của doanh nghiệp.
 
-- The POST params:
-
-Key | Data type | Mandatory | Description
----------- | --------- | --------- | --------
-version | string | Yes | 1.0 
-apiUsername | string | Yes | _YOUR_API_USERNAME_
-data | string | No | The json encoded string of search params array (see the table structure below); nếu không tìm kiếm theo một tiêu chí nào data sẽ là một mảng rỗng.
-checksum | string | Yes | <p><p>
+## Request
+- The POST params: [common request params](/api.md#request)
  
 - The search param - (Data array)
 
@@ -37,7 +31,8 @@ requiredById | Int | No | Người tạo phiếu yêu cầu
 approvedById | Int | No | Người duyệt phiếu yêu cầu
 status | Int | No | Trạng thái phiếu: <br>1: Mới<br>2: Hủy<br>3: Đã duyệt<br>4: Đã xác nhận<br>5: Cần đối soát lại<br>6: Đã đối soát
 
-- The response: JSON decode the response to get the structure:
+## Response
+JSON decode the response to get the structure:
 
 Key | Data Type(Max-length) | Description
 --------- | ------------ |----------
