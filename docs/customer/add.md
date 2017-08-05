@@ -1,6 +1,8 @@
 # /api/customer/add
 - Tính năng này dùng để thêm thông tin khách hàng cho doanh nghiệp key sử dụng là mobile. Tối ta mỗi lần không quá 50 khách hàng.
 
+## Request
+
 - See: [common request params](/api.md#request)
 
 - The **data array**:
