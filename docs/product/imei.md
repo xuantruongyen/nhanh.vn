@@ -1,19 +1,9 @@
 # /api/product/imei 
  - Tính năng này dùng để lấy danh sách imei sản phẩm ở trên Nhanh.vn. Dữ liệu sẽ được phân trang, mỗi trang tối đa không quá 100 sản phẩm.
- - The POST params:
  
-
-Key | Data type | Mandatory | Description
-----|-------|-----------|----------
-version|string | Yes | 1.0
-apiUsername | string | Yes | _YOUR_API_USERNAME_
-storeId | string(20) | No| required for e-commerce platforms
-data | string | Yes | The json encoded string of search params array (see the table structure below), data không thể để null; nếu không tìm kiếm theo một tiêu chí nào data sẽ là một mảng rỗng.
-checksum | string | Yes | <p></p>
-
-
-
-
+ ## Request
+ - The POST params: [common request params](/api.md#request)
+ 
   - The search params:
 
 Param | Data Type | Mandatory | Description
