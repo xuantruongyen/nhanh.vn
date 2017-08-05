@@ -4,7 +4,7 @@
 Các API [đồng bộ đơn hàng](/order/add.md), [tính phí vận chuyển](/shipping/fee.md) sẽ cần sử dụng đến các dữ liệu này.
 
 ## Request
-- The POST params: [common request params](/api.md#request)
+- See [common request params](/api.md#request)
 
 - The search param - (Data array)
 
