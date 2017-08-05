@@ -31,7 +31,8 @@ imeiId |Int| No | Imei Id
 imei| string | No | Số imei
 warrantyBillId | Int | No | Id phiếu bảo hành
 
-- The response: JSON decode the response to get the structure:
+## Response
+JSON decode the response to get the structure:
 
 Key | Data Type(Max-length)| Description
 ---|-------|-----------
