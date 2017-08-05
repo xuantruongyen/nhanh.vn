@@ -4,7 +4,7 @@
 
 ## Request
 
-* The POST params: [common request params](/api.md#request)
+* See [common request params](/api.md#request)
 
 - The structure of data array:
 
