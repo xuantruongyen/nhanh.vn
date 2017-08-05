@@ -3,7 +3,7 @@
 - Tính năng này dùng để gửi thông tin sản phẩm từ website của bạn sang Nhanh.vn.
 
 ## Request
-- See: [common request params](/api.md#request)
+- See [common request params](/api.md#request)
 
 - The **data array**:
 

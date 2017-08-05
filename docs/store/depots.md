@@ -3,7 +3,7 @@
 - Tính năng này dùng để lấy danh sách kho của doanh nghiệp. Hỗ trợ tìm kiếm thông qua ID kho.
 
 ## Request
-- The POST params: [common request params](/api.md#request)
+- See [common request params](/api.md#request)
  
 - The search param - (Data array)
 
