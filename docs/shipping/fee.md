@@ -8,7 +8,6 @@
 
 - The structure of data array:
 
-
 Param | Data type (Max-length) | Mandatory | Description
 ------------ | ----------- | ---------- | ----------------
 fromCityName | string | Yes | Tên thành phố của kho gửi hàng (Lấy từ [/api/shipping/location](location.md))
