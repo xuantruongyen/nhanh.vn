@@ -2,7 +2,7 @@
 - Website của bạn cần đăng kí một URL để nhận thông tin thay đổi cấp độ, tặng điểm, trừ điểm cập nhật từ Nhanh.vn (Cập nhật realtime ngay khi cấp độ, tặng điểm, trừ điểm thay đổi bên trong Nhanh.vn).
 
 ## Request
-- See: [common request params](/api.md#request)
+- See [common request params](/api.md#request)
 
 <table>
   <tr>
