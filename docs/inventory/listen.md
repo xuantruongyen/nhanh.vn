@@ -1,7 +1,9 @@
 # Listen inventory updated from Nhanh.vn
 - Website của bạn cần đăng kí một URL để nhận thông tin tồn kho cập nhật từ Nhanh.vn (Cập nhật realtime ngay khi số tồn bị thay đổi bên trong Nhanh.vn)
 
-- The POST params:
+## Request
+
+- See: [common request params](/api.md#request)
 
 <table>
   <tr>
