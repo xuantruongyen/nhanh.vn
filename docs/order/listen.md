@@ -2,14 +2,9 @@
 
 - Website của bạn cần đăng kí một URL để nhận trạng thái đơn hàng cập nhật từ Nhanh.vn (cập nhật realtime khi trạng thái đơn hàng thay đổi bên trong Nhanh.vn)
  
-- The POST params:
-
-Param | Data type (Max-length) | Description
------------ | ---------------- | --------
-storeId | string(20) | id của gian hàng trên các sàn thương mại điện tử (các website bình thường không cần quan tâm đến tham số này)
-updateType| string | Giá trị có thể Status or Payment (kiểu cập nhật dùng khi đối soát đơn hàng cho các sàn thương mại điện tử, các doanh nghiệp bình thường không cần quan tâm tới param này).
-data| string | the JSON encoded string: decode this string to get data structure in the table below.
-checksum | string(32) | use secretKey and received data param to create the checksum and compare with checksum param.
+ ## Request
+ 
+- See: [common request params](/api.md#request)
 
  - The properties of each order if **updateType** is **Status** or **CheckPayment**:
   
