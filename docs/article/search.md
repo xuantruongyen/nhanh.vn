@@ -2,15 +2,8 @@
 
 - Tính năng này được sử dụng để lấy danh sach bài viết trên Nhanh, phân trang tối đa 50 tin tức/page, hỗ trợ lấy theo id bài viết > id bài viết truyền lên, hỗ trợ lọc bài viết theo danh mục.
 
-- The POST params:
-
-Key | Data type | Mandatory | Description
------- | --------- | -------- | -------
-version | string | Yes | 1.0
-apiUsername | string | Yes | _YOUR_API_USERNAME_
-storeId | string(20) | No | required for e-commerce platforms
-data | string | Yes | The json encoded string of search params array (see the table structure below), data không thể để null; nếu không tìm kiếm theo một tiêu chí nào data sẽ là một mảng rỗng.
-checksum | string | Yes | <p></p>
+## Request
+- The POST params: [common request params](/api.md#request)
 
 - Cấu trúc data đẩy lên
 ```js
