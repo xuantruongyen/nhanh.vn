@@ -4,7 +4,7 @@
  ## Request
  - The POST params: [common request params](/api.md#request)
  
-  - The search params:
+ - The search params:
 
 Param | Data Type | Mandatory | Description
 --------- | ---------- | ------------ | ----------
@@ -14,7 +14,8 @@ productId | int  | No | ID sản phẩm /api/product/search
 status | int | No | Tìm theo trạng thái IMEI sản phẩm. Giá trị có thể là:<br>1: Mới<br>2: Đã bán <br>3: Đang vận chuyển <br>5: Lỗi <br>6: Đã trả nhà cung cấp<br>8: Đang chuyển kho<br>9: Đang bảo hành<br>10: Đã trả bảo hành
 imeiCode | string | No | Tìm chính xác theo mã IMEI 
 
-- The response: JSON decode the response to get the structure:
+## Response
+JSON decode the response to get the structure:
 
 Key |Data Type(Max-length) | Description
 ----------- | ---------- | ------------
