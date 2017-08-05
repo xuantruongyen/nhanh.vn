@@ -3,14 +3,8 @@
 - Lấy danh sách thành phố, quận huyện từ Nhanh.vn.
 Các API [đồng bộ đơn hàng](/order/add.md), [tính phí vận chuyển](/shipping/fee.md) sẽ cần sử dụng đến các dữ liệu này.
 
-- The POST params:
-
-| Key | Data type  | Mandatory| Description|
-|---------| ---------- | ---------- |------|
-|version | string | Yes | 1.0|
-|apiUsername | string | Yes| _YOUR_API_USERNAME_
-|data| string | Yes| The json encoded string of search params array (see the table structure below), nếu data để trống mặc định sẽ lấy ra danh sách thành phố hỗ trợ vận chuyển.|
-|checksum | string | Yes |<p></p> |
+## Request
+- The POST params: [common request params](/api.md#request)
 
 - The search param - (Data array)
 
