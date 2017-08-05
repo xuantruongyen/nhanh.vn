@@ -3,7 +3,7 @@
 
 ## Request
 
-- Sêe [common request params](/api.md#request)
+- See [common request params](/api.md#request)
  
 - The search param - (Data array)
  
