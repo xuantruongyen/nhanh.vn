@@ -1,7 +1,8 @@
 # Listen info when customer add order from Nhanh.vn 
 - Website của bạn cần đăng kí một URL để nhận thông tin khi khách hàng đặt đơn hàng từ Nhanh.vn hoặc từ website của bạn. (Cập nhật realtime ngay khi khách hàng đặt đơn hàng từ Nhanh.vn hoặc từ website của bạn)
 
-- The POST params:
+# Request
+- See: [common request params](/api.md#request)
 
 <table>
   <tr>
