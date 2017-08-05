@@ -2,17 +2,11 @@
 
 - Tính năng này được sử dụng để lấy toàn bộ danh mục tin tức của doanh nghiệp trên Nhanh.vn.
 
-- The POST params:
+## Request
+See: [common request params](/api.md#request)
 
-Key | Data type | Mandatory | Description
------- | ----- | --------- | -------
-version | string | Yes | 1.0
-apiUsername | string | Yes | _YOUR_API_USERNAME_
-storeId | string(20) | No | required for e-commerce platforms
-data | string | No | <p></p>
-checksum | string | Yes | <p></p>
-
-- The response: JSON decode the response to get the structure:
+## Response
+JSON decode the response to get the structure:
 
 Key | Data Type(Max-length) | Description
 ------------ | ---------- | ----------
