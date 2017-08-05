@@ -15,7 +15,9 @@ mobile | int | | Tìm kiếm khách hàng theo số điện thoại.
 fromLastBoughtDate | string | No | Từ ngày mua cuối cùng
 toLastBoughtDate | string | No | Đến ngày mua cuối cùng
 
-- The response: JSON decode the response to get the structure:
+## Response: 
+
+- JSON decode the response to get the structure:
 
 Key | Data Type(Max-length) | Description
 ------- | ------- | -------
