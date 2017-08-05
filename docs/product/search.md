@@ -22,7 +22,9 @@ priceTo | double | No | Tìm theo giá <=
 brandId | int | No | Tìm theo thương hiệu
 imei | string | No| Tìm theo IMEI
 
-- The response: JSON decode the response to get the structure:
+## Response
+
+- JSON decode the response to get the structure:
 
 Key | Data Type(Max-length) | Description
 --------- | ----------- | -----------
