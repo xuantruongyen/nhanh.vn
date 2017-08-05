@@ -3,7 +3,7 @@
 
 ## Request
 
-- See: [common request params](/api.md#request)
+- See [common request params](/api.md#request)
 
 <table>
   <tr>
