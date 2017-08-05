@@ -11,7 +11,8 @@ Param | | Mandatory | Description
 ---- | ----- | ------ | ---------
 id | Int | No | Tìm kiếm theo ID kho
 
-- The response: JSON decode the response to get the structure:
+## Response
+JSON decode the response to get the structure:
 
 Key |Data Type(Max-length) | Description 
 -------- | ------- | --------
