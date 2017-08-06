@@ -5,8 +5,7 @@
 ## Request
 
 - See [common request params](/api.md#request)
-
-- The search params:
+- Data structure of search params
 
 Param | Data Type | Mandatory | Description
 ---------- | ---------- | --------------- |  -----------
