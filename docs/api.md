@@ -63,8 +63,8 @@ Simple request: send product information
 ```php
 <?php
 
-	$apiUsername = “_YOUR_API_USERNAME_”;
-	$secretKey = “_YOUR_SECRET_KEY_”;
+	$apiUsername = "_YOUR_API_USERNAME_";
+	$secretKey = "_YOUR_SECRET_KEY_";
 
 	$dataArray = array(
 		// product 1
