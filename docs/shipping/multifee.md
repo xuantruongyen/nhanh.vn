@@ -32,6 +32,8 @@
 ]
 ```
 
+**Chú ý:** Hỗ trợ tối đa tính phí cho 10 đơn hàng cùng lúc.
+
 
 Param | Data type (Max-length) | Mandatory | Description
 --------- | ------------ | ----------- | -----------
