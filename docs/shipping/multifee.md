@@ -63,47 +63,45 @@ data | [ ] | is an array of all supported shipping services
 ## Response
   - The response: JSON decode the response to get the structure:
 ```js
- [
-	 [
-		// dữ liệu tính phí cho đơn hàng 1
+[
+	// kết quả tính phí cho đơn hàng 1
+	[	
 		{
-			carrierId: int // id hãng vận chuyển
-			carrierName: string // tên hãng vận chuyển
-			serviceId: int // id dịch vụ vận chuyển
-			serviceName: string // tên dịch vụ vận chuyển
-			serviceDescription: string // mô tả dịch vụ vận chuyển
-			estimatedDeliveryTime: int // Thời gian dự kiến giao hàng
-			shipFee: int // phí vận chuyển
-			codFee: int // phí thu tiền hộ
-			shipFeeDiscount: int // phí vận chuyển được giảm giá
-			codFeeDiscount: int // phí thu tiền hộ được giảm giá
-			isBulkyGoods: 1 | 0 // Biến đánh dấu hàng cồng kềnh
-		},
-		{ ... },
-		…
-		],
-
-		[
-			// dữ liệu tính phí cho đơn hàng 2
-			{
-			carrierId: int // id hãng vận chuyển
-			carrierName: string // tên hãng vận chuyển
-			serviceId: int // id dịch vụ vận chuyển
-			serviceName: string // tên dịch vụ vận chuyển
-			serviceDescription: string // mô tả dịch vụ vận chuyển
-			estimatedDeliveryTime: int // Thời gian dự kiến giao hàng
-			shipFee: int // phí vận chuyển
-			shipFeeDiscount: int // phí vận chuyển được giảm
-			codFee: int // phí thu tiền hộ
-			codFeeDiscount: int // phí thu tiền hộ được giảm
-			isBulkyGoods: 1 | 0 // Biến đánh dấu hàng cồng kềnh
-		},
-		{ ... },
-		…
+			"carrierId": int // id hãng vận chuyển
+			"carrierName": string // tên hãng vận chuyển
+			"serviceId": int // id dịch vụ vận chuyển
+			"serviceName": string // tên dịch vụ vận chuyển
+			"serviceDescription": string // mô tả dịch vụ vận chuyển
+			"estimatedDeliveryTime": int // Thời gian dự kiến giao hàng
+			"shipFee": int // phí vận chuyển
+			"codFee": int // phí thu tiền hộ
+			"shipFeeDiscount": int // phí vận chuyển được giảm giá
+			"codFeeDiscount": int // phí thu tiền hộ được giảm giá
+			"isBulkyGoods": 1 | 0 // Biến đánh dấu hàng cồng kềnh
+		}
+		// ...
 	],
-	... 
+	// kết quả tính phí cho đơn hàng 2
+	[	
+		{
+			"carrierId": int // id hãng vận chuyển
+			"carrierName": string // tên hãng vận chuyển
+			"serviceId": int // id dịch vụ vận chuyển
+			"serviceName": string // tên dịch vụ vận chuyển
+			"serviceDescription": string // mô tả dịch vụ vận chuyển
+			"estimatedDeliveryTime": int // Thời gian dự kiến giao hàng
+			"shipFee": int // phí vận chuyển
+			"shipFeeDiscount": int // phí vận chuyển được giảm
+			"codFee": int // phí thu tiền hộ
+			"codFeeDiscount": int // phí thu tiền hộ được giảm
+			"isBulkyGoods": 1 | 0 // Biến đánh dấu hàng cồng kềnh
+		}
+		// ...
+	]
+	// kết quả tính phí cho các đơn hàng tiếp theo
 ]
 ``` 
+
  **Chú ý**:
    - shipFeeDiscount là phí vận chuyển được chiết khấu, VD shipFee = 25.000, shipFeeDiscount = 7.000 thì shipFee thực tế của đơn hàng này sẽ chỉ = 18.000
    - codFeeDiscount là phí thu tiền hộ được chiết khấu, VD codFee = 15.000, codFeeDiscount = 3.000 thì codFee thực tế của đơn hàng này sẽ chỉ = 12.000
