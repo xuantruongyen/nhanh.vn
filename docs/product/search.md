@@ -32,12 +32,12 @@ code | int | 1 = success or 0 = failed
 messages | [ ] | is an array of error messages if code = 0
 data | [ ] | is an array of product list
 
-```json
-data = [
-	totalPages: int,
-	products: [
-		{  }, // each product item, all properties are listed in the table below
-		...
+```js
+[
+	"totalPages": 30, // int
+	"products": [
+            { }, // each product item, all properties are listed in the table below
+            { }
 	]
 ]
 ```
