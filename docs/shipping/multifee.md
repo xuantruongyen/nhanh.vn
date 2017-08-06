@@ -2,7 +2,7 @@
 
 * Tính năng này dùng để tính phí vận chuyển cho nhiều đơn hàng 1 lần call api. Mỗi khi khách hàng vào trang Giỏ hàng, hoặc ở bước thanh toán, website của bạn có thể call API này để tính phí vận chuyển cho đơn hàng và hiển thị chi tiết tổng tiền của đơn hàng bao gồm cả phí vận chuyển và phí thu tiền hộ (nếu khách hàng chọn hình thức thanh toán khi nhận hàng).
 
-    **Chú ý**: API này dùng cho các sàn thương mại điện tử, giỏ hàng hỗ trợ mua hàng từ nhiều gian hàng, mỗi gian hàng có 1 địa chỉ lấy hàng khác nhau. Nếu website của bạn chỉ hỗ trợ lấy hàng từ 1 địa chỉ, xin vui lòng sử dụng[/api/shipping/fee(shipping/fee.md) bên dưới. 
+    **Chú ý**: API này dùng cho các sàn thương mại điện tử, giỏ hàng hỗ trợ mua hàng từ nhiều gian hàng, mỗi gian hàng có 1 địa chỉ lấy hàng khác nhau. Nếu website của bạn chỉ hỗ trợ lấy hàng từ 1 địa chỉ, xin vui lòng sử dụng [/api/shipping/fee](/shipping/fee.md). 
 
 ## Request
 
