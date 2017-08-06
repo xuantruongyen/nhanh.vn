@@ -23,24 +23,36 @@ messages | [ ] |is an array of error messages if code = 0
 data | [ ] | Mảng danh sách thành phố hoặc quận huyện
 
 - Nếu **type = CITY**
+
 ```js
-  data = [
-            [
-     	       id: id của thành phố,
-                name:  Tên thành phố
-            ],
-            [...]
-        ]
+[
+    [
+      "id": 2,
+      "name":  "Hà Nội"
+    ],
+    [
+      "id": 3,
+      "name":  "Hồ Chí Minh"
+    ]
+    // ...
+]
 ```
+
 - Nếu **type = DISTRICT**
+
 ```js
- data = [
-		    [
-				id: id của quận huyện,
-				cityId: id của thành phố
-				name: Tên quận huyện
-		    ],
-		    [...]
-         ]
+[
+    [
+      "id": 2,
+      "cityId": 2,
+      "name": "Quận Hoàn Kiếm"
+    ],	
+    [
+      "id": 6,
+      "cityId": 2,
+      "name": "Quận Hai Bà Trưng"
+    ]
+    // ...
+]
 ```
  
