@@ -10,15 +10,26 @@
 
 * The structure of data array:
 ```js
-  [
-	    [
-		// đơn hàng 1, xem cấu trúc ở bảng bên dưới
-        ],
-        [
-	       // đơn hàng 2, xem cấu trúc ở bảng bên dưới
-        ],
-               ...
-   ]
+[
+    // Đơn hàng 1
+    [
+        "fromCityName" => "TP. HCM",
+        "fromDistrictName" => "Quận 1",
+        "toCityName" => "Hà nội",
+        "shippingWeight" => 800,
+        "toDistrictName" => "Hoàn Kiếm",
+        "codMoney" => 1250000
+    ],
+    // Đơn hàng 2
+    [
+        "fromCityName" => "TP. HCM",
+        "fromDistrictName" => "Quận 3",
+        "toCityName" => "Hà nội",
+        "shippingWeight" => 2000, // 2000 gr = 2 kg
+        "toDistrictName" => "Hoàn Kiếm",
+        "codMoney" => 4950000
+    ]
+]
 ```
 
 
