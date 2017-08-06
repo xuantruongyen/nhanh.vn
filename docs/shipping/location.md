@@ -27,8 +27,8 @@ data | [ ] | Mảng danh sách thành phố hoặc quận huyện
 ```js
 [
     [
-      "id": 2,
-      "name":  "Hà Nội"
+      "id": 2, // int
+      "name":  "Hà Nội" // string
     ],
     [
       "id": 3,
@@ -43,9 +43,9 @@ data | [ ] | Mảng danh sách thành phố hoặc quận huyện
 ```js
 [
     [
-      "id": 2,
-      "cityId": 2,
-      "name": "Quận Hoàn Kiếm"
+      "id": 2, // int
+      "cityId": 2, // int
+      "name": "Quận Hoàn Kiếm" // string
     ],	
     [
       "id": 6,
