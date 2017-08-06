@@ -25,7 +25,7 @@ Dữ liệu về vận chuyển:
 
 * [/api/shipping/carrier](shipping/carrier.md): Lấy danh sách các hãng vận chuyển đang tích hợp trên Nhanh.vn 
 * [/api/shipping/location](shipping/location.md): Lấy danh sách thành phố, quận huyện ở Nhanh.vn
-* [/api/shipping/multifee](shipping/multifee.md): Lấy thông tin phí vận chuyển cho nhiều đơn hàng cùng lúc.
+* [/api/shipping/multifee](shipping/multifee.md): Tính phí vận chuyển cho nhiều đơn hàng cùng lúc.
 * [/api/shipping/fee](shipping/fee.md): Tính phí vận chuyển cho một đơn hàng.
 * [/api/shipping/trackingframe](shipping/trackingframe.md): Tạo link url hiển thị lịch trình của đơn hàng
 
