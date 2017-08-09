@@ -145,7 +145,7 @@
         <td>inventory</td>
         <td>array</td>
         <td>        
-             Xem bảng Inventory bên dưới  
+             Xem bảng [Inventory](product/listen.md#inventory) bên dưới  
         </td>
     </tr>
     <tr>
@@ -172,3 +172,4 @@
 </tr>
 </table>
 
+## Inventory
