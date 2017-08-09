@@ -145,7 +145,7 @@
         <td>inventory</td>
         <td>array</td>
         <td>        
-             Xem bảng Inventory bên dưới
+             Xem bảng Inventory bên dưới  
         </td>
     </tr>
     <tr>
