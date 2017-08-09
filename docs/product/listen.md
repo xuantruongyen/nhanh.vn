@@ -145,32 +145,7 @@
         <td>inventory</td>
         <td>array</td>
         <td>        
-             <pre lang="php">
-Thông tin tồn kho:
-[
-    // Tổng tồn trong tất cả các kho
-    “remain”: int // số lượng tồn kho
-    “shipping”: int // số lượng đang giao hàng
-    “holding”: int // số lượng đang tạm giữ
-    “damage”: int // số lượng lỗi
-    “available”: int // số lượng có thể bán (sử dụng để hiển thị trên website, chặn đặt hàng khi hết số tồn hoặc vượt quá số tồn).
-
-    // Tồn tại từng kho
-    “depots”: [
-        “depotId” => [
-        “remain”: int // số lượng tồn kho
-        “shipping”: int //  số lượng đang giao hàng
-        “holding”: int // số lượng đang tạm giữ
-        “damage”: int //  số lượng lỗi
-        “available”: int // số lượng có thể bán (sử dụng để hiển thị trên website, chặn đặt hàng khi hết số tồn hoặc vượt quá số tồn).
-        ],
-        “depotId” => [
-        ...
-        ],
-    ...
-    ]
-]
-             </pre>
+             Xem bảng Inventory bên dưới
         </td>
     </tr>
     <tr>
