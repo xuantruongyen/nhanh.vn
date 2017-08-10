@@ -40,9 +40,7 @@ data | [ ] | is an array of product list
 	]
 ]
 ```
-<table> 
-    <tr>
-        <th>Key</th>
+Key</th>
         <th>Data Type(Max-length)</th>
         <th>Description</th>
     </tr>
@@ -209,20 +207,7 @@ data | [ ] | is an array of product list
         <td>array</td>
         <td>
  <pre lang="php">
-[
-    size => [
-        id => int,
-        name => string
-    ],
-    color => [
-        id => int,
-        name => string,
-        parent => [ // parent color
-        id => int,
-        name => string
-        ]
-    ]
-]
+
 </pre>
 </td>
 </tr>
@@ -255,6 +240,21 @@ Thông tin tồn kho:
 ]
 
 ```
+## Attributes
+[
+    size => [
+        id => int,
+        name => string
+    ],
+    color => [
+        id => int,
+        name => string,
+        parent => [ // parent color
+        id => int,
+        name => string
+        ]
+    ]
+]
 
 
 
