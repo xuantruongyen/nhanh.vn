@@ -74,7 +74,7 @@ warrantyContent|string|Nội dung bảo hành
 length|int|in cm
 shippingWeight|int|in gram
 createdDateTime|datetime|định dạng yyyy-mm-dd hh:mm:ss
-inventory|array|| Xem bảng [Inventory](product/search.md#inventory)
+inventory|array|| Xem bảng [Inventory](product/search.md#inventory) bên dưới
 
 
 ## Inventory
