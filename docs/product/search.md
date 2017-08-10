@@ -201,7 +201,7 @@ data | [ ] | is an array of product list
         <td>inventory</td>
         <td>array</td>
         <td>        
-             Xem thông tin tồn kho bên
+             Xem thông tin tồn kho bên dưới
         </td>
     </tr>
     <tr>
