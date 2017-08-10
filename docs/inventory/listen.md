@@ -6,10 +6,13 @@
 - See [common request params](/api.md#request)
 
 Param|Data type (Max-length)|Description
+--------- | ------------ | -------------
 storeId|string(20)|id của gian hàng trên các sàn thương mại điện tử các website bình thường không cần quan tâm đến tham số này)
 data|string| Xem bảng [Inventory](listen.md#inventory)
 checksum|string(32)|use secretKey and received data param to create<br> the checksum and compare with checksum param.</td>
   
+## Inventory
+the JSON encoded string: decode this string to get an array:
 ```js
 [         
   {
