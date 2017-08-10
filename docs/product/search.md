@@ -76,10 +76,7 @@ shippingWeight|int|in gram
 createdDateTime|datetime|định dạng yyyy-mm-dd hh:mm:ss
 inventory|array| Xem bảng [Inventory](search.md#inventory) bên dưới
 attributes|array | Xem bảng [Attributes](search.md#attributes) bên dưới
-
  
-
-
 ## Inventory
 ```js
 Thông tin tồn kho:
