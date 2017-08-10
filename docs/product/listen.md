@@ -41,7 +41,39 @@ attributes|array | Xem bảng [Attributes](listen.md#attributes) bên dưới
 
 ## Inventory
 Một mảng thông tin tồn kho của sản phẩm:
+```js
+Một mảng thông tin tồn kho của sản phẩm:
+[
 
+    // Số tổng tồn trên tất cả các kho đang hoạt động
+    
+    “remain”: int // số lượng tồn
+    “shipping”: int // số lượng đang giao hàng
+    “holding”: int // số lượng tạm giữ
+    “damage”: int // số lượng hàng lỗi
+    “available”: int // số lượng có thể bán, sử dụng số này để hiển thị số tồn trên website hoặc chặn việc đặt các sản phẩm hết hàng.
+    
+    // số tồn chi tiết trong từng kho
+    
+    “depots”: [
+        “depotId” => [
+        “remain”: int // số lượng tồn
+        “shipping”: int // số đang giao hàng
+        “holding”: int // số lượng tạm giữ
+        “damage”: int // số lượng lỗi
+        “available”: int // số lượng có thể bán, sử dụng số này để hiển thị số tồn trên website hoặc chặn việc đặt các sản phẩm hết hàng.
+        
+        ],
+    
+        “depotId” => [
+        ...
+        ],
+        ...
+    ]
+    
+]
+
+```
 
 ## Attributes
 ```js
