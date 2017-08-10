@@ -16,8 +16,8 @@ the JSON encoded string: decode this string to get an array:
 ```js
 [         
   {
-   “id”: //id sản phẩm trên website của bạn (Nếu<br> sản phẩm được  đồng bộ từ website của bạn sang Nhanh.vn,<br>nên sử dụng id này để tìm sản phẩm cần cần <br> nhập số tồn).
-   “idNhanh”: //id sản phẩm trên Nhanh.vn (Nếu sản phẩm <br> được đồng bộ từ Nhanh.vn sang website của bạn,<br>sử dụng //isNhanh để tìm sản phẩm tương ứng trên<br> website của bạn để cập nhật số tồn, tình<br> huống này thì id có thể sẽ là null).Số tổng tồn<br>  trên tất cả các kho đang hoạt động
+   “id”: //id sản phẩm trên website của bạn (Nếu sản phẩm được  đồng bộ từ website của bạn sang Nhanh.vn,nên sử dụng id này để tìm sản phẩm cần cần  nhập số tồn).
+   “idNhanh”: //id sản phẩm trên Nhanh.vn (Nếu sản phẩm  được đồng bộ từ Nhanh.vn sang website của bạn,sử dụng //isNhanh để tìm sản phẩm tương ứng trên website của bạn để cập nhật số tồn, tình huống này thì id có thể sẽ là null).Số tổng tồn  trên tất cả các kho đang hoạt động
   “remain”: int // số lượng tồn
   “shipping”: int // số lượng đang giao hàng
   “holding”: int // số lượng tạm giữ
@@ -32,7 +32,7 @@ sản phẩm hết hàng.
       “shipping”: int // số lượng đang giao hàng
       “holding”: int // số lượng tạm giữ
       “damage”: int // số lượng lỗi
-      “available”: int // số lượng có thể bán, sử dụng <br>số này để hiển thị số tồn trên website hoặc chặn <br>việc đặt các sản phẩm hết hàng.
+      “available”: int // số lượng có thể bán, sử dụng số này để hiển thị số tồn trên website hoặc chặn việc đặt các sản phẩm hết hàng.
     ],
     “depotId” => [
     ...
