@@ -22,9 +22,7 @@ the JSON encoded string: decode this string to get an array:
   “shipping”: int // số lượng đang giao hàng
   “holding”: int // số lượng tạm giữ
   “damage”: int // số lượng lỗi
-  “available”: int // số lượng có thể bán, sử dụng số này
-để hiển thị số tồn trên website hoặc chặn việc đặt các
-sản phẩm hết hàng.
+  “available”: int // số lượng có thể bán, sử dụng số này để hiển thị số tồn trên website hoặc chặn việc đặt các sản phẩm hết hàng.
   // Một mảng số tồn ở từng kho
   “depots”: [
     “depotId” => [
