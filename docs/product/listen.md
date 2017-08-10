@@ -7,6 +7,78 @@
 - See [common request params](/api.md#request)
 - Product item’s properties:
 
+
+
+Key | Data Type(Max-length) | Description
+-- |----------- |--------
+idNhanh | bigint(20) | ID sản phẩm trên Nhanh.vn
+merchantCategoryId | int | ID danh mục sản phẩm trên các site tích hợp (tính năng này hiện chỉ phục vụ cho các sàn TMĐT)
+merchantProductId | int | ID sản phẩm phi độc quyền (tính năng này chỉ phục vụ cho các sàn TMĐT)
+categoryId | int | ID danh mục sản phẩm trên Nhanh.vn
+brandId |int|ID thương hiệu sản phẩm trên Nhanh.vn
+parentId|bigint(20)|ID sản phẩm cha trên Nhanh.vn
+id|string(20)|ID sản phẩm từ website của bạn gửi sang. (Nếu website của bạn có tích hợp Send product information: [/api/product/add](add.md) Nhanh.vn sẽ lưu ID sản phẩm này được gửi từ website của bạn, khi thông tin sản phẩm được cập nhật trên Nhanh.vn, Nhanh API sẽ gửi dữ liệu tới website của bạn, và đây chính là id sản phẩm được gửi từ website của bạn).
+code
+string(255)
+Mã sản phẩm
+name
+string(255)
+Tên sản phẩm
+price
+double
+
+
+vat
+int
+% thuế giá trị gia tăng (thường là 10)
+image
+string(255)
+Đường dẫn tuyệt đối của ảnh đại diện sản phẩm
+images
+array
+Một mảng các đường dẫn tuyệt đối các ảnh khác của sản phẩm.
+status
+string
+Trạng thái sản phẩm: Active | Inactive
+commodityStatus
+string
+Tình trạng hàng hóa, các giá trị có thể là:
+New: Hàng mới
+Old: Hàng cũ
+commoditySource
+string
+Nguồn hàng, các giá trị có thể là:
+Company: Hàng công ty
+Genuine: Hàng chính hãng
+PortableGoods: Hàng xách tay
+previewLink
+string
+Link hiển thị trên website của sản phẩm này (if status is Active)
+description
+string
+Mô tả ngắn của sản phẩm
+advantages
+string
+Đặc điểm nổi bật của sản phẩm
+content
+string
+Bài viết chi tiết của sản phẩm
+width
+int
+in cm
+height
+int
+in cm
+length
+int
+in cm
+shippingWeight
+int
+in gram
+createdDateTime
+datetime
+format yyyy-mm-dd hh:mm:ss
+
  <table> 
     <tr>
         <th>Key</th>
