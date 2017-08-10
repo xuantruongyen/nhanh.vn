@@ -228,7 +228,7 @@ data | [ ] | is an array of product list
 </tr>
 </table>
 
-
+## inventory
 ```js
 Thông tin tồn kho:
 [
