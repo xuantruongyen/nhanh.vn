@@ -102,9 +102,11 @@ Thông tin tồn kho:
     ...
     ]
 ]
+```
 
-```js
+
 ## Attributes
+```js
 [
     size => [
         id => int,
@@ -119,7 +121,7 @@ Thông tin tồn kho:
         ]
     ]
 ]
-
+```
 
 
 
