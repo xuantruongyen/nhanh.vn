@@ -43,7 +43,7 @@ attributes|array | Xem bảng [Attributes](listen.md#attributes) bên dưới
 Một mảng thông tin tồn kho của sản phẩm:
 
 
-## 
+## Attributes
 ```js
 [
     size => [
