@@ -107,7 +107,6 @@ Thông tin tồn kho:
 ]
 ```
 
-
 ## Attributes
 ```js
 [
