@@ -8,7 +8,7 @@
 Param|Data type (Max-length)|Description
 --------- | ------------ | -------------
 storeId|string(20)|id của gian hàng trên các sàn thương mại điện tử các website bình thường không cần quan tâm đến tham số này)
-data|string| Xem bảng [Inventory](listen.md#inventory)
+data|string| Xem bảng [Inventory](listen.md#inventory) bên dưới
 checksum|string(32)|use secretKey and received data param to create<br> the checksum and compare with checksum param.</td>
   
 ## Inventory
