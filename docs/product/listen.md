@@ -36,7 +36,9 @@ height|int|in cm
 length|int|in cm
 shippingWeight|int|in gram
 createdDateTime|datetime|format yyyy-mm-dd hh:mm:ss
-inventory| array | 
+inventory|array| Xem bảng [Inventory](listen.md#inventory) bên dưới
+attributes|array | Xem bảng [Attributes](listen.md#attributes) bên dưới
+
  
 
 
