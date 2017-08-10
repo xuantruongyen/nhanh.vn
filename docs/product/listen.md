@@ -42,9 +42,7 @@ attributes|array | Xem bảng [Attributes](listen.md#attributes) bên dưới
 ## Inventory
 Một mảng thông tin tồn kho của sản phẩm:
 ```js
-Một mảng thông tin tồn kho của sản phẩm:
 [
-
     // Số tổng tồn trên tất cả các kho đang hoạt động
     
     “remain”: int // số lượng tồn
