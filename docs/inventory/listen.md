@@ -5,24 +5,12 @@
 
 - See [common request params](/api.md#request)
 
-<table>
-  <tr>
-    <th>Param</th>
-    <th>Data type (Max-length)</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>storeId</td>
-    <td>string(20)</td> 
-    <td>id của gian hàng trên các sàn thương mại điện tử
-    (các website bình thường không cần quan tâm đến tham số này)</td>
-  </tr>
-   <tr>
-    <td>data</td>
-    <td>string</td>
-    <td>
-       the JSON encoded string: decode this string to get an array:
-      <pre lang="php">
+Param|Data type (Max-length)|Description
+storeId|string(20)|id của gian hàng trên các sàn thương mại điện tử các website bình thường không cần quan tâm đến tham số này)
+data|string| Xem bảng [Inventory](listen.md#inventory)
+checksum|string(32)|use secretKey and received data param to create<br> the checksum and compare with checksum param.</td>
+  
+```js
 [         
   {
    “id”: //id sản phẩm trên website của bạn (Nếu<br> sản phẩm được  đồng bộ từ website của bạn sang Nhanh.vn,<br>nên sử dụng id này để tìm sản phẩm cần cần <br> nhập số tồn).
@@ -50,13 +38,4 @@ sản phẩm hết hàng.
   ]
   }
 ]
-      </pre>
-    </td>
-  </tr>
-   <tr>
-    <td>checksum</td>
-    <td>string(32)</td>
-    <td>use secretKey and received data param to create<br> the checksum and compare with checksum param.</td>
-  </tr>
-  
-</table>
+```
