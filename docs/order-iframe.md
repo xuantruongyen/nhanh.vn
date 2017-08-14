@@ -32,6 +32,9 @@
 **data-id** là id sản phẩm trên Nhanh.vn (idNhanh)
 **data-storeid** là id doanh nghiệp trên Nhanh.vn
 
+- Demo hiển thị trên website
+![](/assets/pasted image 0.png)
+
 
 
 
