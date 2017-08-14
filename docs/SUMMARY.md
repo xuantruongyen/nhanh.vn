@@ -35,6 +35,8 @@
 * [/api/order/add](order/add.md)
 * [/api/order/update](order/update.md)
 * [/api/customer/add](customer/add.md)
+* [/api/order-iframe](order-iframe.md)
+
 
 ## Listen webhooks from Nhanh.vn
 
@@ -43,8 +45,6 @@
 * [Listen inventory updated ](inventory/listen.md)
 * [Listen change level, add point, subtract point](bill/listenchange.md)
 * [Listen info when customer add order](order/listen-info.md)
-
-## Order Iframe
 
 ## Integrated with Elastix
 
