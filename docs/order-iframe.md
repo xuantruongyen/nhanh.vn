@@ -23,7 +23,7 @@
 	js.src = "//api.store.nhanh.vn/js/api/sdk.js";
 	fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'nhanh-jssdk'));
-</script>
+</script> 
 ```
 // Chèn đoạn sau vào chỗ hiển thị box đặt mua
 ```php
