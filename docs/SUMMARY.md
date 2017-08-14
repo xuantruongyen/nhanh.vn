@@ -1,4 +1,4 @@
-# Table of contents
+# Summary
 
 ## Getting Started
 
@@ -30,7 +30,6 @@
 * [/api/order-iframe](order-iframe.md)
 * [/api/integrated-elastix](integrated-elastix.md)
 
-
 ## Send data to Nhanh.vn
 
 * [/api/store/add](store/add.md)
@@ -39,7 +38,6 @@
 * [/api/order/update](order/update.md)
 * [/api/customer/add](customer/add.md)
 
-
 ## Listen webhooks from Nhanh.vn
 
 * [Listen order status](order/listen.md)
@@ -47,5 +45,4 @@
 * [Listen inventory updated ](inventory/listen.md)
 * [Listen change level, add point, subtract point](bill/listenchange.md)
 * [Listen info when customer add order](order/listen-info.md)
-
 
