@@ -8,5 +8,6 @@ Xem cách cài đặt tổng đài Elastix để hiển thị tên khách hàng 
 
 
 Param|Type|Mandatory|Description
+-| -----|----------|-------
 storeId|int|Yes|ID của doanh nghiệp trên Nhanh.vn
 customerMobile|string|Yes|Số điện thoại của khách hàng gọi đến
