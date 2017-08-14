@@ -33,7 +33,7 @@
 **data-storeid** là id doanh nghiệp trên Nhanh.vn
 
 - Demo hiển thị trên website
-![](/assets/pasted image 0.png)
+![](pasted image 0.png)
 
 
 
