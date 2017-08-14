@@ -24,5 +24,4 @@
 	fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'nhanh-jssdk'));
 </script>
-
 ```
