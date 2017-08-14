@@ -29,4 +29,7 @@
 ```php
 <div class="nhanh-call-product" data-id="" data-storeid="" data-backgroundbutton="cc334f" data-borderradiusbutton="5" data-font="Arial, Helvetica, sans-serif" data-fontsize="12"></div> 
 ```
+**data-id** là id sản phẩm trên Nhanh.vn (idNhanh)
+**data-storeid** là id doanh nghiệp trên Nhanh.vn
+
 
