@@ -7,6 +7,6 @@
   - Hiện giá sau khi đã áp dụng chương trình khuyến mại được cài đặt trên Nhanh.vn.
   - Hiện ô nhập mã Coupon giảm giá.
 
-- Để sử dụng tính năng này, sản phẩm trên website của bạn phải lưu thêm 1 trường id sản phẩm trên Nhanh (idNhanh), đồng thời tích hợp việc nhận thông tin sản phẩm từ Nhanh.vn (Listen product updated from Nhanh.vn), như vậy khi bạn thêm mới hoặc sửa / xóa sản phẩm trên Nhanh.vn, thông tin trên website của bạn cũng được cập nhật tương ứng.
+- Để sử dụng tính năng này, sản phẩm trên website của bạn phải lưu thêm 1 trường id sản phẩm trên Nhanh (idNhanh), đồng thời tích hợp việc nhận thông tin sản phẩm từ Nhanh.vn ([Listen product updated from Nhanh.vn](product/add.md)), như vậy khi bạn thêm mới hoặc sửa / xóa sản phẩm trên Nhanh.vn, thông tin trên website của bạn cũng được cập nhật tương ứng.
 
 - Khi khách hàng đặt hàng thông qua Order Iframe này, đơn hàng sẽ được chuyển trực tiếp về Nhanh.vn, nếu dùng cách này, bạn có thể bỏ qua được bước tích hợp Send Order information: /api/order/add
