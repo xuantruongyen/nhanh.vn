@@ -27,6 +27,9 @@
 * [/api/bill/imexrequirements](bill/imexrequirements.md)
 * [/api/bill/imexs](bill/imexs.md)
 * [/api/store/depots](store/depots.md)
+* [/api/order-iframe](order-iframe.md)
+* [/api/integrated-elastix](integrated-elastix.md)
+
 
 ## Send data to Nhanh.vn
 
@@ -35,8 +38,6 @@
 * [/api/order/add](order/add.md)
 * [/api/order/update](order/update.md)
 * [/api/customer/add](customer/add.md)
-* [/api/order-iframe](order-iframe.md)
-* [/api/integrated-elastix](integrated-elastix.md)
 
 
 ## Listen webhooks from Nhanh.vn
