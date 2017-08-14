@@ -25,3 +25,8 @@
 }(document, 'script', 'nhanh-jssdk'));
 </script>
 ```
+// Chèn đoạn sau vào chỗ hiển thị box đặt mua
+
+<div class="nhanh-call-product" data-id="" data-storeid="" data-backgroundbutton="cc334f" data-borderradiusbutton="5" data-font="Arial, Helvetica, sans-serif" data-fontsize="12"></div> 
+
+
