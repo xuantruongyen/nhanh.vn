@@ -16,8 +16,7 @@
 * Nhanh API sử dụng RESTful và JSON format.
 * PHP SDK: [https://github.com/nhanhapi/nhanh.vn](https://github.com/nhanhapi/nhanh.vn) 
 
-* [Khởi tạo tài khoản API](api.md#get-api-account)
-* [Environment](api.md#environment),  [Request](api.md#request),  [Response](api.md#response),  [Checksum](api.md#create-checksum),  [Code Sample](api.md#code-sample)
+* [Khởi tạo API Account](api.md#get-api-account),  [Environment](api.md#environment),  [Request](api.md#request),  [Response](api.md#response),  [Checksum](api.md#create-checksum),  [Code Sample](api.md#code-sample)
 
 ## Get data from Nhanh.vn
 
