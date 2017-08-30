@@ -20,7 +20,6 @@ Key | Data type | Mandatory | Description
 ----------- | -------- | -------- | -----------
 id| string(20) | Yes | id của sản phẩm
 idNhanh | bigint | No | id sản phẩm trên Nhanh.vn ([idNhanh đồng bộ từ Listen product updated from Nhanh.vn](listen.html))
-parentId | string(20) | No | id của sản phẩm cha
 code | string(255) | No | Mã sản phẩm
 barcode | string(20) | No | Mã vạch của sản phẩm
 name | string(255) | Yes | Tên sản phẩm
