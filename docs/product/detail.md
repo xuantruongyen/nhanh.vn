@@ -74,6 +74,11 @@ data = [
         <td>Giá nhập</td>
     </tr>
      <tr>
+        <td>oldPrice</td>
+        <td>double</td>
+        <td>Giá cũ</td>
+    </tr>
+     <tr>
         <td>price</td>
         <td>double</td>
         <td>Giá bán lẻ</td>
