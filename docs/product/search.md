@@ -52,6 +52,7 @@ code|string(255)|Mã sản phẩm
 name|string(255)|Tên sản phẩm
 otherName|string(255)|Tên khác của sản phẩm
 importPrice|doulbe|Giá nhập
+oldPrice|double|Giá cũ
 price|double|Giá bán lẻ
 wholesalePrice|double|Giá bán buôn
 vat|int|Thuế giá trị gia tăng (VD: 10)
