@@ -55,7 +55,7 @@ importPrice|doulbe|Giá nhập
 oldPrice|double|Giá cũ
 price|double|Giá bán lẻ
 wholesalePrice|double|Giá bán buôn
-vat|int|Thuế giá trị gia tăng (VD: 10)
+vat|int|% thuế giá trị gia tăng (VD: 10)
 image|string(255)|Đường dẫn tuyệt đối của ảnh đại diện
 images|array|Đường dẫn tuyệt đối của các ảnh khách của sản phẩm
 status|string|Trạng thái của sản phẩm: Active or Inactive
