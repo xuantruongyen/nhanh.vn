@@ -91,7 +91,7 @@ data = [
      <tr>
         <td>vat</td>
         <td>int</td>
-        <td>Thuế giá trị gia tăng (VD: 10)</td>
+        <td>% thuế giá trị gia tăng (VD: 10)</td>
     </tr>
      <tr>
         <td>image</td>
