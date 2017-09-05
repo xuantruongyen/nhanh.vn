@@ -57,7 +57,7 @@ price|double|Giá bán lẻ
 wholesalePrice|double|Giá bán buôn
 vat|int|% thuế giá trị gia tăng (VD: 10)
 image|string(255)|Đường dẫn tuyệt đối của ảnh đại diện
-images|array|Đường dẫn tuyệt đối của các ảnh khách của sản phẩm
+images|array|Đường dẫn tuyệt đối của các ảnh khác của sản phẩm
 status|string|Trạng thái của sản phẩm: Active or Inactive
 previewLink|string|Link chi tiết của sản phẩm trên website (if status is Active)
 description|string|Mô tả ngắn của sản phẩm
