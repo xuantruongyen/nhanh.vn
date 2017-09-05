@@ -58,7 +58,7 @@ wholesalePrice|double|Giá bán buôn
 vat|int|% thuế giá trị gia tăng (VD: 10)
 image|string(255)|Đường dẫn tuyệt đối của ảnh đại diện
 images|array|Đường dẫn tuyệt đối của các ảnh khác của sản phẩm
-status|string|Trạng thái của sản phẩm: Active or Inactive
+status|string|Trạng thái của sản phẩm: Active, Inactive
 previewLink|string|Link chi tiết của sản phẩm trên website (if status is Active)
 description|string|Mô tả ngắn của sản phẩm
 highlight|array|Đặc điểm nội bật của sản phẩm
@@ -78,46 +78,49 @@ createdDateTime|datetime|định dạng yyyy-mm-dd hh:mm:ss
 inventory|array| Xem bảng [Inventory](search.md#inventory) bên dưới
 attributes|array | Xem bảng [Attributes](search.md#attributes) bên dưới
  
-## Inventory
+#### Inventory
+
+- Tồn kho:
+
 ```js
-Thông tin tồn kho:
 [
     // Tổng tồn trong tất cả các kho
-    “remain”: int // số lượng tồn kho
-    “shipping”: int // số lượng đang giao hàng
-    “holding”: int // số lượng đang tạm giữ
-    “damage”: int // số lượng lỗi
-    “available”: int // số lượng có thể bán (sử dụng để hiển thị trên website, chặn đặt hàng khi hết số tồn hoặc vượt quá số tồn).
-    // Tồn tại từng kho
-    “depots”: [
-        “depotId” => [
-        “remain”: int // số lượng tồn kho
-        “shipping”: int //  số lượng đang giao hàng
-        “holding”: int // số lượng đang tạm giữ
-        “damage”: int //  số lượng lỗi
-        “available”: int // số lượng có thể bán (sử dụng để hiển thị trên website, chặn đặt hàng khi hết số tồn hoặcvượt quá số tồn).
+    "remain": int // số lượng tồn kho
+    "shipping": int // số lượng đang giao hàng
+    "holding": int // số lượng đang tạm giữ
+    "damage": int // số lượng lỗi
+    "available": int // số lượng có thể bán (sử dụng để hiển thị trên website, chặn đặt hàng khi hết số tồn hoặc vượt quá số tồn).
+    "depots": [ // Tồn tại từng kho
+        "depotId" => [
+            "remain": int // số lượng tồn kho
+            "shipping": int //  số lượng đang giao hàng
+            "holding": int // số lượng đang tạm giữ
+            "damage": int //  số lượng lỗi
+            "available": int // số lượng có thể bán (sử dụng để hiển thị trên website, chặn đặt hàng khi hết số tồn hoặcvượt quá số tồn).
         ],
-        “depotId” => [
-        ...
+        "depotId" => [
+            // ...
         ],
-    ...
     ]
 ]
 ```
 
-## Attributes
+#### Attributes
+
+- Thuộc tính sản phẩm:
+
 ```js
 [
-    size => [
-        id => int,
-        name => string
+    "size" => [
+        "id" => int,
+        "name" => string
     ],
-    color => [
-        id => int,
-        name => string,
-        parent => [ // parent color
-        id => int,
-        name => string
+    "color" => [
+        "id" => int,
+        "name" => string,
+        "parent" => [ // parent color
+            "id" => int,
+            "name" => string
         ]
     ]
 ]
