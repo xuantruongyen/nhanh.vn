@@ -2,7 +2,7 @@
   "gitbook": "3.2.2",
   "root": "./docs",
   "title": "Nhanh.vn API",
-  "plugins": ["edit-link", "prism", "-highlight", "github", "anchorjs"],
+  "plugins": ["edit-link", "prism", "-highlight", "github", "anchorjs", "ga"],
   "pluginsConfig": {
     "edit-link": {
       "base": "https://github.com/nhanhapi/nhanh.vn/tree/master",
@@ -15,6 +15,9 @@
       "styles": {
         "website": "build/gitbook.css"
       }
+    },
+    "ga": {
+      "token": "UA-43272637-5"
     }
   }
 }
