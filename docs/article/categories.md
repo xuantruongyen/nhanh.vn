@@ -15,19 +15,19 @@ messages | [ ] | is an array of error messages if code = 0
 data | [ ] | is an array of product category (multi-level)
 
 ```js
-data = [
+[
 	{
-		id: int
-		name: string
-		status: int
-		parentId: int
-		childs: [ // child categories
+		"id": int
+		"name": string
+		"status": int
+		"parentId": int
+		"childs": [ // child categories
 			{
-				id: int
-				name: string
-				status: int
-				parentId: int
-				childs: [
+				"id": int
+				"name": string
+				"status": int
+				"parentId": int
+				"childs": [
 					...
 				]
 			},
