@@ -53,7 +53,7 @@ billList| array |Lịch sử hóa đơn mua hàng, mô  tả chi tiết dưới 
 
 - billList: 
 
-Key | Data Type(Max-length) | Description
+Key | Data Type (Max-length) | Description
 --------- | ------------ | -----------
 id | int | id của hóa đơn
 depotName | string| Tên kho hàng
@@ -68,7 +68,7 @@ products | array | Chi tiết sản phẩm hàng. được mô tả chi tiết �
 
 - Products: 
 
-Key | Data Type(Max-length) | Description
+Key | Data Type (Max-length) | Description
 ------------ | ------------ | ---------
 id | int | id của sản phẩm
 code | string | Mã code của sản phẩm
