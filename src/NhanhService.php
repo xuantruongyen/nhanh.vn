@@ -33,12 +33,12 @@ class NhanhService
 
     /**
      * the server address.
-     * testing: http://dev.nhanh.vn
+     * testing: https://dev.nhanh.vn
      * production: https://graph.nhanh.vn
      *
      * @var string
      */
-    protected $server = "http://dev.nhanh.vn";
+    protected $server = "https://dev.nhanh.vn";
 //     protected $server = "https://graph.nhanh.vn";
 
     /**
