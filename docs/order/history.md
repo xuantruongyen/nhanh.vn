@@ -18,8 +18,8 @@ orderId | Int | Yes | ID đơn hàng trên Nhanh.vn
 Key | Data Type (Max-length) | Description
 ----------- | -------------- | -----------
 code | int | 1 = success or 0 = failed
-messages | [ ] | is an array of error messages if code = 0
-data | [ ] | Mảng danh sách lịch sử thao tác của đơn hàng
+messages | array | is an array of error messages if code = 0
+data | array | Mảng danh sách lịch sử thao tác của đơn hàng
 ```js
 [
 	// history 1
