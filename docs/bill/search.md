@@ -20,7 +20,7 @@ toDate | date | No | Tìm kiếm ngày tạo hóa đơn =< toDate Format yyyy-mm
 
 JSON decode the response to get the structure:
 
-Key |Data Type(Max-length) |Description
+Key | Data Type (Max-length) | Description
 ----- | --------- | --------
 code | int |1 = success or 0 = failed
 messages | [ ] |is an array of error messages if code = 0
