@@ -39,7 +39,6 @@ data | [ ] | is an array of product category (multi-level)
 			]
 			// article 2
 		]
-},
-…
+}
 ```
 
