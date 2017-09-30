@@ -26,17 +26,20 @@ messages | [ ] | is an array of error messages if code = 0
 data | [ ] | is an array of customer list
 
 ```js
-data = [
-	totalPages: int,
-	customers: [
-		{  }, // each customer item, all properties
-		 are listed in the table below
-		...
+[
+	'totalPages': int,
+	'customers': [
+		// customer 1
+		{  
+			// see properties in the table below
+		},
+		// customer 2
+		// ...
 	]
 ]
 ```
 
-Key | Data Type(Max-length) | Description
+Key | Data Type (Max-length) | Description
 ------ | ------- | ---------
 id | int | id của khách hàng
 name | string | Tên khách hàng
