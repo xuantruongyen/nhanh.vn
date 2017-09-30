@@ -22,24 +22,22 @@ code | int | 1 = success or 0 = failed
 messages | [ ] | is an array of error messages if code = 0
 data | [ ] | is an array of product category (multi-level)
 
-```json
-data = [
+```js
+[
 	{
-		totalPages: int //tổng số page
-		pages: int // page hiện tại
-		result: [ // Kết quả trả về
-			{
-				id: int //id bài viết
-				[
-					id: int //id bài viết
-					categoryId: int // cateogry id
-					status: int // Trạng thái
-					title: string // tiêu đề bài viêt
-					intro: string // giới thiệu ngắn gọn bài viết
-					content: string // Nội dung bài viết
-				]
-			},
-			...
+		'totalPages': int //tổng số page
+		'page': int // page hiện tại
+		'result': [ // Kết quả trả về
+			// article 1
+			[
+				'id': int //id bài viết
+				'categoryId': int // cateogry id
+				'status': int // Trạng thái
+				'title': string // tiêu đề bài viêt
+				'intro': string // giới thiệu ngắn gọn bài viết
+				'content': string // Nội dung bài viết
+			]
+			// article 2
 		]
 },
 …
