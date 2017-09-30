@@ -59,8 +59,8 @@ height | int | No | Chiều cao gói hàng tính theo cm (Dùng cho hàng cồng
 Key | Data Type(Max-length) | Description
 ------ | ------------ | ------------ | ----------
 code | int | 1 = success or 0 = failed
-messages | [ ] | is an array of error messages if code = 0
-data | [ ] | is an array of all supported shipping services
+messages | array | is an array of error messages if code = 0
+data | array | is an array of all supported shipping services
 
 ## Response
   - The response: JSON decode the response to get the structure:
