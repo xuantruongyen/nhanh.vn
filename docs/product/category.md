@@ -13,32 +13,33 @@ See [common request params](/api.md#request)
 Key | Data Type(Max-length) | Description
 -------- | -------------- | -----------
 code | int | 1 = success or 0 = failed
-messages | [ ] | is an array of error messages if code = 0
-data | [ ] | is an array of product category (multi-level)
+messages | array | is an array of error messages if code = 0
+data | array | is an array of product category (multi-level)
 
 Mảng đệ quy toàn bộ danh mục của doanh nghiệp
 ```js
-data = [
+[
+	// category 1
 	{
-		id: int // id danh mục
-		parentId: int // id danh mục cha
-		code: string // Mã danh mục
-		name: string // Tên danh mục
-		childs: [ // array mảng các danh mục con
+		'id': int // id danh mục
+		'parentId': int // id danh mục cha
+		'code': string // Mã danh mục
+		'name': string // Tên danh mục
+		'childs': [ // array mảng các danh mục con
 			{
-				id: int
-				parentId: int
-				code: string
-				name: string
-				childs: [
-					...
+				'id': int
+				'parentId': int
+				'code': string
+				'name': string
+				'childs': [
+
 				]
 			},
-			... 
 		]
 	},
-	...
-     ]
+	// category 2
+	// ...
+]
 ```
 
 
