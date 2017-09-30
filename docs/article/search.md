@@ -19,8 +19,8 @@ data = [
 Key | Data Type(Max-length) | Description
 ------- | ------ | -----------
 code | int | 1 = success or 0 = failed
-messages | [ ] | is an array of error messages if code = 0
-data | [ ] | is an array of product category (multi-level)
+messages | array | is an array of error messages if code = 0
+data | array | is an array of product category (multi-level)
 
 ```js
 [
