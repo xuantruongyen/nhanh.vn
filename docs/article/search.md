@@ -20,7 +20,7 @@ Key | Data Type(Max-length) | Description
 ------- | ------ | -----------
 code | int | 1 = success or 0 = failed
 messages | array | is an array of error messages if code = 0
-data | array | is an array of product category (multi-level)
+data | array | is an array of articles
 
 ```js
 [
