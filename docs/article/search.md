@@ -31,7 +31,7 @@ data | array | is an array of articles
 			// article 1
 			[
 				'id': int //id bài viết
-				'categoryId': int // cateogry id
+				'categoryId': int // category id
 				'status': int // Trạng thái
 				'title': string // tiêu đề bài viêt
 				'intro': string // giới thiệu ngắn gọn bài viết
