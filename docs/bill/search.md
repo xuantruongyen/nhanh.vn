@@ -53,7 +53,7 @@ products | array | Danh sách sản phẩm theo hóa đơn [Xem bảng bên dư�
 
 - Products:
 
-Key | Data Type(Max-length) | Description
+Key | Data Type (Max-length) | Description
 ---------- | ----------- | ----------
 id | int | id của sản phẩm
 code | string | Mã code của sản phẩm
