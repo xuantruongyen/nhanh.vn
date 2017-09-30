@@ -1,6 +1,6 @@
 # /api/product/search
 
--Tính năng này dùng để lấy danh sách sản phẩm ở trên Nhanh.vn. Dữ liệu sẽ được phân trang, mỗi trang tối đa không quá 100 sản phẩm.
+- Tính năng này dùng để lấy danh sách sản phẩm ở trên Nhanh.vn. Dữ liệu sẽ được phân trang, mỗi trang tối đa không quá 100 sản phẩm.
 
 ## Request
 
