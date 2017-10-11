@@ -1,5 +1,5 @@
 # /api/customer/search
-- Tính năng này dùng để tìm kiếm thông tin khách hàng thông qua id hoặc số điện thoại của khách hàng. hoặc lấy danh sách khách hàng. Tối đa ko quá 50 khác hàng / page
+- Tính năng này dùng để tìm kiếm thông tin khách hàng thông qua id hoặc số điện thoại của khách hàng. hoặc lấy danh sách khách hàng. Tối đa ko quá 50 khách hàng / page
 
 ## Request
 - See [common request params](/api.md#request)
