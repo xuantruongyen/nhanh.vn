@@ -41,6 +41,7 @@ Dữ liệu về sản phẩm:
 
 Dữ liệu về khách hàng
 * [/api/customer/search](customer/search.md): Lấy thông tin khách hàng
+* [/api/customer/search](customer/search.md): Lấy thông tin khách hàng
 
 Dữ liệu về tin tức
 * [api/article/categories](article/categories.md): Lấy thông tin danh mục tin tức
@@ -49,7 +50,7 @@ Dữ liệu về tin tức
 Dữ liệu về hoá đơn:
 * [/api/bill/search](bill/search.md): Lấy danh sách hóa đơn bán hàng
 * [/api/bill/imexrequirements](/bill/imexrequirements.md): Lấy danh sách sản phẩm yêu cầu xuất nhập kho
-* [/api/bill/imexs](bill/imexs.md): Lấy danh sách sản phẩm xuất nhập kho
+* [/api/integrated-elastix](integrated-elastix.md): Lấy tên khách hàng để hiển thị ở phần mềm Call Center (Tổng đài) khi có khách gọi đến.
 
 ## Send data to Nhanh.vn
 * [/api/store/add](store/add.md): Gửi thông tin doanh nghiệp
