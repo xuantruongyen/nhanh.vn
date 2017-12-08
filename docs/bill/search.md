@@ -14,8 +14,8 @@
 | icpp | int | No | Số lượng đơn hàng trên 1 trang. Mặc định là 10. Tối đa không quá 20. |
 | id | int | No | Tìm kiếm theo ID hóa đơn bán hàng |
 | customerMobile | int | No | Tìm kiếm theo số điện thoại khách hàng |
-| fromDate | date | No | Tìm kiếm ngày tạo hóa đơn &gt;= fromeDate. Format yyyy-mm-dd \(.e.g. 2015-07-16\) |
-| toDate | date | No | Tìm kiếm ngày tạo hóa đơn =&lt; toDate Format yyyy-mm-dd \(.e.g. 2015-08-16\) |
+| fromDate | date | No | Tìm kiếm ngày XNK &gt;= fromeDate. Format yyyy-mm-dd \(.e.g. 2015-07-16\) |
+| toDate | date | No | Tìm kiếm ngày XNK =&lt; toDate Format yyyy-mm-dd \(.e.g. 2015-08-16\) |
 
 ## Response
 
@@ -41,8 +41,8 @@ data = [
 | Key | Data Type\(Max-length\) | Description |
 | --- | --- | --- |
 | id | int | id của hóa đơn |
-| date| date | Ngày xuất nhập kho |
-| createdDateTime | datetime | Ngày giờ tạo hóa đơn |
+| date| date | Ngày xuất nhập kho (format: yyyy-mm-dd) |
+| createdDateTime | datetime | Ngày giờ tạo hóa đơn (format: yyyy-mm-dd h:i:s) |
 | type | int | Loại XNK (1 = Nhập, 2 = Xuất) |
 | mode | int | Kiểu XNK (1 = Giao hàng, 2 = Bán lẻ, 3 = Kiểm kho, 6 = Bán buôn, 8 = Kiểm kho) |
 | customerId | int | ID khách hàng mua hàng, có thể sử dụng để đồng bộ với ID khách hàng trong [/api/customer/search](search.html) |
