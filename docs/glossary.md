@@ -30,7 +30,8 @@ Kiểu XNK:
 | 4 | Kiểu quà tặng |
 | 5 | Kiểu nhà cung cấp |
 | 6 | Kiểu bán buôn |
-| 8 | Loại xuất kho |
+| 8 | Kiểu kiểm kho |
+| 10 | Kiểu khác |
 
 
 
