@@ -13,8 +13,8 @@
 | page | int | No | Phân trang \(giá trị mặc định là 1\) |
 | icpp | int | No | Số lượng đơn hàng trên 1 trang. Mặc định là 10. Tối đa không quá 20. |
 | id | int | No | Tìm kiếm theo ID phiếu XNK |
-| type | int | No | Tìm kiếm theo loại XNK |
-| mode | int | No | Tìm kiếm theo kiểu XNK |
+| type | int | No | Tìm kiếm theo [loại XNK](/glossary.md#inventory) |
+| mode | int | No | Tìm kiếm theo [kiểu XNK](/glossary.md#inventory) |
 | customerMobile | int | No | Tìm kiếm theo số điện thoại khách hàng |
 | fromDate | date | No | Tìm kiếm ngày XNK &gt;= fromeDate. Format yyyy-mm-dd \(.e.g. 2015-07-16\) |
 | toDate | date | No | Tìm kiếm ngày XNK =&lt; toDate Format yyyy-mm-dd \(.e.g. 2015-08-16\) |
@@ -45,8 +45,8 @@ data = [
 | id | int | id của hóa đơn |
 | date| date | Ngày xuất nhập kho (format: yyyy-mm-dd) |
 | createdDateTime | datetime | Ngày giờ tạo hóa đơn (format: yyyy-mm-dd h:i:s) |
-| type | int | Loại XNK (1 = Nhập, 2 = Xuất) |
-| mode | int | Kiểu XNK (1 = Giao hàng, 2 = Bán lẻ, 3 = Kiểm kho, 5 = Nhà cung cấp, 6 = Bán buôn, 8 = Kiểm kho) |
+| type | int | Xem [Loại XNK](/glossary.md#inventory) |
+| mode | int | Xem [Kiểu XNK](/glossary.md#inventory) |
 | customerId | int | ID khách hàng mua hàng, có thể sử dụng để đồng bộ với ID khách hàng trong [/api/customer/search](search.html) |
 | customerName | string | Tên khách hàng |
 | customerMobile | int | Số điện thoại khách hàng |
