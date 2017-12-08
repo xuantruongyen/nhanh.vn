@@ -17,7 +17,7 @@ VD: Sản phẩm “Samsung Galaxy S2” nặng 300gr, Sản phẩm fullbox còn
 
 Các thuật ngữ về kho hàng
 
-* Phiếu XNK, Sản phẩm XNK có 2 loại (type) là phiếu nhập, phiếu xuất và nhiều kiểu (mode) XNK khác nhau.
+* Phiếu XNK, Sản phẩm XNK có 2 loại (type) là phiếu nhập, phiếu xuất và nhiều kiểu (mode) XNK khác nhau:
 
 * Loại XNK:
 
