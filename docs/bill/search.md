@@ -55,7 +55,7 @@ data = [
 | payment | double | Tổng tiền đã thanh toán |
 | products | array | Danh sách sản phẩm theo hóa đơn \[Xem bảng bên dưới\] |
 
-* Products:
+* Products: Danh sách sản phẩm XNK trong phiếu
 
 | Key | Data Type \(Max-length\) | Description |
 | --- | --- | --- |
