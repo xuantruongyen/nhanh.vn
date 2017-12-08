@@ -12,7 +12,9 @@
 | --- | --- | --- | --- |
 | page | int | No | Phân trang \(giá trị mặc định là 1\) |
 | icpp | int | No | Số lượng đơn hàng trên 1 trang. Mặc định là 10. Tối đa không quá 20. |
-| id | int | No | Tìm kiếm theo ID hóa đơn bán hàng |
+| id | int | No | Tìm kiếm theo ID phiếu XNK |
+| type | int | No | Tìm kiếm theo loại XNK |
+| mode | int | No | Tìm kiếm theo kiểu XNK |
 | customerMobile | int | No | Tìm kiếm theo số điện thoại khách hàng |
 | fromDate | date | No | Tìm kiếm ngày XNK &gt;= fromeDate. Format yyyy-mm-dd \(.e.g. 2015-07-16\) |
 | toDate | date | No | Tìm kiếm ngày XNK =&lt; toDate Format yyyy-mm-dd \(.e.g. 2015-08-16\) |
