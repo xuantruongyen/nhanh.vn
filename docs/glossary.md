@@ -1,5 +1,7 @@
 # Các thuật ngữ của hệ thống
 
+## Thuật ngữ của đơn hàng online
+
 * **shippingWeight**: bao gồm cân nặng thực tế của sản phẩm và toàn bộ cân nặng của các phụ kiện và vỏ hộp đóng gói đi kèm. Shipping weight được sử dụng để tính phí vận chuyển của đơn hàng.
 VD: Sản phẩm “Samsung Galaxy S2” nặng 300gr, Sản phẩm fullbox còn bao gồm 1 sạc (30gr), 1 tai nghe (10gr) and vỏ hộp đóng gói (30gr), vậy thì shippingWeight để tính phí vận chuyển sẽ là: 300 + 30 + 10 + 30 = 370 gr.
 
@@ -9,18 +11,18 @@ VD: Sản phẩm “Samsung Galaxy S2” nặng 300gr, Sản phẩm fullbox còn
 
 * **customerShipFee**: Phí thu của khách, là mức phí mà website thông báo cho khách đặt hàng, thường sẽ lấy bằng shipFee + codFee. Tình huống website có chương trình miễn phí vận chuyển cho khách thì set customerShipFee = 0.
 
-* **Phiếu xuất nhập kho::**
+### Thuật ngữ kho hàng
 
-Phiếu XNK, Sản phẩm XNK có 2 loại (type) là phiếu nhập, phiếu xuất và nhiều kiểu (mode) XNK khác nhau.
+* Phiếu XNK, Sản phẩm XNK có 2 loại (type) là phiếu nhập, phiếu xuất và nhiều kiểu (mode) XNK khác nhau.
 
-Loại XNK: 
+* Loại XNK: 
 
 | Type (int) | Description |
 | --- | --- |
 | 1 | Loại nhập kho |
 | 2 | Loại xuất kho |
 
-Kiểu XNK:
+* Kiểu XNK:
 
 | Mode (int) | Description |
 | --- | --- |
