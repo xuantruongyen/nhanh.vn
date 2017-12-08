@@ -1,6 +1,6 @@
 # /api/bill/search
 
-* Tính năng này dùng lấy danh sách hóa đơn bán buôn và bán lẻ của doanh nghiệp. Hỗ trợ tìm kiếm thống qua: ID đơn hàng, thời gian tạo đơn hàng, số điện thoại khách hàng Tối đa ko quá 20 hóa đơn/ page
+* Tính năng này dùng lấy danh sách phiếu XNK (hóa đơn nhập nhà cung cấp, bán lẻ, bán buôn, chuyển kho, kiểm kho) của doanh nghiệp. Hỗ trợ tìm kiếm thống qua: ID đơn hàng, thời gian tạo đơn hàng, số điện thoại khách hàng Tối đa ko quá 20 hóa đơn/ page
 
 ## Request
 
