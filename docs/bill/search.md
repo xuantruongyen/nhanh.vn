@@ -44,7 +44,7 @@ data = [
 | date| date | Ngày xuất nhập kho |
 | createdDateTime | datetime | Ngày giờ tạo hóa đơn |
 | type | int | Loại XNK (1 = Nhập, 2 = Xuất) |
-| mode | int | Kiểu XNK (2 = Bán lẻ, 6 = Bán buôn) |
+| mode | int | Kiểu XNK (1 = Giao hàng, 2 = Bán lẻ, 6 = Bán buôn, 8 = Kiểm kho) |
 | customerId | int | ID khách hàng mua hàng, có thể sử dụng để đồng bộ với ID khách hàng trong [/api/customer/search](search.html) |
 | customerName | string | Tên khách hàng |
 | customerMobile | int | Số điện thoại khách hàng |
