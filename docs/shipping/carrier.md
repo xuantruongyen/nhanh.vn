@@ -4,7 +4,7 @@
 
 ## Request
 - See [common request params](/api.md#request)
-- API này set data mặc định là “carriers”.
+- Fixed dataString = "carriers"
 
 ## Response
 
