@@ -5,6 +5,7 @@
 ## Request
 
 See [common request params](/api.md#request)
+Fixed **dataString** = "productcategory"
 
 ## Response
 
