@@ -37,6 +37,8 @@ apiUsername | string(32) | Yes | API Username
 data | string | Yes | The JSON encoded string of an array (**data structure** will be explained in each request below).
 checksum | string(32) | Yes | Each request must have a checksum to validate the data. See [How to create the checksum below](#create-checksum).
 
+Một vài request sẽ có 1 dataString cố định (VD như khi lấy danh mục sản phẩm sẽ là: productcategory, khi lấy danh sách hãng vận chuyển sẽ là: carriers...), bạn chú ý ở từng API sẽ có ghi chú về fixed dataSring ở mục request của API đó.
+
 ## Response
 
 - The response is a JSON encoded string, which decodes into the following structure:
