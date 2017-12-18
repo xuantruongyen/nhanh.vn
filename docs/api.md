@@ -98,7 +98,7 @@ Simple request: send product information
 		"checksum" => $checksum
 	);
 
-	$curl = curl_init(“http://dev.nhanh.vn/api/product/add”);
+	$curl = curl_init(“https://dev.nhanh.vn/api/product/add”);
 	curl_setopt($curl, CURLOPT_POST, 1);
 	curl_setopt($curl, CURLOPT_POSTFIELDS, $postArray);
 	curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
