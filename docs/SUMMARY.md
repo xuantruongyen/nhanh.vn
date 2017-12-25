@@ -13,7 +13,7 @@
 * [/api/shipping/location](shipping/location.md)
 * [/api/shipping/multifee](shipping/multifee.md)
 * [/api/shipping/fee](shipping/fee.md)
-* [/api/order/](order/list.md)list
+* [/api/order](order/list.md)/list
 * [/api/order/history](order/history.md)
 * [/api/shipping/trackingframe](shipping/trackingframe.md)
 * [/api/product/category](product/category.md)
