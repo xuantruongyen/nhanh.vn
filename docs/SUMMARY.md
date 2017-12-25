@@ -13,8 +13,8 @@
 * [/api/shipping/location](shipping/location.md)
 * [/api/shipping/multifee](shipping/multifee.md)
 * [/api/shipping/fee](shipping/fee.md)
-* [/api/shipping/trackingframe](shipping/trackingframe.md)
 * [/api/order/history](order/history.md)
+* [/api/shipping/trackingframe](shipping/trackingframe.md)
 * [/api/product/category](product/category.md)
 * [/api/product/search](product/search.md)
 * [/api/product/detail](product/detail.md)
@@ -29,6 +29,7 @@
 * [/api/store/depots](store/depots.md)
 * [/api/order-iframe](order-iframe.md)
 * [/api/integrated-elastix](integrated-elastix.md)
+* [/api/order/index](order/index.md)
 
 ## Send data to Nhanh.vn
 
