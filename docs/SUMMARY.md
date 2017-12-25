@@ -13,8 +13,7 @@
 * [/api/shipping/location](shipping/location.md)
 * [/api/shipping/multifee](shipping/multifee.md)
 * [/api/shipping/fee](shipping/fee.md)
-* [/api/order/index](https://www.gitbook.com/book/nhanhapi/nhanh-vn/edit#)
-
+* [/api/order/index](order/index.md)
 * [/api/order/history](order/history.md)
 * [/api/shipping/trackingframe](shipping/trackingframe.md)
 * [/api/product/category](product/category.md)
@@ -32,8 +31,6 @@
 * [/api/order-iframe](order-iframe.md)
 * [/api/integrated-elastix](integrated-elastix.md)
 
-
-
 ## Send data to Nhanh.vn
 
 * [/api/store/add](store/add.md)
@@ -49,6 +46,4 @@
 * [Listen inventory updated ](inventory/listen.md)
 * [Listen change level, add point, subtract point](bill/listenchange.md)
 * [Listen info when customer add order](order/listen-info.md)
-
-
 
