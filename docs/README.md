@@ -29,8 +29,8 @@ Dữ liệu về vận chuyển:
 * [/api/shipping/trackingframe](shipping/trackingframe.md): Tạo link url hiển thị lịch trình của đơn hàng
 
 Dữ liệu về đơn hàng
-* [/api/order/history](order/history.md): Lấy lịch sử thao tác đơn hàng
 * [/api/order/index](order/index.md): Lấy danh sách đơn hàng
+* [/api/order/history](order/history.md): Lấy lịch sử thao tác đơn hàng
 
 Dữ liệu về sản phẩm:
 
