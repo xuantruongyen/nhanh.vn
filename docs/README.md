@@ -30,6 +30,7 @@ Dữ liệu về vận chuyển:
 
 Dữ liệu về đơn hàng
 * [/api/order/history](order/history.md): Lấy lịch sử thao tác đơn hàng
+* [/api/order/index](order/index.md): Lấy danh sách đơn hàng
 
 Dữ liệu về sản phẩm:
 
