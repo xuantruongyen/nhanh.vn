@@ -23,7 +23,7 @@
 | carrierCode | varchar(36) | No | Mã vận đơn HVC |
 | type	|string	 |No |Loại đơn hàng, giá trị có thể là: “Shipping” (Chuyển hàng) hoặc “Shopping” (Khách tới mua tại cửa hàng).“PreOrder”(Khách đặt hàng trước).Giá trị mặc định là Shipping.|
 | shippingType | tinyint(3) | No | Loại chuyển hàng:<br>- [G] Chuyển hàng tận nhà <br> -[Đ] Đổi sản phẩm <br> -[T] Khách trả lại hàng |
-|customerCityId|string(255)	|Yes	|Tên thành phố của người nhận hàng (Lấy từ /api/shipping/location)|
+|customerCityName |string(255)	|Yes	|Tên thành phố của người nhận hàng (Lấy từ /api/shipping/location)|
 |customerDistrictName	|string(255)	|Yes	|Tên quận huyện của người nhận hàng (Lấy từ /api/shipping/location)|
 
 
