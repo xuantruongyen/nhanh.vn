@@ -43,44 +43,8 @@ data = [
     page: Trang hiện tại,
     Orders: [
         id: ID đơn hàng,
-        billId: ID phiếu xuất nhập kho,
-        type: Loại xuất nhập kho,
-        typeName: Tên loại xuất nhập kho,
-        mode: Kiểu xuất nhập kho,
-        modeName: Tên kiểu xuất nhập kho,
-        date: Ngày xuất nhập kho,
-        depotId: ID kho,
-        depotName: Tên kho,
-        relatedDepotId: ID kho liên quan,
-        relatedDepotName: Tên kho liên quan
-        supplierId: ID nhà cung cấp,
-        supplierName: Tên nhà cung cấp,
-        supplierMobile: Số điện thoại nhà cung cấp,
-        productStoreId: ID sản phẩm xuất nhập kho,
-        relatedProductStoreId: ID sản phẩm xuất nhập kho,
-        proudctStore: [
-            code: Mã sản phẩm,
-            barcode: Mã vạch sản phẩm,
-            name: tên sản phẩm,
-            importPrice: Giá nhập sản phẩm,
-            price: Giá bán sản phẩm,
-            avgCost: Giá vốn sản phẩm
-        ]
-        imeiId: Imei Id,
-        imei: Số imei sản phẩm,
-        avgCost: Giá vốn sản phẩm trong lần xuất nhập kho,
-        productPrice: Giá sản phẩm trong lần xuất nhập kho,
-        remain: Số tồn còn lại tính tới lần xuất nhập kho,
-        description: Mô tả trong lần xuất nhập kho,
-        discount: Chiết khấu trong lần xuất nhập kho,
-        points: Số point được tặng trong lần xuất nhập kho của sản phẩm ,
-        usedPoints: Số point đã tiêu trong lần xuất nhập kho của sản phẩm,
-        createdDateTime: Thời gian tạo phiếu xuât nhập kho,
-        saleBonus: Tiền hoa hồng nhân viên bán hàng được hưởng với sản phẩm,
-        extendedWarrantyId: Id bảo hành mở rộng,
-        extendedWarrantyMoney: Tiền bảo hành mở rộng,
-        extendedWarrantyMonths: Số tháng bảo hành mở rộng,
-        warrantyReasonId: Id lý do bảo hành
+        customerMobile : Mobile người nhận hàng,
+        
     ],
     ….
     [...]
