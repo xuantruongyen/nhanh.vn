@@ -16,26 +16,26 @@ VD: Sản phẩm “Samsung Galaxy S2” nặng 300gr, Sản phẩm fullbox còn
 * ##### Order Status: 
 Trạng thái đơn hàng
 
- Status | Description
- --- | --- 
-New | Đơn mới
-Confirming | Đang xác nhận
-CustomerConfirming | Chờ khách xác nhận
-Confirmed | Đã xác nhận
-Packing | Đang đóng gói
-ChangeDepot | Đổi kho xuất hàng
-Pickup | Chờ đi lấy hàng
-Pickingup | Đang đi lấy hàng
-Pickedup | Đã lấy hàng từ kho
-Shipping | Đang giao hàng
-Success | Thành công
-Failed | Thất bại
-Canceled | Khách hủy
-Aborted | Hệ thống hủy
-CarrierCanceled | Hãng vận chuyển hủy đơn
-SoldOut | Hết hàng
-Returning | Đang chuyển hoàn
-Returned | Đã chuyển hoàn
+ |Status | Description|
+ |--- | --- |
+|New | Đơn mới|
+|Confirming | Đang xác nhận|
+|CustomerConfirming | Chờ khách xác nhận|
+|Confirmed | Đã xác nhận|
+|Packing | Đang đóng gói|
+|ChangeDepot | Đổi kho xuất hàng|
+|Pickup | Chờ đi lấy hàng|
+|Pickingup | Đang đi lấy hàng|
+|Pickedup | Đã lấy hàng từ kho|
+|Shipping | Đang giao hàng|
+|Success | Thành công|
+|Failed | Thất bại|
+|Canceled | Khách hủy|
+|Aborted | Hệ thống hủy|
+|CarrierCanceled | Hãng vận chuyển hủy đơn|
+|SoldOut | Hết hàng|
+|Returning | Đang chuyển hoàn|
+|Returned | Đã chuyển hoàn|
 
 
 ### Inventory
