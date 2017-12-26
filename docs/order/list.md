@@ -42,7 +42,7 @@ data = [
     totalPage: Tổng số trang,
     page: Trang hiện tại,
     Orders: [
-        id: ID phiếu sản phẩm xuất nhập kho,
+        id: ID đơn hàng,
         billId: ID phiếu xuất nhập kho,
         type: Loại xuất nhập kho,
         typeName: Tên loại xuất nhập kho,
