@@ -17,8 +17,8 @@
 | id | Int | No | ID đơn hàng |
 | customerMobile |string(11)	|Yes	|Mobile của người nhận hàng|
 |status	|string	|No	| Trạng thái đơn hàng xem [tại đây](https://developers.nhanh.vn/glossary.html#Order) |
-| fromDeliveryDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày giao hàng |
-| toDeliveryDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày giao hàng |
+| fromDeliveryDate | string | No | Định dạng: yyyy-mm-dd. Ngày giao hàng |
+| toDeliveryDate | string | No | Định dạng: yyyy-mm-dd. Ngày giao hàng |
 | carrierId |int |	No | id hãng vận chuyển (Lấy từ [/api/shipping/fee](https://developers.nhanh.vn/shipping/fee.html)) |
 | carrierCode | varchar(36) | No | Mã vận đơn HVC |
 | type	|string	 |No |Loại đơn hàng, giá trị có thể là: “Shipping” (Chuyển hàng) hoặc “Shopping” (Khách tới mua tại cửa hàng).“PreOrder”(Khách đặt hàng trước).Giá trị mặc định là Shipping.|
