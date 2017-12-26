@@ -46,7 +46,9 @@ data = [
         depotId : Cửa hàng,
         customerMobile : Mobile người nhận hàng,
         customerCityId : Thành phố,
-        customerDistrictId : Quận huyện
+        customerDistrictId : Quận huyện,
+        carrierId : Hãng vận chuyển,
+        carrierServiceId : Dịch vụ vân chuyển
         
         
     ],
