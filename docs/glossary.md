@@ -16,7 +16,7 @@ VD: Sản phẩm “Samsung Galaxy S2” nặng 300gr, Sản phẩm fullbox còn
 * ##### Order Status: 
 Trạng thái đơn hàng
 
- Status | Description 
+ Status | Description
  --- | --- 
 New | Đơn mới
 Confirming | Đang xác nhận
