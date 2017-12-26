@@ -1,6 +1,6 @@
 # /api/order/index
 
-* Tính năng này dùng để lấy lịch sử thao tác với đơn hàng.
+* Tính năng này dùng để lấy danh sách đơn hàng.
 
 ## Request
 
