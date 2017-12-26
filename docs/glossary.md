@@ -18,8 +18,8 @@ Trạng thái đơn hàng
 
 | Status | Description |
 | --- | --- |
-| New | đơn hàng mới
-| Confirmed | CSKH đã xác nhận
+| New | Mới
+| Confirmed | Đã xác nhận
 | Pickedup | Đã nhận hàng
 | Shipping | Đang chuyển
 | Success | Thành công
