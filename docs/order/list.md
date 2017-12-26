@@ -44,6 +44,7 @@ data = [
     Orders: [
         id: ID đơn hàng,
         depotId : Cửa hàng,
+        customerName : Tên khách hàng,
         customerMobile : Mobile người nhận hàng,
         customerCityId : Thành phố,
         customerDistrictId : Quận huyện,
