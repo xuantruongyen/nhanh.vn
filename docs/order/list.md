@@ -43,7 +43,11 @@ data = [
     page: Trang hiện tại,
     Orders: [
         id: ID đơn hàng,
+        depotId : Cửa hàng,
         customerMobile : Mobile người nhận hàng,
+        customerCityId : Thành phố,
+        customerDistrictId : Quận huyện
+        
         
     ],
     ….
