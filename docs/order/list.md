@@ -49,7 +49,8 @@ data = [
         customerDistrictId : Quận huyện,
         carrierId : Hãng vận chuyển,
         carrierServiceId : Dịch vụ vân chuyển
-        
+        moneyDepositAccountId : Tiền gửi,
+        moneyTransferAccountId : Tiền chuyển khoản
         
     ],
     ….
