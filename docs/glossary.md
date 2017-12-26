@@ -37,7 +37,6 @@ Trạng thái đơn hàng
 |Returning | Đang chuyển hoàn|
 |Returned | Đã chuyển hoàn|
 
-
 ### Inventory
 
 Các thuật ngữ về kho hàng
