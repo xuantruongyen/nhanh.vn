@@ -4,19 +4,37 @@
 
 ## Request
 
-* See [common request params](/api.md#request)
+See [common request params](/api.md#request)
 
-* The search param - \(Data array\)
+The search param - \(Data array\)
 
 | Param |  | Mandatory | Description |
 | --- | --- | --- | --- |
 | page | Int | No | Phân trang \(giá trị mặc định là 1\) |
 | icpp | Int | No | Số lượng sản phẩm trên 1 trang. Mặc định là 10. Tối đa không quá 20. |
-| fromDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày tạo đơn hàng. |
-| toDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày tạo đơn hàng. |
-| id | Int | No | ID đơn hàng |
-| customerMobile | Varchar | No | Số điện thoại khách hàng |
-| status | string | No |  |
+| fromDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày tạo phiếu. |
+| toDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày tạo phiếu. |
+id	Int	No	ID sản phẩm xuất nhập kho
+billId	Int	No	ID phiếu xuất nhập kho
+type	Int	No	Loại xuất nhập kho
+mode	Int	No	Kiểu xuất nhập kho
+depotId	Int	No	ID kho
+relatedDepotId	Int	No	ID kho liên quan
+supplierId	Int	No	ID nhà cung cấp
+productStoreId	Int	No	ID sản phẩm xuất nhập kho
+productStoreName	string	No	Tên (mã, mã vạch) sản phẩm xuất nhập kho
+relatedProductStoreId	Int	No	ID sản phẩm XNK liên quan
+categoryId	Int	No	ID danh mục sản phẩm
+internalCategoryId	Int	No	ID danh mục nội bộ sản phẩm
+brandId	Int	No	ID thương hiệu sản phẩm
+productStoreTypeId	Int	No	Loại sản phẩm:
+1: Sản phẩm2: Voucher3: Sản phẩm cân đo
+4: Sản phẩm theo IMEI
+5: Gói sản phẩm
+6: Dịch vụ
+imeiId	Int	No	Imei Id
+imei	string	No	Số imei
+warrantyBillId	Int	No	ID phiếu bảo hành
 
 ## Response
 
