@@ -20,6 +20,8 @@ VD: Sản phẩm “Samsung Galaxy S2” nặng 300gr, Sản phẩm fullbox còn
 | 54 | New // đơn hàng mới |
 | 57 | Confirmed // CSKH đã xác nhận |
 | 45| pickedup // Đã nhận hàng |
+| 59| shipping // Đang chuyển | 
+| 60| success // Thành công| 
 | 4 | Canceled // Khách hủy |
 | 5 | Aborted // Hệ thống hủy |
 Nếu không set giá trị gì thì Nhanh.vn sẽ lấy mặc định là New
