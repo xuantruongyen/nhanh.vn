@@ -18,13 +18,7 @@ Trạng thái đơn hàng
 
 | Status | Description |
 | --- | --- |
-| New | Mới
-| Confirmed | Đã xác nhận
-| Pickedup | Đã nhận hàng
-| Shipping | Đang chuyển
-| Success | Thành công
-| Canceled | Khách hủy
-| Aborted | Hệ thống hủy
+
 
 
 ### Inventory
