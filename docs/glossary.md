@@ -13,18 +13,18 @@ VD: Sản phẩm “Samsung Galaxy S2” nặng 300gr, Sản phẩm fullbox còn
 
 * **customerShipFee**: Phí thu của khách, là mức phí mà website thông báo cho khách đặt hàng, thường sẽ lấy bằng shipFee + codFee. Tình huống website có chương trình miễn phí vận chuyển cho khách thì set customerShipFee = 0.
 
-* ##### Status : Loại đơn hàng
+* ##### Status: 
+Trạng thái đơn hàng
 
-| Mode (int) | Description |
+| Status | Description |
 | --- | --- |
-| 54 | New // đơn hàng mới |
-| 57 | Confirmed // CSKH đã xác nhận |
-| 45| pickedup // Đã nhận hàng |
-| 59| shipping // Đang chuyển | 
-| 60| success // Thành công| 
-| 63 | Canceled // Khách hủy |
-| 64 | Aborted // Hệ thống hủy |
-Nếu không set giá trị gì thì Nhanh.vn sẽ lấy mặc định là New
+| New | đơn hàng mới
+| Confirmed | CSKH đã xác nhận
+| Pickedup | Đã nhận hàng
+| Shipping | Đang chuyển
+| Success | Thành công
+| Canceled | Khách hủy
+| Aborted | Hệ thống hủy
 
 
 ### Inventory
