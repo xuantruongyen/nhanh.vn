@@ -19,7 +19,7 @@
 |status	|string	|No	|Trạng thái của đơn hàng, có thể là các giá trị:<br>New // đơn hàng mới<br>Confirmed // CSKH đã xác nhận<br>StoreConfirmed // chủ doanh nghiệp đã xác nhận<br>Canceled // Khách hủy<br>Aborted // Hệ thống hủy<br>Nếu không set giá trị gì thì Nhanh.vn sẽ lấy mặc định là New |
 | fromDeliveryDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày giao hàng |
 | toDeliveryDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày giao hàng |
-| carrierId |int |	No | id hãng vận chuyển (Lấy từ /api/shipping/fee) |
+| carrierId |int |	No | id hãng vận chuyển (Lấy từ [/api/shipping/fee](shipping/fee.md) ) |
 
 
 
