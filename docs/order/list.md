@@ -16,8 +16,7 @@
 | toDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày tạo đơn hàng. |
 | id | Int | No | ID đơn hàng |
 | customerMobile |string(255)	|Yes	|Mobile của người nhận hàng|
-|status	|string	|No	|Trạng thái của đơn hàng, có thể là các giá trị:<br>New // đơn hàng mới<br>Confirmed // CSKH đã xác nhận<br>StoreConfirmed // chủ doanh nghiệp đã xác nhận<br>Canceled // Khách hủy<br>Aborted // Hệ thống hủy
-<br>Nếu không set giá trị gì thì Nhanh.vn sẽ lấy mặc định là New |
+|status	|string	|No	|Trạng thái của đơn hàng, có thể là các giá trị:<br>New // đơn hàng mới<br>Confirmed // CSKH đã xác nhận<br>StoreConfirmed // chủ doanh nghiệp đã xác nhận<br>Canceled // Khách hủy<br>Aborted // Hệ thống hủy<br>Nếu không set giá trị gì thì Nhanh.vn sẽ lấy mặc định là New |
 | fromDeliveryDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày giao hàng |
 | toDeliveryDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày giao hàng |
 
