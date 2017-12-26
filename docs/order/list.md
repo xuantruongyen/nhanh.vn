@@ -15,7 +15,8 @@
 | fromDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày tạo đơn hàng. |
 | toDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày tạo đơn hàng. |
 | id | Int | No | ID đơn hàng |
-|  |  |  |  |
+| customerMobile |string(255)	|Yes	|Mobile của người nhận hàng|
+
 
 ## Response
 
