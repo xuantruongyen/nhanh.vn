@@ -81,7 +81,7 @@ data =
         "productName" : string, // Tên sản phẩm
         "productCode" : int, // Mã sản phẩm
         "productBarCode" : int, // Mã vạch sản phẩm
-        "price" : bigint, // Giá sản phẩm
+        "price" : double, // Giá sản phẩm
         "quantity" : double, // Số lượng sản phẩm
         "weight" : int , // Trọng lượng sản phẩm
         "discount" : double, // Chiết khấu
