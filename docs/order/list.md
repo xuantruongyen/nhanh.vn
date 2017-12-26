@@ -1,7 +1,7 @@
 
 # /api/order/index
 
-    - Tính năng này dùng để lấy danh sách sản phẩm xuất nhập kho của doanh nghiệp.
+    - Tính năng này dùng để lấy danh sách đơn hàng.
 
     ## Request
 
