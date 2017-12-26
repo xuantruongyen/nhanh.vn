@@ -18,13 +18,11 @@ VD: Sản phẩm “Samsung Galaxy S2” nặng 300gr, Sản phẩm fullbox còn
 | Mode (int) | Description |
 | --- | --- |
 | 1 | New // đơn hàng mới |
-| 2 | Kiểu bán lẻ |
-| 3 | Kiểu chuyển kho |
-| 4 | Kiểu quà tặng |
-| 5 | Kiểu nhà cung cấp |
-| 6 | Kiểu bán buôn |
-| 8 | Kiểu kiểm kho |
-| 10 | Kiểu khác |
+| 2 | Confirmed // CSKH đã xác nhận |
+| 3 | StoreConfirmed // chủ doanh nghiệp đã xác nhận |
+| 4 | Canceled // Khách hủy |
+| 5 | Aborted // Hệ thống hủy |
+Nếu không set giá trị gì thì Nhanh.vn sẽ lấy mặc định là New
 
 
 ### Inventory
