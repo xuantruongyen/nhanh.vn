@@ -15,7 +15,7 @@
 | fromDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày tạo đơn hàng. |
 | toDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày tạo đơn hàng. |
 | id | Int | No | ID đơn hàng |
-| customerMobile |string(255)	|Yes	|Mobile của người nhận hàng|
+| customerMobile |string(11)	|Yes	|Mobile của người nhận hàng|
 |status	|string	|No	| Trạng thái đơn hàng xem [tại đây](https://developers.nhanh.vn/glossary.html#Order) |
 | fromDeliveryDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày giao hàng |
 | toDeliveryDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày giao hàng |
