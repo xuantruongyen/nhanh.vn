@@ -27,11 +27,7 @@ The search param - \(Data array\)
 |categoryId	|Int	|No	|ID danh mục sản phẩm|
 |internalCategoryId	|Int	|No	|ID danh mục nội bộ sản phẩm|
 |brandId	|Int	|No	|ID thương hiệu sản phẩm|
-|productStoreTypeId	|Int	|No	|Loại sản phẩm:
-1: Sản phẩm2: Voucher3: Sản phẩm cân đo
-4: Sản phẩm theo IMEI
-5: Gói sản phẩm
-6: Dịch vụ
+|productStoreTypeId	|Int	|No	|Loại sản phẩm: <br>1: Sản phẩm<br>2: Voucher<br>3: Sản phẩm cân đo<br>4: Sản phẩm theo IMEI<br>5: Gói sản phẩm<br>6: Dịch vụ
 |
 imeiId	Int	No	Imei Id
 imei	string	No	Số imei
