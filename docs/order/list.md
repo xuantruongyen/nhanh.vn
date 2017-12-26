@@ -75,6 +75,16 @@ data =
 ```
 
 ### Order Product
+```js
+[
+    "productName" : string, // Tên sản phẩm
+    "productCode" : int, // Mã sản phẩm
+    "productBarCode" : int, // Mã vạch sản phẩm
+
+
+]
+```
+
 
 
 
