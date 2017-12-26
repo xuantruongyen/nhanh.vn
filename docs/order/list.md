@@ -16,7 +16,7 @@
 | toDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày tạo đơn hàng. |
 | id | Int | No | ID đơn hàng |
 | customerMobile |string(255)	|Yes	|Mobile của người nhận hàng|
-|status	|string	|No	|Trạng thái của đơn hàng, có thể là các giá trị:<br>New // đơn hàng mới<br>Confirmed // CSKH đã xác nhận<br>StoreConfirmed // chủ doanh nghiệp đã xác nhận<br>Canceled // Khách hủy<br>Aborted // Hệ thống hủy<br>Nếu không set giá trị gì thì Nhanh.vn sẽ lấy mặc định là New |
+|status	|string	|No	| Xem [tại đây](https://developers.nhanh.vn/glossary.html#Order) |
 | fromDeliveryDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày giao hàng |
 | toDeliveryDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày giao hàng |
 | carrierId |int |	No | id hãng vận chuyển (Lấy từ [/api/shipping/fee](https://developers.nhanh.vn/shipping/fee.html)) |
@@ -52,8 +52,14 @@ data = [
         carrierServiceId : Dịch vụ vân chuyển
         moneyDepositAccountId : Tiền đặt cọc,
         moneyTransferAccountId : Tiền chuyển khoản,
-        
-        
+        productName : Tên sản phẩm,
+        productCode : Mã sản phẩm,
+        productBarCode : Mã vạch sản phẩm,
+        price : Giá,
+        quantity : Số lượng,
+        weight : Trọng lượng,
+        discount : Chiết khấu,
+        description : Mô tả
     ],
     ….
     [...]
