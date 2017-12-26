@@ -85,7 +85,7 @@ data =
         "quantity" : double, // Số lượng sản phẩm
         "weight" : int , // Trọng lượng sản phẩm
         "discount" : double, // Chiết khấu
-        "description" : varchar, // Mô tả sản phẩm
+        "description" : string, // Mô tả sản phẩm
     ],
     [
         // Sản phẩm 2
