@@ -38,6 +38,8 @@ shippingWeight|int|in gram
 createdDateTime|datetime|format yyyy-mm-dd hh:mm:ss
 inventory|array| Xem bảng [Inventory](listen.md#inventory) bên dưới
 attributes|array | Xem bảng [Attributes](listen.md#attributes) bên dưới
+promotionValue | int | Giá trị khuyến mại (Điền ở thông tin sản phẩm)
+promotionContent | string | Mô tả khuyến mại (Điền ở thông tin sản phẩm)
 
 ## Inventory
 Một mảng thông tin tồn kho của sản phẩm:
