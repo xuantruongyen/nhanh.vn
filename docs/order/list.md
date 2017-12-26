@@ -37,33 +37,45 @@ JSON decode the response to get the structure:
 | data | \[ \] | Mảng danh sách đơn hàng |
 
 ```js
-data = [
-    totalPage: Tổng số trang,
-    page: Trang hiện tại,
-    Orders: [
-        id: ID đơn hàng,
-        depotId : Cửa hàng,
-        customerName : Tên khách hàng,
-        customerMobile : Mobile người nhận hàng,
-        customerCityId : Thành phố,
-        customerDistrictId : Quận huyện,
-        carrierId : Hãng vận chuyển,
-        carrierServiceId : Dịch vụ vân chuyển
-        moneyDepositAccountId : Tiền đặt cọc,
-        moneyTransferAccountId : Tiền chuyển khoản,
-        productName : Tên sản phẩm,
-        productCode : Mã sản phẩm,
-        productBarCode : Mã vạch sản phẩm,
-        price : Giá,
-        quantity : Số lượng,
-        weight : Trọng lượng,
-        discount : Chiết khấu,
-        description : Mô tả
-    ],
-    ….
-    [...]
+data = 
+[
+    "totalPages": int, // Tổng số trang
+    "page": int, // Trang hiện tại
+    "orders": [
+        [
+            // Đơn hàng 1
+            "id": int, // ID đơn hàng
+            "depotName": string, // Tên Cửa hàng
+            "type": string, // Loại đơn hàng (Shipping | Shopping)
+            "shippingType": string, // Loại chuyển hàng
+            "carrierName": string, // Tên hãng vận chuyển
+            "carrierServiceName": string, // Dịch vụ vân chuyển
+            "moneyDiscount": double, // Tiền chiết khấu           
+            "moneyDeposit": double, // Tiền đặt cọc
+            "moneyTransfer": double, // Tiền chuyển khoản
+            "description": string, // ghi chú của khách hàng
+            "privateDescription" string, // ghi chú của CSKH
+            "customerName": string, // Tên khách hàng
+            "customerMobile": string, // Họ tên khách hàng
+            "customerEmail": string, // Email khách hàng
+            "customerAddress": string, // Địa chỉ khách hàng
+            "customerCity": string, // Thành phố
+            "customerDistrict": string, // Quận huyện
+            "createdDateTime": string, // Thời gian tạo đơn hàng
+            "deliveryDate": string, // Thời gian giao đơn hàng
+            "statusName": string, // trạng thái đơn hàng
+            "products": array, // Xem bảng Order Product bên dưới
+        ],
+        [
+            // Đơn hàng 2
+        ],
+        // ...
+    ]
 ]
 ```
+
+### Order Product
+
 
 
 
