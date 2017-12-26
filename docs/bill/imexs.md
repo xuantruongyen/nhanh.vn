@@ -16,8 +16,8 @@ The search param - \(Data array\)
 | toDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày tạo phiếu. |
 |id	|Int	|No	|ID sản phẩm xuất nhập kho|
 |billId	|Int	|No	|ID phiếu xuất nhập kho|
-|type	|Int	|No	|Loại xuất nhập kho|
-|mode	|Int	|No	|Kiểu xuất nhập kho|
+|type	|Int	|No	|Tìm kiếm theo [loại XNK](/glossary.md#inventory)|
+|mode	|Int	|No	|Tìm kiếm theo [kiểu XNK](/glossary.md#inventory)|
 |depotId	|Int	|No	|ID kho|
 |relatedDepotId	|Int	|No	|ID kho liên quan|
 |supplierId	|Int	|No	|ID nhà cung cấp|
