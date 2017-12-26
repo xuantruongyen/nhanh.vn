@@ -1,4 +1,4 @@
-# /api/bill/imexs
+# /api/order/index
 
 * Tính năng này dùng để lấy danh sách đơn hàng của doanh nghiệp.
 
