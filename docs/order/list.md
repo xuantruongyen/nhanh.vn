@@ -20,7 +20,7 @@
 | fromDeliveryDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày giao hàng |
 | toDeliveryDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày giao hàng |
 | carrierId |int |	No | id hãng vận chuyển (Lấy từ [/api/shipping/fee](https://developers.nhanh.vn/shipping/fee.html)) |
-
+| carrierCode | varchar(36) | No | Mã vận đơn HVC |
 
 
 
