@@ -41,7 +41,7 @@ JSON decode the response to get the structure:
 data = [
     totalPage: Tổng số trang,
     page: Trang hiện tại,
-    Imexs: [
+    Orders: [
         id: ID phiếu sản phẩm xuất nhập kho,
         billId: ID phiếu xuất nhập kho,
         type: Loại xuất nhập kho,
