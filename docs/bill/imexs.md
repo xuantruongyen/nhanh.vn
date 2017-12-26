@@ -1,6 +1,6 @@
 # /api/bill/imexs
 
-* Tính năng này dùng để lấy danh sách đơn hàng của doanh nghiệp.
+* Tính năng này dùng để lấy danh sách phiếu XNK của doanh nghiệp.
 
 ## Request
 
