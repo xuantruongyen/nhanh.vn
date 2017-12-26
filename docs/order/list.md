@@ -14,22 +14,7 @@ icpp | Int | No | Số lượng sản phẩm trên 1 trang. Mặc định là 10
 fromDate| string | No | Định dạng: Ngày/Tháng/Năm. Ngày tạo đơn hàng.
 toDate | string| No| Định dạng: Ngày/Tháng/Năm. Ngày tạo đơn hàng.
 id | Int | No | ID đơn hàng
-billId | Int | No | ID phiếu xuất nhập kho
-type | Int |No | [Loại xuất nhập kho](/glossary.md#inventory)
-mode | Int| No | [Kiểu xuất nhập kho](/glossary.md#inventory)
-depotId| Int | No | ID kho
-relatedDepotId | Int| No | ID kho liên quan
-supplierId | Int | No| ID nhà cung cấp
-productStoreId| Int|No| ID sản phẩm xuất nhập kho
-productStoreName | string | No| Tên (mã, mã vạch) sản phẩm xuất nhập kho
-relatedProductStoreId | Int | No | ID sản phẩm XNK liên quan
-categoryId | Int | No | ID danh mục sản phẩm
-internalCategoryId | Int | No | ID danh mục nội bộ sản phẩm
-brandId | Int | No | ID thương hiệu sản phẩm
-productStoreTypeId | Int | No | Loại sản phẩm:<br>1: Sản phẩm2: Voucher3: Sản phẩm cân đo<br>4: Sản phẩm theo IMEI<br>5: Gói sản phẩm<br>6: Dịch vụ
-imeiId |Int| No | Imei Id
-imei| string | No | Số imei
-warrantyBillId | Int | No | ID phiếu bảo hành
+
 
 ## Response
 JSON decode the response to get the structure:
