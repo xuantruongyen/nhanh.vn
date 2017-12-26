@@ -13,6 +13,20 @@ VD: Sản phẩm “Samsung Galaxy S2” nặng 300gr, Sản phẩm fullbox còn
 
 * **customerShipFee**: Phí thu của khách, là mức phí mà website thông báo cho khách đặt hàng, thường sẽ lấy bằng shipFee + codFee. Tình huống website có chương trình miễn phí vận chuyển cho khách thì set customerShipFee = 0.
 
+* Loại đơn hàng: 
+
+| Mode (int) | Description |
+| --- | --- |
+| 1 | New // đơn hàng mới |
+| 2 | Kiểu bán lẻ |
+| 3 | Kiểu chuyển kho |
+| 4 | Kiểu quà tặng |
+| 5 | Kiểu nhà cung cấp |
+| 6 | Kiểu bán buôn |
+| 8 | Kiểu kiểm kho |
+| 10 | Kiểu khác |
+
+
 ### Inventory
 
 Các thuật ngữ về kho hàng
