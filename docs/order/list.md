@@ -10,7 +10,7 @@
 
 | Param | Data Type | Mandatory | Description |
 | --- | --- | --- | --- |
-| orderId | Int | Yes | ID đơn hàng trên Nhanh.vn |
+|  |  | string | no |
 
 ## Response
 
