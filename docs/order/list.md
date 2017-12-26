@@ -11,7 +11,7 @@ Param | | Mandatory | Description
 ------|----------|------|-----------
 page | Int | No | Phân trang (giá trị mặc định là 1)
 icpp | Int | No | Số lượng sản phẩm trên 1 trang. Mặc định là 10. Tối đa không quá 20. 
-fromDate| string | No | Định dạng: Ngày/Tháng/Năm. Ngày tạo phiếu.
+fromDate| string | No | Định dạng: Ngày/Tháng/Năm. Ngày tạo đơn hàng.
 toDate | string| No| Định dạng: Ngày/Tháng/Năm. Ngày tạo phiếu.
 id | Int | No | ID sản phẩm xuất nhập kho
 billId | Int | No | ID phiếu xuất nhập kho
