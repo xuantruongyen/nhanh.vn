@@ -19,7 +19,7 @@
 | fromDeliveryDate | string | No | Định dạng: yyyy-mm-dd. Ngày giao hàng |
 | toDeliveryDate | string | No | Định dạng: yyyy-mm-dd. Ngày giao hàng |
 | carrierId |int |	No | id hãng vận chuyển (Lấy từ [/api/shipping/fee](https://developers.nhanh.vn/shipping/fee.html)) |
-| carrierCode | string(36) | No | Mã vận đơn HVC |
+| carrierCode | string(36) | No | Mã vận đơn hãng vận chuyển |
 | type	|string	 |No |Loại đơn hàng, giá trị có thể là: “Shipping” (Chuyển hàng) hoặc “Shopping” (Khách tới mua tại cửa hàng).“PreOrder”(Khách đặt hàng trước).Giá trị mặc định là Shipping.|
 | shippingType | int | No | Loại chuyển hàng:<br>- [G] Chuyển hàng tận nhà <br> - [Đ] Đổi sản phẩm <br> - [T] Khách trả lại hàng |
 |customerCityName |string(255)	|Yes	|Tên thành phố của người nhận hàng (Lấy từ [/api/shipping/location](https://developers.nhanh.vn/shipping/location.html))|
