@@ -21,7 +21,7 @@ class NhanhService
     const URI_SHIPPING_MULTIFEE     = '/api/shipping/multifee';
     const URI_SHIPPING_CARRIER      = '/api/shipping/carrier';
     const URI_SHIPPING_LOCATION     = '/api/shipping/location';
-    const URI_ORDER_INDEX             = '/api/order/index';
+    const URI_ORDER_INDEX           = '/api/order/index';
     const URI_ORDER_ADD             = '/api/order/add';
     const URI_ORDER_UPDATE          = '/api/order/update';
     const URI_CUSTOMER_SEARCH       = '/api/customer/search';
