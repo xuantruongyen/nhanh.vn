@@ -40,8 +40,9 @@ JSON decode the response to get the structure:
 data = 
 [
     "totalPages": int, // Tổng số trang
+    "totalRecords": int, // Tổng số bản ghi tất cả các trang
     "page": int, // Trang hiện tại
-    "orders": [
+    "orders": [ // Danh sách đơn hàng trang hiện tại
         [
             // Đơn hàng 1
             "id": int, // ID đơn hàng
