@@ -11,10 +11,10 @@
 | Param |  | Mandatory | Description |
 | --- | --- | --- | --- |
 | page | int | No | Phân trang \(giá trị mặc định là 1\) |
-| fromDate | string | No | Định dạng: yyyy-mm-dd. Ngày tạo đơn hàng. |
-| toDate | string | No | Định dạng: yyyy-mm-dd. Ngày tạo đơn hàng. |
+| fromDate | string | No | Ngày tạo đơn hàng: Định dạng yyyy-mm-dd. |
+| toDate | string | No | Ngày tạo đơn hàng: Định dạng yyyy-mm-dd. |
 | id | int | No | ID đơn hàng |
-| customerMobile |string |Yes	|Mobile của người nhận hàng|
+| customerMobile |string |Yes	| điện thoại của người nhận hàng |
 |status	|string	| No | Trạng thái đơn hàng xem [tại đây](https://developers.nhanh.vn/glossary.html#order-status) |
 | fromDeliveryDate | string | No | Định dạng: yyyy-mm-dd. Ngày giao hàng |
 | toDeliveryDate | string | No | Định dạng: yyyy-mm-dd. Ngày giao hàng |
