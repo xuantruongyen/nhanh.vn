@@ -8,7 +8,7 @@
 
 * The search param - \(Data array\)
 
-| Param |  | Mandatory | Description |
+| Param | Data Type (Max-length) | Mandatory | Description |
 | --- | --- | --- | --- |
 | page | int | No | Phân trang \(giá trị mặc định là 1\) |
 | fromDate | string | No | Ngày tạo đơn hàng: Định dạng yyyy-mm-dd. |
