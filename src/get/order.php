@@ -14,6 +14,7 @@ $service = new NhanhService();
 $storeId = null;
 
 $data = array(
+    'page' => 1,
     'fromDate' => '2017-07-01'
 );
 
