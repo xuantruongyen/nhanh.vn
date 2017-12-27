@@ -12,6 +12,9 @@ Nếu bạn nhận được response lỗi: authentication failed, xin vui lòng
 
 ## Invalid checksum
 
+- Khi bạn call API của Nhanh, lỗi này thường do nhầm lẫn giữa 
+      Development Secret Key và Production Secret Key
+      Development Server (https://dev.nhanh.vn) và Production Server (https://graph.nhanh.vn)
 - Khi Nhanh.vn gửi data sang website của bạn, bạn có thể gặp phải lỗi ở đoạn kiểm tra tính hợp lệ của checksum:
 ```php
 if (!$service->isValidChecksum($checksum, $data)) {
