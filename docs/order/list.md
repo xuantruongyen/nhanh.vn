@@ -13,8 +13,8 @@
 | page | int | No | Phân trang \(giá trị mặc định là 1\) |
 | fromDate | string | No | Ngày tạo đơn hàng: Định dạng yyyy-mm-dd. |
 | toDate | string | No | Ngày tạo đơn hàng: Định dạng yyyy-mm-dd. |
-| id | int | No | ID đơn hàng |
-| lastId| int | No | Tìm kiếm các đơn hàng > lastId |
+| id | int | No | ID đơn hàng trên Nhanh.vn |
+| lastId| int | No | Tìm kiếm các đơn hàng có id > lastId |
 | customerMobile |string |Yes	| điện thoại của người nhận hàng |
 |status	|string	| No | Trạng thái đơn hàng xem [tại đây](https://developers.nhanh.vn/glossary.html#order-status) |
 | fromDeliveryDate | string | No | Định dạng: yyyy-mm-dd. Ngày giao hàng |
