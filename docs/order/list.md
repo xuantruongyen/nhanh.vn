@@ -80,11 +80,11 @@ data =
     [
         "productName" : string, // Tên sản phẩm
         "productCode" : int, // Mã sản phẩm
-        "productBarCode" : string, // Mã vạch sản phẩm
+        "productBarcode" : string, // Mã vạch sản phẩm
         "price" : double, // Giá sản phẩm
         "quantity" : double, // Số lượng sản phẩm
         "weight" : int , // Trọng lượng sản phẩm
-        "discount" : double, // Chiết khấu
+        "discount" : double, // Chiết khấu theo sản phẩm
         "description" : string, // Mô tả sản phẩm
     ],
     [
