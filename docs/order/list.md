@@ -16,8 +16,8 @@
 | id | int | No | ID đơn hàng trên Nhanh.vn |
 | customerMobile |string |Yes	| điện thoại của người nhận hàng |
 |statuses |string | No | Trạng thái đơn hàng xem [tại đây](https://developers.nhanh.vn/glossary.html#order-status) |
-| fromDeliveryDate | string | No | Định dạng: yyyy-mm-dd. Ngày giao hàng |
-| toDeliveryDate | string | No | Định dạng: yyyy-mm-dd. Ngày giao hàng |
+| fromDeliveryDate | string | No | Định dạng: d/m/y. Ngày giao hàng |
+| toDeliveryDate | string | No | Định dạng: d/m/y. Ngày giao hàng |
 | carrierId |int |	No | id hãng vận chuyển (Lấy từ [/api/shipping/fee](https://developers.nhanh.vn/shipping/fee.html)) |
 | carrierCode | string(36) | No | Mã vận đơn hãng vận chuyển |
 | type	|string	 |No |Loại đơn hàng, giá trị có thể là: “Shipping” (Chuyển hàng) hoặc “Shopping” (Khách tới mua tại cửa hàng).“PreOrder”(Khách đặt hàng trước).Giá trị mặc định là Shipping.|
