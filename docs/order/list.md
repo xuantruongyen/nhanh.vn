@@ -80,6 +80,7 @@ data =
 ```js
 [
     [
+        "productId": Mã sản phẩm
         "productName" : string, // Tên sản phẩm
         "productCode" : int, // Mã sản phẩm
         "productBarcode" : string, // Mã vạch sản phẩm
