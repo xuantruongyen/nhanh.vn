@@ -76,7 +76,8 @@ data =
             "createdDateTime": string, // Thời gian tạo đơn hàng
             "deliveryDate": string, // Thời gian giao đơn hàng
             "statusCode": string,// Mã trạng thái
-            "statusName": string, // trạng thái đơn hàng
+            "statusName": string, // Trạng thái đơn hàng
+            "calcTotalMoney" : double,// Tổng thu của khách
             "products": array, // Xem bảng Order Product bên dưới
         ],
         [
