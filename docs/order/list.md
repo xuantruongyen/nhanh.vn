@@ -75,7 +75,7 @@ data =
             "createdByName" : string,// Người tạo đơn
             "createdDateTime": string, // Thời gian tạo đơn hàng
             "deliveryDate": string, // Thời gian giao đơn hàng
-            "statusCode": Mã trạng thái
+            "statusCode": string,// Mã trạng thái
             "statusName": string, // trạng thái đơn hàng
             "products": array, // Xem bảng Order Product bên dưới
         ],
