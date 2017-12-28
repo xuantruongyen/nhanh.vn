@@ -11,13 +11,13 @@
 | Param | Data Type (Max-length) | Mandatory | Description |
 | --- | --- | --- | --- |
 | page | int | No | Phân trang \(giá trị mặc định là 1\) |
-| fromDate | string | No | Ngày tạo đơn hàng: Định dạng d/m/y. |
-| toDate | string | No | Ngày tạo đơn hàng: Định dạng d/m/y. |
+| fromDate | string | No | Ngày tạo đơn hàng: Định dạng y-m-d. |
+| toDate | string | No | Ngày tạo đơn hàng: Định dạng y-m-d. |
 | id | int | No | ID đơn hàng trên Nhanh.vn |
 | customerMobile |string |Yes	| điện thoại của người nhận hàng |
 |statuses |string | No | Trạng thái đơn hàng xem [tại đây](https://developers.nhanh.vn/glossary.html#order-status) |
-| fromDeliveryDate | string | No | Định dạng: d/m/y. Ngày giao hàng |
-| toDeliveryDate | string | No | Định dạng: d/m/y. Ngày giao hàng |
+| fromDeliveryDate | string | No | Định dạng: y-m-d. Ngày giao hàng |
+| toDeliveryDate | string | No | Định dạng: y-m-d. Ngày giao hàng |
 | carrierId |int |	No | id hãng vận chuyển (Lấy từ [/api/shipping/fee](https://developers.nhanh.vn/shipping/fee.html)) |
 | carrierCode | string(36) | No | Mã vận đơn hãng vận chuyển |
 | type	|string	 |No |Loại đơn hàng, giá trị có thể là: “Shipping” (Chuyển hàng) hoặc “Shopping” (Khách tới mua tại cửa hàng).“PreOrder”(Khách đặt hàng trước).Giá trị mặc định là Shipping.|
