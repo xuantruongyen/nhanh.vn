@@ -71,6 +71,8 @@ data =
             "customerCity": string, // Thành phố
             "customerDistrictId": int,// Mã quận/huyện
             "customerDistrict": string, // Quận huyện
+            "createdByUserName": string,//user name tạo đơn hàng
+            "createdByName" : string,// Người tạo đơn
             "createdDateTime": string, // Thời gian tạo đơn hàng
             "deliveryDate": string, // Thời gian giao đơn hàng
             "statusName": string, // trạng thái đơn hàng
