@@ -52,8 +52,9 @@ data =
             "type": string, // Loại đơn hàng (Shipping | Shopping)
             "shippingTypeId" : int,//Mã loại chuyển hàng
             "shippingType": string, // Loại chuyển hàng
-            "carrierId": int,// Mã hãng vận chuyển
             "serviceId": int,// Mã dịch vụ vận chuyển
+            "carrierId": int,// Mã hãng vận chuyển
+            "carrierCode": string,// Mã hãng vận chuyển
             "carrierName": string, // Tên hãng vận chuyển
             "carrierServiceName": string, // Dịch vụ vân chuyển
             "moneyDiscount": double, // Tiền chiết khấu           
