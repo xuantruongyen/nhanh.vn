@@ -16,7 +16,7 @@
 | id | int | No | ID đơn hàng trên Nhanh.vn |
 | lastId| int | No | Tìm kiếm các đơn hàng có id > lastId |
 | customerMobile |string |Yes	| điện thoại của người nhận hàng |
-|status	|string	| No | Trạng thái đơn hàng xem [tại đây](https://developers.nhanh.vn/glossary.html#order-status) |
+|statuses |string | No | Trạng thái đơn hàng xem [tại đây](https://developers.nhanh.vn/glossary.html#order-status) |
 | fromDeliveryDate | string | No | Định dạng: yyyy-mm-dd. Ngày giao hàng |
 | toDeliveryDate | string | No | Định dạng: yyyy-mm-dd. Ngày giao hàng |
 | carrierId |int |	No | id hãng vận chuyển (Lấy từ [/api/shipping/fee](https://developers.nhanh.vn/shipping/fee.html)) |
@@ -47,6 +47,7 @@ data =
         [
             // Đơn hàng 1
             "id": int, // ID đơn hàng
+            "depotId" : int,// Mã kho
             "depotName": string, // Tên Cửa hàng
             "type": string, // Loại đơn hàng (Shipping | Shopping)
             "shippingType": string, // Loại chuyển hàng
@@ -80,7 +81,7 @@ data =
 ```js
 [
     [
-        "productId": Mã sản phẩm
+        "productId": int,//Mã sản phẩm
         "productName" : string, // Tên sản phẩm
         "productCode" : int, // Mã sản phẩm
         "productBarcode" : string, // Mã vạch sản phẩm
