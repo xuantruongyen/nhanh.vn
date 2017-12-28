@@ -11,8 +11,8 @@
 | Param | Data Type (Max-length) | Mandatory | Description |
 | --- | --- | --- | --- |
 | page | int | No | Phân trang \(giá trị mặc định là 1\) |
-| fromDate | string | No | Ngày tạo đơn hàng: Định dạng yyyy-mm-dd. |
-| toDate | string | No | Ngày tạo đơn hàng: Định dạng yyyy-mm-dd. |
+| fromDate | string | No | Ngày tạo đơn hàng: Định dạng d/m/y. |
+| toDate | string | No | Ngày tạo đơn hàng: Định dạng d/m/y. |
 | id | int | No | ID đơn hàng trên Nhanh.vn |
 | customerMobile |string |Yes	| điện thoại của người nhận hàng |
 |statuses |string | No | Trạng thái đơn hàng xem [tại đây](https://developers.nhanh.vn/glossary.html#order-status) |
