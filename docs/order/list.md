@@ -49,6 +49,7 @@ data =
             "id": int, // ID đơn hàng
             "depotId" : int,// Mã kho
             "depotName": string, // Tên Cửa hàng
+            "typeId" : int,mã loại đơn hàng
             "type": string, // Loại đơn hàng (Shipping | Shopping)
             "shippingType": string, // Loại chuyển hàng
             "carrierName": string, // Tên hãng vận chuyển
