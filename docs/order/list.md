@@ -62,6 +62,7 @@ data =
             "moneyTransfer": double, // Tiền chuyển khoản
             "description": string, // ghi chú của khách hàng
             "privateDescription" string, // ghi chú của CSKH
+            "customerId": int,// Mã khách hàng
             "customerName": string, // Tên khách hàng
             "customerMobile": string, // Họ tên khách hàng
             "customerEmail": string, // Email khách hàng
