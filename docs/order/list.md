@@ -46,41 +46,41 @@ data =
         [
             // Đơn hàng 1
             "id": int, // ID đơn hàng
-            "depotId": int,// Mã kho
+            "depotId": int, // Mã kho
             "depotName": string, // Tên Cửa hàng
-            "typeId": int,//mã loại đơn hàng
+            "typeId": int, //mã loại đơn hàng
             "type": string, // Loại đơn hàng (Shipping | Shopping)
-            "shippingTypeId": int,//Mã loại chuyển hàng
+            "shippingTypeId": int, //Mã loại chuyển hàng
             "shippingType": string, // Loại chuyển hàng
             "moneyDiscount": double, // Tiền chiết khấu           
             "moneyDeposit": double, // Tiền đặt cọc
             "moneyTransfer": double, // Tiền chuyển khoản
-            "serviceId": int,// Mã dịch vụ vận chuyển
-            "carrierId": int,// ID hãng vận chuyển
-            "carrierCode": string,// Mã hãng vận chuyển
+            "serviceId": int, // Mã dịch vụ vận chuyển
+            "carrierId": int, // ID hãng vận chuyển
+            "carrierCode": string, // Mã hãng vận chuyển
             "carrierName": string, // Tên hãng vận chuyển
-            "shipFee": double,// Phí vận chuyển,
-            "codFee": double,// Phí thu tiền hộ,
+            "shipFee": double, // Phí vận chuyển,
+            "codFee": double, // Phí thu tiền hộ,
             "customerShipFee": double,// Phí thu của khách,
             "carrierServiceName": string, // Dịch vụ vân chuyển
             "description": string, // ghi chú của khách hàng
             "privateDescription" string, // ghi chú của CSKH
-            "customerId": int,// Mã khách hàng
+            "customerId": int, // Mã khách hàng
             "customerName": string, // Tên khách hàng
             "customerMobile": string, // Họ tên khách hàng
             "customerEmail": string, // Email khách hàng
             "customerAddress": string, // Địa chỉ khách hàng
-            "customerCityId": int,// Mã tỉnh
+            "customerCityId": int, // Mã tỉnh
             "customerCity": string, // Thành phố
-            "customerDistrictId": int,// Mã quận/huyện
+            "customerDistrictId": int, // Mã quận/huyện
             "customerDistrict": string, // Quận huyện
             "createdByUserName": string,//user name tạo đơn hàng
             "createdByName": string,// Người tạo đơn
             "createdDateTime": string, // Thời gian tạo đơn hàng
             "deliveryDate": string, // Thời gian giao đơn hàng
-            "statusCode": string,// Mã trạng thái
+            "statusCode": string, // Mã trạng thái
             "statusName": string, // Trạng thái đơn hàng
-            "calcTotalMoney" : double,// Tổng thu của khách
+            "calcTotalMoney" : double, // Tổng thu của khách
             "products": array, // Xem bảng Order Product bên dưới
         ],
         [
@@ -95,7 +95,7 @@ data =
 ```js
 [
     [
-        "productId": int,// ID sản phẩm
+        "productId": int, // ID sản phẩm
         "productName": string, // Tên sản phẩm
         "productCode": int, // Mã sản phẩm
         "productBarcode": string, // Mã vạch sản phẩm
