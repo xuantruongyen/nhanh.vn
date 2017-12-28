@@ -46,11 +46,11 @@ data =
         [
             // Đơn hàng 1
             "id": int, // ID đơn hàng
-            "depotId" : int,// Mã kho
+            "depotId": int,// Mã kho
             "depotName": string, // Tên Cửa hàng
-            "typeId" : int,//mã loại đơn hàng
+            "typeId": int,//mã loại đơn hàng
             "type": string, // Loại đơn hàng (Shipping | Shopping)
-            "shippingTypeId" : int,//Mã loại chuyển hàng
+            "shippingTypeId": int,//Mã loại chuyển hàng
             "shippingType": string, // Loại chuyển hàng
             "moneyDiscount": double, // Tiền chiết khấu           
             "moneyDeposit": double, // Tiền đặt cọc
@@ -75,7 +75,7 @@ data =
             "customerDistrictId": int,// Mã quận/huyện
             "customerDistrict": string, // Quận huyện
             "createdByUserName": string,//user name tạo đơn hàng
-            "createdByName" : string,// Người tạo đơn
+            "createdByName": string,// Người tạo đơn
             "createdDateTime": string, // Thời gian tạo đơn hàng
             "deliveryDate": string, // Thời gian giao đơn hàng
             "statusCode": string,// Mã trạng thái
@@ -96,14 +96,14 @@ data =
 [
     [
         "productId": int,// ID sản phẩm
-        "productName" : string, // Tên sản phẩm
-        "productCode" : int, // Mã sản phẩm
-        "productBarcode" : string, // Mã vạch sản phẩm
-        "price" : double, // Giá sản phẩm
-        "quantity" : double, // Số lượng sản phẩm
-        "weight" : int , // Trọng lượng sản phẩm
-        "discount" : double, // Chiết khấu theo sản phẩm
-        "description" : string, // Mô tả sản phẩm
+        "productName": string, // Tên sản phẩm
+        "productCode": int, // Mã sản phẩm
+        "productBarcode": string, // Mã vạch sản phẩm
+        "price": double, // Giá sản phẩm
+        "quantity": double, // Số lượng sản phẩm
+        "weight": int , // Trọng lượng sản phẩm
+        "discount": double, // Chiết khấu theo sản phẩm
+        "description": string, // Mô tả sản phẩm
     ],
     [
         // Sản phẩm 2
