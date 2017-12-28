@@ -95,7 +95,7 @@ data =
 ```js
 [
     [
-        "productId": int,//Mã sản phẩm
+        "productId": int,// ID sản phẩm
         "productName" : string, // Tên sản phẩm
         "productCode" : int, // Mã sản phẩm
         "productBarcode" : string, // Mã vạch sản phẩm
