@@ -56,6 +56,9 @@ data =
             "carrierId": int,// ID hãng vận chuyển
             "carrierCode": string,// Mã hãng vận chuyển
             "carrierName": string, // Tên hãng vận chuyển
+            "shipFee": double,// Phí vận chuyển,
+            "codFee": double,// Phí thu tiền hộ,
+            "customerShipFee": double,// Phí thu của khách,
             "carrierServiceName": string, // Dịch vụ vân chuyển
             "moneyDiscount": double, // Tiền chiết khấu           
             "moneyDeposit": double, // Tiền đặt cọc
