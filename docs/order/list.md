@@ -67,7 +67,9 @@ data =
             "customerMobile": string, // Họ tên khách hàng
             "customerEmail": string, // Email khách hàng
             "customerAddress": string, // Địa chỉ khách hàng
+            "customerCityId": int,// Mã tỉnh
             "customerCity": string, // Thành phố
+            "customerDistrictId": int,// Mã quận/huyện
             "customerDistrict": string, // Quận huyện
             "createdDateTime": string, // Thời gian tạo đơn hàng
             "deliveryDate": string, // Thời gian giao đơn hàng
