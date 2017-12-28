@@ -52,6 +52,9 @@ data =
             "type": string, // Loại đơn hàng (Shipping | Shopping)
             "shippingTypeId" : int,//Mã loại chuyển hàng
             "shippingType": string, // Loại chuyển hàng
+            "moneyDiscount": double, // Tiền chiết khấu           
+            "moneyDeposit": double, // Tiền đặt cọc
+            "moneyTransfer": double, // Tiền chuyển khoản
             "serviceId": int,// Mã dịch vụ vận chuyển
             "carrierId": int,// ID hãng vận chuyển
             "carrierCode": string,// Mã hãng vận chuyển
@@ -60,9 +63,6 @@ data =
             "codFee": double,// Phí thu tiền hộ,
             "customerShipFee": double,// Phí thu của khách,
             "carrierServiceName": string, // Dịch vụ vân chuyển
-            "moneyDiscount": double, // Tiền chiết khấu           
-            "moneyDeposit": double, // Tiền đặt cọc
-            "moneyTransfer": double, // Tiền chuyển khoản
             "description": string, // ghi chú của khách hàng
             "privateDescription" string, // ghi chú của CSKH
             "customerId": int,// Mã khách hàng
