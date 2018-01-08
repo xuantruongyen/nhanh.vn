@@ -1,4 +1,4 @@
-# <a href='https://nhanh.vn' target='_blank'><img src='https://nhanh.vn/images/v4/nhanh.png'></a>
+# <a href='https://nhanh.vn' target='_blank'><img src='https://nhanh.vn/images/logo/nhanh_black2.png'></a>
 
 [Nhanh.vn](https://nhanh.vn) là giải pháp quản lý bán hàng trên nền tảng điện toán đám mây, đồng bộ dữ liệu với website, dịch vụ vận chuyển, giúp doanh nghiệp quản lý toàn bộ quy trình bán hàng, chăm sóc khách hàng, tăng doanh thu, giảm chi phí, phát triển kinh doanh hiệu quả hơn.
 
