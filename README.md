@@ -1,4 +1,4 @@
-# <a href='https://nhanh.vn' target='_blank'><img src='https://nhanh.vn/images/v4/nhanh.png'></a>
+# <a href='https://nhanh.vn' target='_blank'><img src='https://nhanh.vn/images/logo/nhanh_black2.png'></a>
 
 * [API documentation](https://developers.nhanh.vn)
 
