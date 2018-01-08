@@ -1,3 +1,4 @@
+
 # Get API Account
 
 Please contact **chukhanhvan@gmail.com** to get an API account.
@@ -61,7 +62,9 @@ Một vài request sẽ có 1 dataString cố định (VD như khi lấy danh m�
 - **checksum** = md5(md5(secretKey + dataString) + dataString)
  
 ## Code Sample
-Simple request: send product information
+* PHP SDK: [https://github.com/nhanhapi/nhanh.vn](https://github.com/nhanhapi/nhanh.vn) 
+* Simple request: send product information
+
 ```php
 <?php
 
