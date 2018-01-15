@@ -12,7 +12,7 @@ autoSend | int | No | Biến đánh dấu gửi luôn đơn hàng sang hãng v�
 moneyTransfer | int | No | Số tiền khách đã chuyển khoản
 paymentCode | string(255) | No | Mã giao dịch thanh toán
 paymentGateway | string(255) | No | Tên của cổng thanh toán
-status | string | No | Trạng thái đơn hàng, có thể là:<br>Confirmed // Đã xác nhận<br>Canceled // Khách hủy<br>Aborted // Hệ thống hủy
+status | string | No | Trạng thái đơn hàng, có thể là:<br>Confirmed // Đã xác nhận<br>Canceled // chỉ đổi được sang trạng thái Khách hủy khi đơn hàng đang ở trạng thái Mới, Đang xác nhận, Đã xác nhận<br>Aborted // Hệ thống hủy khi đơn hàng đang ở trạng thái Mới, Đang xác nhận, Đã xác nhận
 reasonDescription | string | No | Mô tả lý do hủy đơn hàng
 
 # Response
