@@ -45,6 +45,7 @@ id | int | id của khách hàng
 name | string | Tên khách hàng
 mobile | int |Số điện thoại của khách hàng
 email | string | Email của khách hàng
+gender | int | Giới tính khách hàng (1 = Nam, 2 = Nữ, Null: Chưa có thông tin)
 address | string | Địa chỉ của khách hàng
 birthday | string | Ngày sinh của khách hàng
 code | string | Mã code của khách hàng
