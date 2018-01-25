@@ -13,7 +13,7 @@ Key | Data Type (Max-length) | Description
 -- |----------- |--------
 idNhanh | bigint(20) | ID sản phẩm trên Nhanh.vn
 merchantCategoryId | int | ID danh mục sản phẩm trên các site tích hợp (tính năng này hiện chỉ phục vụ cho các sàn TMĐT)
-merchantProductId | int | ID sản phẩm phi độc quyền (tính năng này chỉ phục vụ cho các sàn TMĐT)
+merchantProductId | int | ID sản phẩm trên sàn (tính năng này chỉ phục vụ cho các sàn TMĐT)
 categoryId | int | ID danh mục sản phẩm trên Nhanh.vn
 brandId |int|ID thương hiệu sản phẩm trên Nhanh.vn
 parentId|bigint(20)|ID sản phẩm cha trên Nhanh.vn
