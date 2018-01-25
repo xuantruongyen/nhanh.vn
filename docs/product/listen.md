@@ -4,12 +4,12 @@
 
 ## Request
 
-- See [common request params](/api.md#request)
-- Product item’s properties:
+- Nhanh.vn send a POST request to your listen URL. See [common request params](/api.md#request).
+- Decode data string (JSON) to get the data object:
 
 
 
-Key | Data Type(Max-length) | Description
+Key | Data Type (Max-length) | Description
 -- |----------- |--------
 idNhanh | bigint(20) | ID sản phẩm trên Nhanh.vn
 merchantCategoryId | int | ID danh mục sản phẩm trên các site tích hợp (tính năng này hiện chỉ phục vụ cho các sàn TMĐT)
