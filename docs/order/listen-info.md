@@ -2,7 +2,10 @@
 - Website của bạn cần đăng kí một URL để nhận thông tin khi khách hàng đặt đơn hàng từ Nhanh.vn hoặc từ website của bạn. (Cập nhật realtime ngay khi khách hàng đặt đơn hàng từ Nhanh.vn hoặc từ website của bạn)
 
 # Request
-- See [common request params](/api.md#request)
+
+- Nhanh.vn send a POST request to your listen URL. See [common request params](/api.md#request).
+- Decode data string (JSON) to get the data object:
+
 
 <table>
   <tr>
