@@ -2,7 +2,8 @@
 
 - Website của bạn cần đăng kí một URL để nhận trạng thái đơn hàng cập nhật từ Nhanh.vn (cập nhật realtime khi trạng thái đơn hàng thay đổi bên trong Nhanh.vn)
  
- ## Request
+## Request
+
 - Nhanh.vn send a POST request to your listen URL. See [common request params](/api.md#request).
 - Decode data string (JSON) to get the data object: The properties of each order if **updateType** is **Status** or **CheckPayment**:
   
