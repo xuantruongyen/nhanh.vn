@@ -37,6 +37,37 @@ Trạng thái đơn hàng
 |Returning | Đang chuyển hoàn|
 |Returned | Đã chuyển hoàn|
 
+* ##### Reason
+Lý do theo trạng thái đơn hàng
+
+Reason | Description
+------ | ------- 
+WrongProduct | Đặt nhầm sản phẩm
+HighShipFee | Phí vận chuyển cao
+NotTransfer | Không muốn chuyển khoản
+Duplicated | Đơn trùng
+CannotCall | Không gọi được khách
+SoldOut | Hết hàng
+WaitingTransfer | Chờ chuyển khoản
+NotLikeProduct | Khách không thích sản phẩm
+NotPleasureDeliverer | Khách không hài lòng về nhân viên vận chuyển
+SlowShipping | Giao hàng chậm
+Bought | Đã mua sản phẩm tại cửa hàng
+CustomerNotAtHome | Khách đi vắng (sẽ giao hàng vào hôm khác)
+WrongAddress | Sai địa chỉ người nhận
+NotBuy | Khách không muốn mua nữa
+CannotCallSender | Không liên hệ được với người gửi
+SellerNotSellOnline | Người gửi không bán hàng Online / Ngoại tỉnh
+SellerNotHandoverCarrier | Người gửi không bàn giao hàng cho hãng vận chuyển
+SellerNotProcessOrder | Người gửi không xử lý đơn hàng
+WrongPickupAddress | Sai địa chỉ kho lấy hàng
+WrongPrice | Sai giá sản phẩm
+SelfShipping | Người gửi tự vận chuyển
+CarrierPickupLate | Hãng vận chuyển lấy hàng muộn
+CarrierLostProduct | Hãng vận chuyển làm mất hàng
+Other | Lý do khác
+
+
 ### Inventory
 
 Các thuật ngữ về kho hàng
