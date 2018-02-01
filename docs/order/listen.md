@@ -10,8 +10,8 @@
 Param | Data type (Max-length) | Description
 ----------- | ---------------- | --------
 id | string(20) | id của đơn hàng được đồng bộ từ website của bạn sang Nhanh.vn
-status | string | Trạng thái đơn hàng xem [tại đây](https://developers.nhanh.vn/glossary.html#order-status)
-reason | string | Lí do theo trạng thái:<br>WrongProduct => Đặt nhầm sản phẩm<br>HighShipFee => Phí vận chuyển cao<br>NotTransfer => Không muốn chuyển khoản<br>Duplicated => Đơn trùng<br>CannotCall => Không gọi được khách<br>SoldOut => Hết hàng<br>WaitingTransfer => Chờ chuyển khoản<br>NotLikeProduct => Khách không thích sản phẩm<br>NotPleasureDeliverer => Khách không hài lòng về nhân viên vận chuyển<br>SlowShipping => Giao hàng chậm<br>Bought => Đã mua sản phẩm tại cửa hàng<br>CustomerNotAtHome => Khách đi vắng (sẽ giao hàng vào hôm khác)<br>WrongAddress => Sai địa chỉ người nhận<br>NotBuy => Khách không muốn mua nữa<br>CannotCallSender => Không liên hệ được với người gửi<br>SellerNotSellOnline => Người gửi không bán hàng Online / Ngoại tỉnh<br>SellerNotHandoverCarrier => Người gửi không bàn giao hàng cho hãng vận chuyển<br>SellerNotProcessOrder => Người gửi không xử lý đơn hàng<br>WrongPickupAddress => Sai địa chỉ kho lấy hàng<br>WrongPrice => Sai giá sản phẩm<br>SelfShipping => Người gửi tự vận chuyển<br>CarrierPickupLate => Hãng vận chuyển lấy hàng muộn<br>CarrierLostProduct => Hãng vận chuyển làm mất hàng<br>Other => Lý do khác
+status | string | Trạng thái đơn hàng xem [tại đây](https://developers.nhanh.vn/glossary.html#reason)
+reason | string | Lí do theo trạng thái xem [tại đây](https://developers.nhanh.vn/glossary.html#order-status)
 carrierId | int / null | id của hãng vận chuyển 
 carrierServiceId | int / null | id của dịch vụ vận chuyển
 sendCarrierDateTime | string / null | Thời gian gửi đơn hàng sang hãng vận chuyển. Định dạng: yyyy-mm-dd hh-mm-ss (nếu đơn chưa gửi sang hãng vận chuyển thì giá trị sẽ là null)
