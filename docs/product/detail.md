@@ -187,7 +187,7 @@ data = [
     <tr>
         <td>inventory</td>
         <td>array</td>
-        <td>Thông tin tồn kho: xem ở bảng Inventory] bên dưới</td>
+        <td>Thông tin tồn kho: xem ở bảng Inventory bên dưới</td>
     </tr>
     <tr>
         <td>attributes</td>
