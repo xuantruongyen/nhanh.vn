@@ -221,9 +221,7 @@ data = [
     "shipping": int // số lượng đang giao hàng
     "holding": int // số lượng đang tạm giữ
     "damage": int // số lượng lỗi
-    "available": int // số lượng có thể bán (sử
-    dụng để hiển  thị trên website,chặn đặt hàng
-    khi hết số tồn hoặc vượt quá số tồn).
+    "available": int // số lượng có thể bán (sử dụng để hiển  thị trên website,chặn đặt hàng khi hết số tồn hoặc vượt quá số tồn).
     // Tồn tại từng kho
     "depots": [
         "depotId" => [
@@ -231,9 +229,7 @@ data = [
         "shipping": int //  số lượng đang giao hàng
         "holding": int // số lượng đang tạm giữ
         "damage": int //  số lượng lỗi
-        "available": int // số lượng có thể bán (sử
-         dụng để hiển thị trên website, chặn đặt hàng
-         khi hết số tồn hoặc vượt quá số tồn).
+        "available": int // số lượng có thể bán (sử dụng để hiển thị trên website, chặn đặt hàng khi hết số tồn hoặc vượt quá số tồn).
         ],
         "depotId" => [
         ...
