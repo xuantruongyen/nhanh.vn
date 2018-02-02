@@ -58,6 +58,11 @@ data = [
         <td>string(255)</td>
         <td>Mã sản phẩm</td>
     </tr>
+    <tr>
+        <td>barCode</td>
+        <td>string(255)</td>
+        <td>Mã vạch sản phẩm</td>
+    </tr>
      <tr>
         <td>name</td>
         <td>string(255)</td>
