@@ -37,7 +37,7 @@ Trạng thái đơn hàng
 |Returning | Đang chuyển hoàn|
 |Returned | Đã chuyển hoàn|
 
-* ##### Reason
+* ##### Order-Reason
 Lý do theo trạng thái đơn hàng
 
 Reason | Description
