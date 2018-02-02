@@ -36,13 +36,13 @@ data = [
      <tr>
         <td>merchantCategoryId</td>
         <td>int</td>
-        <td>ID danh mục sản phẩm trên các site tích hợp (tính năng này hiện chỉ phục vụ cho các sàn TMĐT)
+        <td>ID danh mục sản phẩm trên các site tích hợp <br> (tính năng này hiện chỉ phục vụ cho các sàn TMĐT)
     </td>
     </tr>
      <tr>
         <td>merchantProductId</td>
         <td>int</td>
-        <td>ID sản phẩm phi độc quyền (tính năng này chỉ phục vụ cho các sàn TMĐT)</td>
+        <td>ID sản phẩm phi độc quyền <br>(tính năng này chỉ phục vụ cho các sàn TMĐT)</td>
     </tr>
      <tr>
         <td>categoryId</td>
