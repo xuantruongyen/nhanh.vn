@@ -38,7 +38,7 @@ customerShipFee | int | No | Phí thu của khách
 codFee | int | No | Phí thu tiền hộ (Lấy từ [/api/shipping/fee](https://developers.nhanh.vn/shipping/fee.html))
 shipFee | int | No | Phí vận chuyển (Lấy từ [/api/shipping/fee](https://developers.nhanh.vn/shipping/fee.html))
 deliveryDate | date | No | Ngày giao hàng của đơn hàng này, định dạng yyyy-mm-dd
-status | string | No | Trạng thái của đơn hàng: New (Mới) | Confirmed (Đã xác nhận). Xem thêm các trạng thái nhận cập nhật từ Nhanh.vn [tại đây](https://developers.nhanh.vn/glossary.html#order-status)
+status | string | No | Trạng thái của đơn hàng: New (Mới) hoặc Confirmed (Đã xác nhận). Xem thêm các trạng thái nhận cập nhật từ Nhanh.vn [tại đây](https://developers.nhanh.vn/glossary.html#order-status)
 description | string | No | Ghi chú của khách hàng về đơn hàng này
 weight | int | No | Tổng khối lượng của đơn hàng tính theo gram. Hiện tại Nhanh.vn hỗ trợ đơn hàng tối đa 50000 gr (50 kg).
 trafficSource | string |No| Nguồn truy cập đơn hàng, bạn có thể đánh dấu xem đơn hàng đến từ nguồn nào qua referrer hoặc marketing campaign (utm_source, utm_medium, utm_campaign) và gửi kèm thông tin này theo đơn hàng để xem báo cáo thống kê theo nguồn truy cập ở bên Nhanh.vn
