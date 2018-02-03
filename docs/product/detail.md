@@ -59,7 +59,7 @@ data = [
         <td>Mã sản phẩm</td>
     </tr>
     <tr>
-        <td>barCode</td>
+        <td>barcode</td>
         <td>string(255)</td>
         <td>Mã vạch sản phẩm</td>
     </tr>
