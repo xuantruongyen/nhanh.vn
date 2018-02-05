@@ -38,8 +38,12 @@ status | string | No | Trạng thái của sản phẩm: Active or Inactive
 	"ids" => [
 		"id website tích hợp 1" => "id sản phẩm trên Nhanh 1",
 		"id website tích hợp 2" => "id sản phẩm trên Nhanh 2",
+		...
 	]
-
-
+	"barcodes" => [
+		"id website tích hợp 1" => "mã vạch sản phẩm trên Nhanh 1",
+		"id website tích hợp 2" => "mã vạch sản phẩm trên Nhanh 2",
+		...
+	]
 ]
 ```
