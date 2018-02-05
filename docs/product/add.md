@@ -33,6 +33,10 @@ wholesalePrice | int | No | Giá bán buôn của sản phẩm
 status | string | No | Trạng thái của sản phẩm: Active or Inactive
 
 ## Response: 
+```js
+[
 
-- See: [Response](/api.md#response)
 
+]
+
+```js
