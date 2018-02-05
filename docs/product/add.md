@@ -31,3 +31,8 @@ price | int | Yes | Giá bán của sản phẩm
 importPrice | int | No | Giá nhập của sản phẩm
 wholesalePrice | int | No | Giá bán buôn của sản phẩm
 status | string | No | Trạng thái của sản phẩm: Active or Inactive
+
+## Response: 
+
+- See: [Response](/api.md#response)
+
