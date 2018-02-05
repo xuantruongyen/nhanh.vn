@@ -35,7 +35,7 @@ status | string | No | Trạng thái của sản phẩm: Active or Inactive
 ## Response: 
 ```js
 [
-	"ids" => [
+	ơids" => [
 		"id website tích hợp 1" => "id sản phẩm trên Nhanh 1",
 		"id website tích hợp 2" => "id sản phẩm trên Nhanh 2",
 		...
