@@ -33,6 +33,7 @@ wholesalePrice | int | No | Giá bán buôn của sản phẩm
 status | string | No | Trạng thái của sản phẩm: Active or Inactive
 
 ## Response: 
+The response: JSON decode the response to get the structure:
 ```js
 [
 	"ids" => [
