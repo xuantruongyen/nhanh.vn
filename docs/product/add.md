@@ -35,4 +35,4 @@ status | string | No | Trạng thái của sản phẩm: Active or Inactive
 ## Response: 
 ```js
 
-```js
+```
