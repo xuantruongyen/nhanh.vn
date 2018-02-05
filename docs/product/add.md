@@ -37,13 +37,13 @@ The response: JSON decode the response to get the structure:
 ```js
 [
 	"ids" => [
-		"id website tích hợp 1" => "id sản phẩm trên Nhanh 1",
-		"id website tích hợp 2" => "id sản phẩm trên Nhanh 2",
+		"id website tích hợp 1" => "id sản phẩm 1",
+		"id website tích hợp 2" => "id sản phẩm 2",
 		...
 	]
 	"barcodes" => [
-		"id website tích hợp 1" => "mã vạch sản phẩm trên Nhanh 1",
-		"id website tích hợp 2" => "mã vạch sản phẩm trên Nhanh 2",
+		"id website tích hợp 1" => "mã vạch sản phẩm 1",
+		"id website tích hợp 2" => "mã vạch sản phẩm 2",
 		...
 	]
 ]
