@@ -68,6 +68,8 @@ data = [
 | price | int | Giá sản phẩm |
 | discount | int | Chiết khấu của sản phẩm |
 | imei | int | IMEI của sản phẩm. Nếu sản phẩm tồn tại IMEI sẽ hiện thêm trường này. |
+| relatedBillId | int | ID hóa đơn được trả hàng| 
+| relatedUserName | string | Người tạo hóa đơn được trả hàng|
 
 
 
