@@ -55,6 +55,8 @@ data = [
 | discount | double | Chiết khấu hóa đơn |
 | money | double | Tổng tiền hóa đơn |
 | payment | double | Tổng tiền đã thanh toán |
+| relatedBillId | int | ID hóa đơn được trả hàng| 
+| relatedUserName | string | Người tạo hóa đơn được trả hàng|
 | products | array | Danh sách sản phẩm theo hóa đơn \[Xem bảng bên dưới\] |
 
 * Products: Danh sách sản phẩm XNK trong phiếu
@@ -68,8 +70,7 @@ data = [
 | price | int | Giá sản phẩm |
 | discount | int | Chiết khấu của sản phẩm |
 | imei | int | IMEI của sản phẩm. Nếu sản phẩm tồn tại IMEI sẽ hiện thêm trường này. |
-| relatedBillId | int | ID hóa đơn được trả hàng| 
-| relatedUserName | string | Người tạo hóa đơn được trả hàng|
+
 
 
 
