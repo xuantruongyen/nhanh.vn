@@ -110,7 +110,7 @@ data = [
     </tr> <tr>
         <td>status</td>
         <td>string</td>
-        <td>Trạng thái của sản phẩm: Active | Inactive</td>
+        <td>Trạng thái của sản phẩm: Active | Inactive | OutOfStock</td>
     </tr>
     <tr>
         <td>previewLink</td>
