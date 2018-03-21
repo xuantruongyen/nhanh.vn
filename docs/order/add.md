@@ -44,6 +44,10 @@ weight | int | No | Tổng khối lượng của đơn hàng tính theo gram. Hi
 trafficSource | string |No| Nguồn truy cập đơn hàng, bạn có thể đánh dấu xem đơn hàng đến từ nguồn nào qua referrer hoặc marketing campaign (utm_source, utm_medium, utm_campaign) và gửi kèm thông tin này theo đơn hàng để xem báo cáo thống kê theo nguồn truy cập ở bên Nhanh.vn
 createdDateTime | datetime | No | Thời gian khách đặt hàng, định dạng là yyyy-mm-dd hh:mm:ss (VD: 2017-12-31 12:40:56)
 productList | array | Yes|Danh sách sản phẩm của đơn hàng: xem bảng dữ liệu bên dưới.
+allowTest | int | No | 1 - Cho xem hàng, không cho thử<br>2 - Cho phép thử<br>3 - Không cho xem  hàng
+
+
+
  
 - Các thuộc tính của 1 sản phẩm trong **productList** bao gồm:
 
