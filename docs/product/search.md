@@ -74,7 +74,14 @@
 | warrantyContent | string | Nội dung bảo hành |
 | length | int | in cm |
 | shippingWeight | int | in gram |
-| createdDateTime | datetime | định dạng yyyy-mm-dd hh:mm:ss |
+| createdDateTime | datetime | định dạng yyyy-mm-dd hh:mm:ss|
+| brandId | int | ID thương hiệu|
+| brandName  | string   | Tên thương hiệu |
+| typeId | int | ID loại sản phẩm |
+| typeName   |  string  | Loại sản phẩm |
+| avgCost   | double | Giá vốn sản phẩm |
+| importType | int | ID Kiểu nhập kho |
+| importTypeLabel   | string   | Tên kiểu nhập kho |
 | inventory | array | Xem bảng [Inventory](search.md#inventory) bên dưới |
 | attributes | array | Xem bảng [Attributes](search.md#attributes) bên dưới |
 
