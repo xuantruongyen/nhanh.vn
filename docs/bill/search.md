@@ -31,26 +31,26 @@ JSON decode the response to get the structure:
 | data | \[ \] | is an array of customer list |
 
 ```js
-data = [
-        totalPages: int,
-        bill: [
+[
+    "totalPages": int,
+    "bill": [
             {  }, // each bill item, all properties are listed in the table below
             {  }
-            …
-        ]
+    ]
 ]
 ```
 
-| Key | Data Type\(Max-length\) | Description |
+| Key | Data Type (Max-length) | Description |
 | --- | --- | --- |
-| id | int | id của hóa đơn |
+| id | int | ID của hóa đơn |
 | date| date | Ngày xuất nhập kho (format: yyyy-mm-dd) |
 | createdDateTime | datetime | Ngày giờ tạo hóa đơn (format: yyyy-mm-dd h:i:s) |
 | type | int | Xem [Loại XNK](/glossary.md#inventory) |
 | mode | int | Xem [Kiểu XNK](/glossary.md#inventory) |
 | customerId | int | ID khách hàng mua hàng, có thể sử dụng để đồng bộ với ID khách hàng trong [/api/customer/search](search.html) |
+| customerId | int | ID khách hàng |
 | customerName | string | Tên khách hàng |
-| customerMobile | int | Số điện thoại khách hàng |
+| customerMobile | string | Số điện thoại khách hàng |
 | saleName | string | Nhân viên bán hàng |
 | createdByName | string | Nhân viên thu ngân |
 | discount | double | Chiết khấu hóa đơn |
@@ -62,15 +62,15 @@ data = [
 
 * Products: Danh sách sản phẩm XNK trong phiếu
 
-| Key | Data Type \(Max-length\) | Description |
+| Key | Data Type (Max-length) | Description |
 | --- | --- | --- |
-| id | int | id của sản phẩm |
+| id | int | ID của sản phẩm |
 | code | string | Mã code của sản phẩm |
 | name | string | Tên sản phẩm |
-| quantity | int | Số lượng sản phẩm |
-| price | int | Giá sản phẩm |
-| discount | int | Chiết khấu của sản phẩm |
-| imei | int | IMEI của sản phẩm. Nếu sản phẩm tồn tại IMEI sẽ hiện thêm trường này. |
+| quantity | float | Số lượng sản phẩm |
+| price | double | Giá sản phẩm |
+| discount | double | Chiết khấu của sản phẩm |
+| imei | string | IMEI của sản phẩm. Nếu sản phẩm tồn tại IMEI sẽ hiện thêm trường này. |
 
 
 
