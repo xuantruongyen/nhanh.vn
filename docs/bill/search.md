@@ -16,7 +16,7 @@
 | type | int | No | Tìm kiếm theo [loại XNK](/glossary.md#inventory) |
 | mode | int | No | Tìm kiếm theo [kiểu XNK](/glossary.md#inventory) |
 | customerId | int | No | Tìm kiếm theo ID khách hàng |
-| customerMobile | int | No | Tìm kiếm theo số điện thoại khách hàng |
+| customerMobile | String| No | Tìm kiếm theo số điện thoại khách hàng |
 | fromDate | date | No | Tìm kiếm ngày XNK &gt;= fromeDate. Format yyyy-mm-dd \(.e.g. 2015-07-16\) |
 | toDate | date | No | Tìm kiếm ngày XNK =&lt; toDate Format yyyy-mm-dd \(.e.g. 2015-08-16\) |
 
