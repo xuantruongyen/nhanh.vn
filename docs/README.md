@@ -41,7 +41,7 @@ Dữ liệu về sản phẩm:
 * [/api/product/imei](product/imei.md): Lấy danh sách imei sản phẩm
 
 Dữ liệu về khách hàng
-* [/api/customer/search](customer/search.md): Lấy thông tin khách hàng
+* [/api/customer/search](customer/search.md): Lấy danh sách khách hàng
 * [/api/integrated-elastix](integrated-elastix.md): Lấy tên khách hàng để hiển thị ở phần mềm Call Center (Tổng đài) khi có khách gọi đến.
 
 Dữ liệu về tin tức
