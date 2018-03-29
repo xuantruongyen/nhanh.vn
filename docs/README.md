@@ -47,13 +47,13 @@ Dữ liệu về khách hàng
 
 
 Dữ liệu về tin tức
-* [api/article/categories](article/categories.md): Lấy thông tin danh mục tin tức
+* [/api/article/categories](article/categories.md): Lấy thông tin danh mục tin tức
 * [/api/article/search](article/search.md): Lấy thông tin tin tức
 
 Dữ liệu về hoá đơn:
 * [/api/bill/search](bill/search.md): Lấy danh sách hóa đơn bán hàng
-* [/api/bill/imexrequirements](/bill/imexrequirements.md): Lấy danh sách sản phẩm yêu cầu xuất nhập kho
 * [/api/bill/imexs](bill/imexs.md): Lấy danh sách sản phẩm xuất nhập kho
+* [/api/bill/imexrequirements](/bill/imexrequirements.md): Lấy danh sách sản phẩm yêu cầu xuất nhập kho
 
 ## Send data to Nhanh.vn
 * [/api/store/add](store/add.md): Gửi thông tin doanh nghiệp
