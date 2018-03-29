@@ -44,11 +44,9 @@ Dữ liệu về khách hàng
 * [/api/customer/search](customer/search.md): Lấy thông tin khách hàng
 * [/api/integrated-elastix](integrated-elastix.md): Lấy tên khách hàng để hiển thị ở phần mềm Call Center (Tổng đài) khi có khách gọi đến.
 
-
-
 Dữ liệu về tin tức
-* [/api/article/categories](article/categories.md): Lấy thông tin danh mục tin tức
-* [/api/article/search](article/search.md): Lấy thông tin tin tức
+* [/api/article/categories](article/categories.md): Lấy danh mục tin tức
+* [/api/article/search](article/search.md): Lấy danh sách tin tức
 
 Dữ liệu về hoá đơn:
 * [/api/bill/search](bill/search.md): Lấy danh sách hóa đơn bán hàng
