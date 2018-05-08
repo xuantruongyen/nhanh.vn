@@ -81,7 +81,7 @@
 | typeName   |  string  | Loại sản phẩm |
 | avgCost   | double | Giá vốn sản phẩm |
 | countryName | string | Xuất xứ | 
-| unit | string |  ĐƠn vị tính|
+| unit | string |  Đơn vị tính|
 | importType | int | ID Kiểu nhập kho |
 | importTypeLabel   | string   | Tên kiểu nhập kho |
 | inventory | array | Xem bảng [Inventory](search.md#inventory) bên dưới |
