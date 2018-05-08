@@ -75,6 +75,8 @@
 | length | int | in cm |
 | shippingWeight | int | in gram |
 | createdDateTime | datetime | định dạng yyyy-mm-dd hh:mm:ss|
+| countryName | string | Xuất xứ | 
+| unit | string |  ĐƠn vị tính|
 | brandId | int | ID thương hiệu|
 | brandName  | string   | Tên thương hiệu |
 | typeId | int | ID loại sản phẩm |
