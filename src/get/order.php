@@ -15,9 +15,11 @@ $storeId = null;
 
 $data = array(
     'page' => 1,
-    'fromDate' => '2017-07-01'
+    'fromDate' => '2017-07-01',
+    'customerMobile' => '0984532302'
 );
 
+var_dump($data);
 $response = $service->sendRequest(NhanhService::URI_ORDER_INDEX, $data, $storeId);
 
 echo $service->printApiInfo() . '<br>';

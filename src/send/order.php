@@ -5,7 +5,7 @@ header('Content-type: text/html; charset=utf-8');
 require_once '../NhanhService.php';
 
 $data = array(
-    "id" => 89354328,
+    "id" => 89354327,
     "trafficSource" => null,
     "accessDevice" => null,
     "depotId" => null,
@@ -14,8 +14,8 @@ $data = array(
     "paymentMethod" => null,
     "paymentGateway" => null,
     "paymentCode" => null,
-    "carrierId" => 9, // carrierId get from get/shippingFee.php
-    "carrierServiceId" => 33, // carrierServiceId get from get/shippingFee.php
+    "carrierId" => 2, // carrierId get from get/shippingFee.php
+    "carrierServiceId" => 27, // carrierServiceId get from get/shippingFee.php
     "codFee" => 15000,
     "shipFeeBy" => "Sender", // Receiver
     "shipFee" => 21000,
@@ -74,6 +74,11 @@ $response = $service->sendRequest(NhanhService::URI_ORDER_ADD, $data, $storeId);
 
 if ($response->code) {
     echo "<h1>Success!</h1>";
+    if(isset($response->messages)) {
+        foreach ($response->messages as $message) {
+            echo "<p>$message</p>";
+        }
+    }
 } else {
     echo "<h1>Failed!</h1>";
     foreach ($response->messages as $message) {
