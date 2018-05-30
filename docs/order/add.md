@@ -19,7 +19,7 @@
 Key | Data type | Mandatory |Description
 --|----------|-----------|----------
 id|string(36)|Yes|id đơn hàng trên website của bạn
-depotId | int | No | id kho doanh nghiệp  
+depotId | int | No | id kho doanh nghiệp trên Nhanh.vn
 type|string|No|Loại đơn hàng, giá trị có thể là: “Shipping” (Chuyển hàng) hoặc “Shopping” (Khách tới mua tại cửa hàng)<br>“PreOrder”(Khách đặt hàng trước).<br>Giá trị mặc định là Shipping.
 autoSend | int | No | Biến đánh dấu gửi luôn đơn hàng sang hãng vận chuyển (Dùng trong tình huống bạn có hệ thống xác nhận đơn hàng từ trước, chỉ dùng Nhanh để hỗ trợ vận chuyển).<br>Set value = 1: Gửi luôn đơn hàng sang hãng vận chuyển.
 customerCityName | string(255) | Yes | Tên thành phố của người nhận hàng (Lấy từ [/api/shipping/location](https://developers.nhanh.vn/shipping/location.html))
