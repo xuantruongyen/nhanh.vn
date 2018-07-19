@@ -11,7 +11,7 @@ Key | Data type | Mandatory | Description
 ---- | ------|------|-----
 id | int | Yes | ID đơn hàng bên website của bạn
 reason | int| No | Lý do 
-complain | string | Yes | Nội dung khiếu nại
+description | string | Yes | Nội dung khiếu nại
 
 ## Response: 
 
