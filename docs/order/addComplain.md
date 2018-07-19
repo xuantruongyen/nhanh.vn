@@ -7,3 +7,5 @@ Tính năng này dùng để lấy khiếu lại đơn hàng từ website của 
 
 - The data structure of an order complain: 
 
+Key | Data type | Mandatory | Description
+---- | ------|------|-----
