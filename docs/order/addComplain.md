@@ -19,11 +19,7 @@ complain | string | Yes | Nội dung khiếu nại
 	"messages": [ ], // error messages if code is 0
 	"data": [
 		"3256" => 5174985, // id đơn hàng trên website của bạn => bigint: order id of Nhanh.vn
-		"status": "Shipping", // trạng thái hiện tại của đơn hàng
-		"shipFee" => 30000, // int: Phí vận chuyển
-		"codFee" => 13000, // int: Phí thu tiền hộ
-		"shipFeeDiscount" => 0, // int: Phí vận chuyển được giảm giá
-		"codFeeDiscount" => 0 // int: Phí thu tiền hộ được giảm giá
+		"complain": "Shipping", // trạng thái hiện tại của đơn hàng
 	]
 }
 
