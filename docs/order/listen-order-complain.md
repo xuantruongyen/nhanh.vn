@@ -8,6 +8,7 @@ Website của bạn cần đăng kí một URL để nhận phản hồi khiếu
   [common request params](https://developers.nhanh.vn/api.html#request)
   .
 * Decode data string \(JSON\) to get the data object:
+
 Param	| Data type (Max-length)|Description
 ----|---- |----
 id|string(20)|id của đơn hàng khiếu nại được đồng bộ từ website của bạn sang Nhanh.vn
