@@ -68,6 +68,7 @@ Dữ liệu về hoá đơn:
 * [Listen inventory](product/inventory.md): Nhận cập nhật thay đổi tồn kho từ Nhanh.vn
 * [Listen change level, add point, subtract](bill/listenchange): Nhận thông tin thay đổi cấp độ, tặng điểm, trừ điểm khách hàng cập nhật từ Nhanh.vn 
 * [Listen info when customer add order from](order/listen-info.md): Nhận thông tin khi khách hàng thêm hóa đơn mới từ Nhanh.vn hoặc từ website.    
+* [Listen order complain](order/listen.md): Nhận cập nhật trạng thái đơn hàng từ Nhanh.vn
 
 
 
