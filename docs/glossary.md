@@ -97,14 +97,25 @@ Các thuật ngữ về kho hàng
 * ##### order reason complain
 | Mode (int) | Description |
 | --- | --- |
-| 1 | Kiểu giao hàng |
-| 2 | Kiểu bán lẻ |
-| 3 | Kiểu chuyển kho |
-| 4 | Kiểu quà tặng |
-| 5 | Kiểu nhà cung cấp |
-| 6 | Kiểu bán buôn |
-| 8 | Kiểu kiểm kho |
-| 10 | Kiểu khác |
+| 1 | Thời gian lấy hàng chậm |
+| 2 | Thời gian giao hàng chậm |
+| 35 | Báo hủy đơn |
+| 36 | Thay đổi tiền cần thu hộ (COD) |
+| 33 | Báo lưu kho tại bưu cục |
+| 9 | Báo phát lại |
+| 8 | Báo hoàn hàng |
+| 34 | Yêu cầu cập nhật lại trạng thái |
+| 7| Chậm chuyển tiền |
+| 10 | Yêu cầu miễn giảm cước vận chuyển, bồi thường |
+| 6 | Lý do khác |
+
+
+
+
+
+
+
+
 
 
 
