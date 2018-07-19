@@ -1,2 +1,2 @@
 # /api/order/update
-Tính năng này dùng để lấy khiếu lại đơn hàng từ website của bạn và trả lời khiếu lại khi đơn hàng có khiếu lại(Khi website của bạn nhận được cập nhật từ cổng thanh toán, website của bạn sẽ gửi thông tin này sang Nhanh.vn) hoặc khi khách hàng hủy đơn hàng. Hoặc dùng trong tình huống website của bạn muốn gửi đơn hàng qua các hãng vận chuyển.
+Tính năng này dùng để lấy khiếu lại đơn hàng từ website của bạn và trả lời khiếu lại khi đơn hàng có khiếu lại(Khi website của bạn nhận khiếu nại đơn hàng, website của bạn sẽ gửi thông tin này sang Nhanh.vn.Đội chăm sóc đơn hàng của Nhanh.vn sẽ trả lời khiếu lại và phản hồi lại website của bạn).
