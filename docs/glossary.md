@@ -84,10 +84,6 @@ Lý do khiếu nại theo đơn hàng
 | 35 | Báo hủy đơn |
 | 36 | Thay đổi tiền cần thu hộ (COD) |
 
-
-
-
-
 ### Inventory
 
 Các thuật ngữ về kho hàng
