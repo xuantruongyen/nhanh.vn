@@ -19,7 +19,7 @@ complain | string | Yes | Nội dung khiếu nại
 	"messages": [ ], // error messages if code is 0
 	"data": [
 		"3256" => 5174985, // id đơn hàng trên website của bạn => bigint: order id of Nhanh.vn
-		"complain": "Shipping", // trạng thái hiện tại của đơn hàng
+		"complain": "Shipping", // Nội dung khiếu lại
 	]
 }
 
