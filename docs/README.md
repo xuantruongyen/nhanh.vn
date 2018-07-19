@@ -58,6 +58,7 @@ Dữ liệu về hoá đơn:
 * [/api/product/add](product/add.md): Đồng bộ sản phẩm từ các website khác về Nhanh.vn
 * [/api/order/add](order/add.md): Đồng bộ đơn hàng từ các website khác về Nhanh.vn
 * [/api/order/update](order/update.md): Gửi cập nhật thông tin đơn hàng    
+* [/api/order/addcomplain](order/addComplain.md): Gửi khiếu nại từ website về Nhanh.vn
 * [/api/customer/add](customer/add.md): Gửi thông tin khách hàng
 
 ## Listen webhooks from Nhanh.vn
