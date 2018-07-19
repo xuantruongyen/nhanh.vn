@@ -1,5 +1,5 @@
 # /api/order/addcomplain
-Tính năng này dùng để đồng bộ khiếu nại giữa đơn hàng của bạn và đơn hàng trên Nhanh.vn (Khi website của bạn nhận khiếu nại đơn hàng, website của bạn sẽ gửi thông tin này sang Nhanh.vn. Đội chăm sóc đơn hàng của Nhanh.vn sẽ trả lời khiếu nại và phản hồi lại website của bạn).
+Tính năng này dùng để đồng bộ khiếu nại giữa đơn hàng của bạn và đơn hàng trên Nhanh.vn.
 
 ## Request
 
