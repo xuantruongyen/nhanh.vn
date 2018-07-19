@@ -67,23 +67,6 @@ CarrierPickupLate | Hãng vận chuyển lấy hàng muộn
 CarrierLostProduct | Hãng vận chuyển làm mất hàng
 Other | Lý do khác
 
-* ##### order reason complain
-Lý do khiếu nại theo đơn hàng
-
-| Mode (int) | Description |
-| --- | --- |
-| 1 | Thời gian lấy hàng chậm |
-| 2 | Thời gian giao hàng chậm |
-| 6 | Lý do khác |
-| 7| Chậm chuyển tiền |
-| 8 | Báo hoàn hàng |
-| 9 | Báo phát lại |
-| 10 | Yêu cầu miễn giảm cước vận chuyển, bồi thường |
-| 33 | Báo lưu kho tại bưu cục |
-| 34 | Yêu cầu cập nhật lại trạng thái |
-| 35 | Báo hủy đơn |
-| 36 | Thay đổi tiền cần thu hộ (COD) |
-
 ### Inventory
 
 Các thuật ngữ về kho hàng
