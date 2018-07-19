@@ -10,7 +10,7 @@ Tính năng này dùng để lấy khiếu lại đơn hàng từ website của 
 Key | Data type | Mandatory | Description
 ---- | ------|------|-----
 id | int | Yes | ID đơn hàng bên web đồng bộ
-reason | string | No | Lý do
+reason | string | No | Lý do 
 complain | string | Yes | Nội dung khiếu nại
 
 # Response
