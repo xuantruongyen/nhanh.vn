@@ -10,7 +10,7 @@ Tính năng này dùng để đồng bộ khiếu nại giữa đơn hàng của
 Key | Data type | Mandatory | Description
 ---- | ------|------|-----
 id | int | Yes | ID đơn hàng bên website của bạn
-reason | int| No | Lý do đơn hàng xem [tại đây](https://developers.nhanh.vn/glossary.html#order-status)
+reason | int| No | Lý do đơn hàng xem [tại đây](https://developers.nhanh.vn/glossary.html#order-reason-complain)
 description | string | Yes | Nội dung khiếu nại
 
 ## Response: 
