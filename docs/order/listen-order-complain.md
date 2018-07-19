@@ -1,4 +1,13 @@
 # Listen order complain
 
-Website của bạn cần đăng kí một URL để nhận phản hồi khiếu nại đơn hàng cập nhật từ Nhanh.vn 
+Website của bạn cần đăng kí một URL để nhận phản hồi khiếu nại đơn hàng cập nhật từ Nhanh.vn
+
+## Request {#request}
+
+* Nhanh.vn send a POST request to your listen URL. See
+  [common request params](https://developers.nhanh.vn/api.html#request)
+  .
+* Decode data string \(JSON\) to get the data object:
+
+
 
