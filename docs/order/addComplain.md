@@ -14,8 +14,15 @@ reason | int| No | Lý do đơn hàng xem [tại đây](https://developers.nhanh
 description | string | Yes | Nội dung khiếu nại
 
 ## Response: 
-
-- See: [Response](/api.md#response)
+```js
+{
+	"code": 1, // 1 is success, 0 is error
+	"messages": [ ], // error messages if code is 0
+	"data": [
+		"3256" => 5174985, // id đơn hàng trên website của bạn => bigint: order id of Nhanh.vn
+	]
+}
+```
 
 
 
