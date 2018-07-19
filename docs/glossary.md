@@ -104,10 +104,11 @@ Các thuật ngữ về kho hàng
 | 8 | Báo hoàn hàng |
 | 9 | Báo phát lại |
 | 10 | Yêu cầu miễn giảm cước vận chuyển, bồi thường |
-| 35 | Báo hủy đơn |
-| 36 | Thay đổi tiền cần thu hộ (COD) |
 | 33 | Báo lưu kho tại bưu cục |
 | 34 | Yêu cầu cập nhật lại trạng thái |
+| 35 | Báo hủy đơn |
+| 36 | Thay đổi tiền cần thu hộ (COD) |
+
 
 
 
