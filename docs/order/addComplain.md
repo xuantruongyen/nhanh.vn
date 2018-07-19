@@ -9,3 +9,4 @@ Tính năng này dùng để lấy khiếu lại đơn hàng từ website của 
 
 Key | Data type | Mandatory | Description
 ---- | ------|------|-----
+id | int | yes | ID đơn hàng bên web đồng bộ
