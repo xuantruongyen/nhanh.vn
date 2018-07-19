@@ -13,11 +13,10 @@ id | int | Yes | ID đơn hàng bên website của bạn
 reason | string | No | Lý do 
 complain | string | Yes | Nội dung khiếu nại
 
-# Response
-```js
-"code": 1, // 1 is success, 0 is error
-	"messages": [ ], // error messages if code is 0
-}
+## Response: 
 
-```
+- See: [Response](/api.md#response)
+
+
+
 
