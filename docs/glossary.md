@@ -99,15 +99,18 @@ Các thuật ngữ về kho hàng
 | --- | --- |
 | 1 | Thời gian lấy hàng chậm |
 | 2 | Thời gian giao hàng chậm |
+| 6 | Lý do khác |
+| 7| Chậm chuyển tiền |
+| 8 | Báo hoàn hàng |
+| 9 | Báo phát lại |
+| 10 | Yêu cầu miễn giảm cước vận chuyển, bồi thường |
 | 35 | Báo hủy đơn |
 | 36 | Thay đổi tiền cần thu hộ (COD) |
 | 33 | Báo lưu kho tại bưu cục |
-| 9 | Báo phát lại |
-| 8 | Báo hoàn hàng |
 | 34 | Yêu cầu cập nhật lại trạng thái |
-| 7| Chậm chuyển tiền |
-| 10 | Yêu cầu miễn giảm cước vận chuyển, bồi thường |
-| 6 | Lý do khác |
+
+
+
 
 
 
