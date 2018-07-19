@@ -22,7 +22,7 @@ description | string | Yes | Nội dung khiếu nại
 	"messages": [ ], // error messages if code is 0
 	"data": [
 		"complainId" => 5174985, 
-		//  complainId: ID khiếu nại trả về. Khi Nhanh.vn trả kết quả phản hồi khiếu nại sẽ kèm thêm complainId này.
+		// complainId: ID khiếu nại trả về. Khi Nhanh.vn trả kết quả phản hồi khiếu nại sẽ kèm thêm complainId này.
 	]
 }
 ```
