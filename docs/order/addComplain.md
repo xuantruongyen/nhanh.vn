@@ -5,7 +5,7 @@ Tính năng này dùng để lấy khiếu lại đơn hàng từ website của 
 
 - See [common request params](/api.md#request)
 
-- The data structure of an order complain: 
+- The data structure of an add complain: 
 
 Key | Data type | Mandatory | Description
 ---- | ------|------|-----
