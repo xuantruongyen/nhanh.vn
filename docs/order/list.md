@@ -14,7 +14,7 @@
 | fromDate | string | No | Ngày tạo đơn hàng: Định dạng y-m-d. |
 | toDate | string | No | Ngày tạo đơn hàng: Định dạng y-m-d. |
 | id | int | No | ID đơn hàng trên Nhanh.vn |
-| customerMobile |string |Yes	| điện thoại của người nhận hàng |
+| customerMobile |string | No | điện thoại của người nhận hàng |
 |statuses |string | No | Trạng thái đơn hàng xem [tại đây](https://developers.nhanh.vn/glossary.html#order-status) |
 | fromDeliveryDate | string | No | Định dạng: y-m-d. Ngày giao hàng |
 | toDeliveryDate | string | No | Định dạng: y-m-d. Ngày giao hàng |
@@ -22,8 +22,8 @@
 | carrierCode | string(36) | No | Mã vận đơn hãng vận chuyển |
 | type	|string	 |No |Loại đơn hàng, giá trị có thể là: “Shipping” (Chuyển hàng) hoặc “Shopping” (Khách tới mua tại cửa hàng).“PreOrder”(Khách đặt hàng trước).Giá trị mặc định là Shipping.|
 | shippingType | int | No | Loại chuyển hàng:<br>- [G] Chuyển hàng tận nhà <br> - [Đ] Đổi sản phẩm <br> - [T] Khách trả lại hàng |
-|customerCityId |int	|Yes	| Mã thành phố của người nhận hàng (Lấy từ [/api/shipping/location](https://developers.nhanh.vn/shipping/location.html))|
-|customerDistrictId | int	|Yes	|Mã quận huyện của người nhận hàng (Lấy từ [/api/shipping/location](https://developers.nhanh.vn/shipping/location.html))|
+|customerCityId |int	| No | Mã thành phố của người nhận hàng (Lấy từ [/api/shipping/location](https://developers.nhanh.vn/shipping/location.html))|
+|customerDistrictId | int	| No |Mã quận huyện của người nhận hàng (Lấy từ [/api/shipping/location](https://developers.nhanh.vn/shipping/location.html))|
 
 
 ## Response
