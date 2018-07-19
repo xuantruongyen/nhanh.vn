@@ -13,3 +13,6 @@ id | int | Yes | ID đơn hàng bên web đồng bộ
 reason | string | No | Lý do
 complain | string | Yes | Nội dung khiếu nại
 
+# Response
+```js
+
