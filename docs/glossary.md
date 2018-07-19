@@ -94,6 +94,19 @@ Các thuật ngữ về kho hàng
 | 8 | Kiểu kiểm kho |
 | 10 | Kiểu khác |
 
+* ##### order reason complain
+| Mode (int) | Description |
+| --- | --- |
+| 1 | Kiểu giao hàng |
+| 2 | Kiểu bán lẻ |
+| 3 | Kiểu chuyển kho |
+| 4 | Kiểu quà tặng |
+| 5 | Kiểu nhà cung cấp |
+| 6 | Kiểu bán buôn |
+| 8 | Kiểu kiểm kho |
+| 10 | Kiểu khác |
+
+
 
 
 
