@@ -4,3 +4,6 @@ Tính năng này dùng để lấy khiếu lại đơn hàng từ website của 
 ## Request
 
 - See [common request params](/api.md#request)
+
+- The data structure of an order complain: 
+
