@@ -11,7 +11,7 @@ Website của bạn cần đăng kí một URL để nhận phản hồi khiếu
 
 Param	| Data type (Max-length)|Description
 ----|---- |----
-id|string(20)|id của đơn hàng khiếu nại được đồng bộ từ website của bạn sang Nhanh.vn
+orderId|int|id của đơn hàng khiếu nại được đồng bộ từ website của bạn sang Nhanh.vn
 complainId| int | ID khiếu nại trả về
 answer | string | Nội dung trả lời khiếu nại
 
