@@ -58,6 +58,8 @@ JSON decode the response to get the structure:
 | payment | double | Tổng tiền đã thanh toán |
 | relatedBillId | int | ID hóa đơn được trả hàng| 
 | relatedUserName | string | Người tạo hóa đơn được trả hàng|
+| technicalId | int | Id nhân viên kỹ thuật |
+| technicalName | string | Tên nhân viên kỹ thuật |
 | products | array | Danh sách sản phẩm theo hóa đơn \[Xem bảng bên dưới\] |
 
 * Products: Danh sách sản phẩm XNK trong phiếu
