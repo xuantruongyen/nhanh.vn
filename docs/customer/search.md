@@ -53,8 +53,8 @@ level | string  | Tên cấp độ khách hàng
 group | string | Tên nhóm của khách hàng
 totalMoney | double |Tổng số tiền khách mua hàng
 points |int| Tổng tích điểm của khách hàng
-cityId | int | Mã thành phố khách hàng
-districtId | int | Mã quận huyện khách hàng
+cityId | int | Id thành phố
+districtId | int | Id quận huyện
 billList| array |Lịch sử hóa đơn mua hàng, mô  tả chi tiết dưới bảng sau:
 
 - billList: 
