@@ -34,49 +34,38 @@ Dữ liệu về đơn hàng
 
 Dữ liệu về sản phẩm:
 
-* [/api/product/category](product/category.md): Lấy danh mục sản phẩm
-* [/api/product/search](product/search.md): Lấy danh sách sản phẩm
-* [/api/product/detail](product/detail.md): Lấy thông tin chi tiết sản phẩm 
-* [/api/product/gift](product/gift.md): Lấy danh sách quà tặng theo sản phẩm
-* [/api/product/imei](product/imei.md): Lấy danh sách imei sản phẩm
+* [/api/product/category](/docs/product/category.md): Lấy danh mục sản phẩm
+* [/api/product/search](/docs/product/search.md): Lấy danh sách sản phẩm
+* [/api/product/detail](/docs/product/detail.md): Lấy thông tin chi tiết sản phẩm 
+* [/api/product/gift](/docs/product/gift.md): Lấy danh sách quà tặng theo sản phẩm
+* [/api/product/imei](/docs/product/imei.md): Lấy danh sách imei sản phẩm
 
 Dữ liệu về khách hàng
-* [/api/customer/search](customer/search.md): Lấy danh sách khách hàng
-* [/api/integrated-elastix](integrated-elastix.md): Lấy tên khách hàng để hiển thị ở phần mềm Call Center (Tổng đài) khi có khách gọi đến.
+* [/api/customer/search](/docs/customer/search.md): Lấy danh sách khách hàng
+* [/api/integrated-elastix](/docs/integrated-elastix.md): Lấy tên khách hàng để hiển thị ở phần mềm Call Center (Tổng đài) khi có khách gọi đến.
 
 Dữ liệu về tin tức
-* [/api/article/categories](article/categories.md): Lấy danh mục tin tức
-* [/api/article/search](article/search.md): Lấy danh sách tin tức
+* [/api/article/categories](/docs/article/categories.md): Lấy danh mục tin tức
+* [/api/article/search](/docs/article/search.md): Lấy danh sách tin tức
 
 Dữ liệu về hoá đơn:
-* [/api/bill/search](bill/search.md): Lấy danh sách hóa đơn bán hàng
-* [/api/bill/imexs](bill/imexs.md): Lấy danh sách sản phẩm xuất nhập kho
-* [/api/bill/imexrequirements](/bill/imexrequirements.md): Lấy danh sách sản phẩm yêu cầu xuất nhập kho
+* [/api/bill/search](/docs/bill/search.md): Lấy danh sách hóa đơn bán hàng
+* [/api/bill/imexs](/docs/bill/imexs.md): Lấy danh sách sản phẩm xuất nhập kho
+* [/api/bill/imexrequirements](/docs/bill/imexrequirements.md): Lấy danh sách sản phẩm yêu cầu xuất nhập kho
 
 ## Send data to Nhanh.vn
-* [/api/store/add](store/add.md): Gửi thông tin doanh nghiệp
-* [/api/product/add](product/add.md): Đồng bộ sản phẩm từ các website khác về Nhanh.vn
-* [/api/order/add](order/add.md): Đồng bộ đơn hàng từ các website khác về Nhanh.vn
-* [/api/order/update](order/update.md): Gửi cập nhật thông tin đơn hàng    
-* [/api/order/addcomplain](order/addComplain.md): Gửi khiếu nại từ website về Nhanh.vn
-* [/api/customer/add](customer/add.md): Gửi thông tin khách hàng
+* [/api/store/add](/docs/store/add.md): Gửi thông tin doanh nghiệp
+* [/api/product/add](/docs/product/add.md): Đồng bộ sản phẩm từ các website khác về Nhanh.vn
+* [/api/order/add](/docs/order/add.md): Đồng bộ đơn hàng từ các website khác về Nhanh.vn
+* [/api/order/update](/docs/order/update.md): Gửi cập nhật thông tin đơn hàng    
+* [/api/order/addcomplain](/docs/order/addComplain.md): Gửi khiếu nại từ website về Nhanh.vn
+* [/api/customer/add](/docs/customer/add.md): Gửi thông tin khách hàng
 
 ## Listen webhooks from Nhanh.vn
 
-* [Listen order status](order/listen.md): Nhận cập nhật trạng thái đơn hàng từ Nhanh.vn
-* [Listen product data](product/listen.md): Nhận thông tin sản phẩm cập nhật từ Nhanh.vn
-* [Listen inventory](product/inventory.md): Nhận cập nhật thay đổi tồn kho từ Nhanh.vn
-* [Listen change level, add point, subtract](bill/listenchange): Nhận thông tin thay đổi cấp độ, tặng điểm, trừ điểm khách hàng cập nhật từ Nhanh.vn 
-* [Listen info when customer add order from](order/listen-info.md): Nhận thông tin khi khách hàng thêm hóa đơn mới từ Nhanh.vn hoặc từ website.    
-* [Listen complain](order/listen-complain.md): Nhận thông tin về khiếu nại đơn hàng từ Nhanh.vn
-
-
-
-
-
-
-
-
-
-
-
+* [Listen order status](/docs/order/listen.md): Nhận cập nhật trạng thái đơn hàng từ Nhanh.vn
+* [Listen product data](/docs/product/listen.md): Nhận thông tin sản phẩm cập nhật từ Nhanh.vn
+* [Listen inventory](/docs/product/inventory.md): Nhận cập nhật thay đổi tồn kho từ Nhanh.vn
+* [Listen change level, add point, subtract](/docs/bill/listenchange): Nhận thông tin thay đổi cấp độ, tặng điểm, trừ điểm khách hàng cập nhật từ Nhanh.vn 
+* [Listen info when customer add order from](/docs/order/listen-info.md): Nhận thông tin khi khách hàng thêm hóa đơn mới từ Nhanh.vn hoặc từ website.    
+* [Listen complain](/docs/order/listen-complain.md): Nhận thông tin về khiếu nại đơn hàng từ Nhanh.vn
