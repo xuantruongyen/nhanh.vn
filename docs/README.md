@@ -22,15 +22,15 @@
 
 Dữ liệu về vận chuyển:
 
-* [/api/shipping/carrier](shipping/carrier.md): Lấy danh sách các hãng vận chuyển đang tích hợp trên Nhanh.vn 
-* [/api/shipping/location](shipping/location.md): Lấy danh sách thành phố, quận huyện ở Nhanh.vn
-* [/api/shipping/multifee](shipping/multifee.md): Tính phí vận chuyển cho nhiều đơn hàng cùng lúc.
-* [/api/shipping/fee](shipping/fee.md): Tính phí vận chuyển cho một đơn hàng.
-* [/api/shipping/trackingframe](shipping/trackingframe.md): Tạo link url hiển thị lịch trình của đơn hàng
+* [/api/shipping/carrier](/docs/shipping/carrier.md): Lấy danh sách các hãng vận chuyển đang tích hợp trên Nhanh.vn 
+* [/api/shipping/location](/docs/shipping/location.md): Lấy danh sách thành phố, quận huyện ở Nhanh.vn
+* [/api/shipping/multifee](/docs/shipping/multifee.md): Tính phí vận chuyển cho nhiều đơn hàng cùng lúc.
+* [/api/shipping/fee](/docs/shipping/fee.md): Tính phí vận chuyển cho một đơn hàng.
+* [/api/shipping/trackingframe](/docs/shipping/trackingframe.md): Tạo link url hiển thị lịch trình của đơn hàng
 
 Dữ liệu về đơn hàng
-* [/api/order/index](order/list.md): Lấy danh sách đơn hàng
-* [/api/order/history](order/history.md): Lấy lịch sử thao tác đơn hàng
+* [/api/order/index](/docs/order/list.md): Lấy danh sách đơn hàng
+* [/api/order/history](/docs/order/history.md): Lấy lịch sử thao tác đơn hàng
 
 Dữ liệu về sản phẩm:
 
