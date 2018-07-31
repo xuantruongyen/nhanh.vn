@@ -3,7 +3,7 @@ Tính năng này dùng để đồng bộ khiếu nại giữa đơn hàng của
 
 ## Request
 
-- See [common request params](/api.md#request)
+- See [common request params](/docs/api.md#request)
 
 - The data structure of an add complain: 
 
@@ -24,7 +24,7 @@ description | string | Yes | Nội dung khiếu nại
 	]
 }
 ```
-Xem thêm kết quả phản hồi khiếu nại [tại đây](https://developers.nhanh.vn/order/listen-complain.html) 
+Xem thêm kết quả phản hồi khiếu nại [tại đây](/docs/order/listen-complain.md) 
 
 
 
