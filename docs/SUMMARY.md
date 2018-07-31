@@ -9,7 +9,7 @@
 
 ## Get data from Nhanh.vn
 
-* [/api/shipping/carrier](/docs/shipping/carrier.md)
+* [/api/shipping/carrier](shipping/carrier.md)
 * [/api/shipping/location](/docs/shipping/location.md)
 * [/api/shipping/multifee](/docs/shipping/multifee.md)
 * [/api/shipping/fee](/docs/shipping/fee.md)
