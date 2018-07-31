@@ -22,7 +22,7 @@ if (!$service->isValidChecksum($checksum, $data)) {
 	return;
 }
 ```
-Nếu web server của bạn đang sử dụng magic quote thì các request nhận được từ nhanh sẽ bị tự động thêm các kí tự \\ (đọc thêm về magic quote tại đây http://php.net/manual/en/security.magicquotes.what.php) nên [checksum](api.md#create-checksum) sẽ luôn bị báo  sai. 
+Nếu web server của bạn đang sử dụng magic quote thì các request nhận được từ nhanh sẽ bị tự động thêm các kí tự \\ (đọc thêm về magic quote tại đây http://php.net/manual/en/security.magicquotes.what.php) nên [checksum](/docs/api.md#create-checksum) sẽ luôn bị báo  sai. 
 
 - Cách xử lý: http://docs.php.net/manual/en/security.magicquotes.disabling.php 
 ```php
