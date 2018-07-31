@@ -3,7 +3,7 @@
 - Tính năng này dùng để lấy danh sách sản phẩm yêu cầu xuất nhập kho của doanh nghiệp.
 
 ## Request
-- See [common request params](/api.md#request)
+- See [common request params](/docs/api.md#request)
  
 - The search param - (Data array)
 
