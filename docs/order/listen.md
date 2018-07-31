@@ -4,14 +4,14 @@
  
 ## Request
 
-- Nhanh.vn send a POST request to your listen URL. See [common request params](/api.md#request).
+- Nhanh.vn send a POST request to your listen URL. See [common request params](/docs/api.md#request).
 - Decode data string (JSON) to get the data object: The properties of each order if **updateType** is **Status** or **CheckPayment**:
   
 Param | Data type (Max-length) | Description
 ----------- | ---------------- | --------
 id | string(20) | id của đơn hàng được đồng bộ từ website của bạn sang Nhanh.vn
-status | string | Trạng thái đơn hàng xem [tại đây](https://developers.nhanh.vn/glossary.html#order-status)
-reason | string | Lí do theo trạng thái xem [tại đây](https://developers.nhanh.vn/glossary.html#order-reason)
+status | string | Trạng thái đơn hàng xem [tại đây](/docs/glossary.md#order-status)
+reason | string | Lí do theo trạng thái xem [tại đây](/docs/glossary.md#order-reason)
 carrierId | int / null | id của hãng vận chuyển 
 carrierServiceId | int / null | id của dịch vụ vận chuyển
 sendCarrierDateTime | string / null | Thời gian gửi đơn hàng sang hãng vận chuyển. Định dạng: yyyy-mm-dd hh-mm-ss (nếu đơn chưa gửi sang hãng vận chuyển thì giá trị sẽ là null)
