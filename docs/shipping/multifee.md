@@ -2,11 +2,11 @@
 
 * Tính năng này dùng để tính phí vận chuyển cho nhiều đơn hàng 1 lần call api. Mỗi khi khách hàng vào trang Giỏ hàng, hoặc ở bước thanh toán, website của bạn có thể call API này để tính phí vận chuyển cho đơn hàng và hiển thị chi tiết tổng tiền của đơn hàng bao gồm cả phí vận chuyển và phí thu tiền hộ (nếu khách hàng chọn hình thức thanh toán khi nhận hàng).
 
-    **Chú ý**: API này dùng cho các sàn thương mại điện tử, giỏ hàng hỗ trợ mua hàng từ nhiều gian hàng, mỗi gian hàng có 1 địa chỉ lấy hàng khác nhau. Nếu website của bạn chỉ hỗ trợ lấy hàng từ 1 địa chỉ, xin vui lòng sử dụng [/api/shipping/fee](/shipping/fee.md). 
+    **Chú ý**: API này dùng cho các sàn thương mại điện tử, giỏ hàng hỗ trợ mua hàng từ nhiều gian hàng, mỗi gian hàng có 1 địa chỉ lấy hàng khác nhau. Nếu website của bạn chỉ hỗ trợ lấy hàng từ 1 địa chỉ, xin vui lòng sử dụng [/api/shipping/fee](/docs/shipping/fee.md). 
 
 ## Request
 
-* See [common request params](/api.md#request)
+* See [common request params](/docs/api.md#request)
 
 * The structure of data array:
 ```js
@@ -37,14 +37,14 @@
 
 Param | Data type (Max-length) | Mandatory | Description
 --------- | ------------ | ----------- | -----------
-fromCityName | string | Yes | Tên thành phố của kho gửi hàng (Lấy từ [/api/shipping/location](location.html))  
-fromDistrictName| string | Yes | Tên quận huyện của kho gửi hàng (Lấy từ [/api/shipping/location](location.md))
-toCityName | string | Yes | Tên thành phố của khách nhận hàng (Lấy từ [/api/shipping/location](location.md)) 
-toDistrictName | string | Yes| Tên quận huyện của khách nhận hàng (Lấy từ [/api/shipping/location](location.md))
+fromCityName | string | Yes | Tên thành phố của kho gửi hàng (Lấy từ [/api/shipping/location](/docs/shipping/location.md))  
+fromDistrictName| string | Yes | Tên quận huyện của kho gửi hàng (Lấy từ [/api/shipping/location](/docs/shipping/location.md))
+toCityName | string | Yes | Tên thành phố của khách nhận hàng (Lấy từ [/api/shipping/location](/docs/shipping/location.md)) 
+toDistrictName | string | Yes| Tên quận huyện của khách nhận hàng (Lấy từ [/api/shipping/location](/docs/shipping/location.md))
 codMoney | int | No | Giá trị của đơn hàng (Tổng giá nhân số lượng sản phẩm trong đơn hàng) dùng để tính phí thu tiền hộ, set 0 nếu đơn hàng này không cần thu tiền hộ (VD tình huống khách đã chuyển khoản trước)
 shippingWeight | int | No | Tổng trọng lượng của đơn hàng tính bằng gram (Tổng toàn bộ shipping weight của các sản phẩm trong đơn hàng). Hiện tại Nhanh.vn hỗ trợ đơn hàng tối đa 100000 gr (100 kg).
 productIds | array | No | Danh sách các ID sản phẩm được đồng bộ từ Nhanh.vn sang website của bạn (idNhanh), dùng để tính khối lượng đơn hàng theo giá trị sản phẩm khai báo bên Nhanh.vn.
-carrierIds | array | No |Dùng để giới hạn các hãng vận chuyển muốn dùng (Lấy từ [/api/shipping/carrier](carrier.md)). VD: [5,7,8,9]
+carrierIds | array | No |Dùng để giới hạn các hãng vận chuyển muốn dùng (Lấy từ [/api/shipping/carrier](/docs/shipping/carrier.md)). VD: [5,7,8,9]
 length | int |No | Chiều dài gói hàng tính theo cm (Dùng cho hàng cồng kềnh, có kích thước >= 30cm).
 width | int | No | Chiều rộng gói hàng tính theo cm (Dùng cho hàng cồng kềnh, có kích thước >= 30cm).
 height | int | No | Chiều cao gói hàng tính theo cm (Dùng cho hàng cồng kềnh, có kích thước >= 30cm).
