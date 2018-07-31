@@ -1,10 +1,10 @@
   # /api/shipping/location
 
 - Lấy danh sách thành phố, quận huyện từ Nhanh.vn.
-Các API [đồng bộ đơn hàng](/order/add.md), [tính phí vận chuyển](/shipping/fee.md) sẽ cần sử dụng đến các dữ liệu này.
+Các API [đồng bộ đơn hàng](/docs/order/add.md), [tính phí vận chuyển](/docs/shipping/fee.md) sẽ cần sử dụng đến các dữ liệu này.
 
 ## Request
-- See [common request params](/api.md#request)
+- See [common request params](/docs/api.md#request)
 
 - The search param - (Data array)
 
