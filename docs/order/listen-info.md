@@ -3,7 +3,7 @@
 
 # Request
 
-- Nhanh.vn send a POST request to your listen URL. See [common request params](/api.md#request).
+- Nhanh.vn send a POST request to your listen URL. See [common request params](/docs/api.md#request).
 - Decode data string (JSON) to get the data object:
 
 
