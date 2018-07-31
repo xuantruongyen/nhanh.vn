@@ -3,7 +3,7 @@
 - Tính năng này được sử dụng để lấy toàn bộ danh mục tin tức của doanh nghiệp trên Nhanh.vn.
 
 ## Request
-See [common request params](/api.md#request)
+See [common request params](/docs/api.md#request)
 
 ## Response
 JSON decode the response to get the structure:
