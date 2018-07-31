@@ -4,7 +4,7 @@
 
 ## Request
 
-* See [common request params](/api.md#request)
+* See [common request params](/docs/api.md#request)
 * Data structure of search params
 
 | Param | Data Type | Mandatory | Description |
@@ -84,8 +84,8 @@
 | unit | string |  Đơn vị tính|
 | importType | int | ID Kiểu nhập kho |
 | importTypeLabel   | string   | Tên kiểu nhập kho |
-| inventory | array | Xem bảng [Inventory](search.md#inventory) bên dưới |
-| attributes | array | Xem bảng [Attributes](search.md#attributes) bên dưới |
+| inventory | array | Xem bảng [Inventory](/docs/product/search.md#inventory) bên dưới |
+| attributes | array | Xem bảng [Attributes](/docs/product/search.md#attributes) bên dưới |
 
 #### Inventory
 
