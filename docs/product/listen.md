@@ -4,7 +4,7 @@
 
 ## Request
 
-- Nhanh.vn send a POST request to your listen URL. See [common request params](/api.md#request).
+- Nhanh.vn send a POST request to your listen URL. See [common request params](/docs/api.md#request).
 - Decode data string (JSON) to get the data object:
 
 
@@ -17,7 +17,7 @@ merchantProductId | int | ID sản phẩm trên sàn (tính năng này chỉ ph�
 categoryId | int | ID danh mục sản phẩm trên Nhanh.vn
 brandId |int|ID thương hiệu sản phẩm trên Nhanh.vn
 parentId|bigint(20)|ID sản phẩm cha trên Nhanh.vn
-id|string(20)|ID sản phẩm từ website của bạn gửi sang. (Nếu website của bạn có tích hợp Send product information: [/api/product/add](add.md) Nhanh.vn sẽ lưu ID sản phẩm này được gửi từ website của bạn, khi thông tin sản phẩm được cập nhật trên Nhanh.vn, Nhanh API sẽ gửi dữ liệu tới website của bạn, và đây chính là id sản phẩm được gửi từ website của bạn).
+id|string(20)|ID sản phẩm từ website của bạn gửi sang. (Nếu website của bạn có tích hợp Send product information: [/api/product/add](/docs/product/add.md) Nhanh.vn sẽ lưu ID sản phẩm này được gửi từ website của bạn, khi thông tin sản phẩm được cập nhật trên Nhanh.vn, Nhanh API sẽ gửi dữ liệu tới website của bạn, và đây chính là id sản phẩm được gửi từ website của bạn).
 code|string(255)|Mã sản phẩm
 name|string(255)|Tên sản phẩm
 price|double|<p></p>
@@ -36,8 +36,8 @@ height|int|in cm
 length|int|in cm
 shippingWeight|int|in gram
 createdDateTime|datetime|format yyyy-mm-dd hh:mm:ss
-inventory|array| Xem bảng [Inventory](listen.md#inventory) bên dưới
-attributes|array | Xem bảng [Attributes](listen.md#attributes) bên dưới
+inventory|array| Xem bảng [Inventory](/docs/product/listen.md#inventory) bên dưới
+attributes|array | Xem bảng [Attributes](/docs/product/listen.md#attributes) bên dưới
 promotionValue | int | Giá trị khuyến mại (Điền ở thông tin sản phẩm)
 promotionContent | string | Mô tả khuyến mại (Điền ở thông tin sản phẩm)
 
