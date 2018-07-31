@@ -47,7 +47,7 @@ JSON decode the response to get the structure:
 | createdDateTime | datetime | Ngày giờ tạo hóa đơn (format: yyyy-mm-dd h:i:s) |
 | type | int | Xem [Loại XNK](/docs/glossary.md#inventory) |
 | mode | int | Xem [Kiểu XNK](/docs/glossary.md#inventory) |
-| customerId | int | ID khách hàng mua hàng, có thể sử dụng để đồng bộ với ID khách hàng trong [/api/customer/search](search.html) |
+| customerId | int | ID khách hàng mua hàng, có thể sử dụng để đồng bộ với ID khách hàng trong [/api/customer/search](/docs/customer/search.md) |
 | customerId | int | ID khách hàng |
 | customerName | string | Tên khách hàng |
 | customerMobile | string | Số điện thoại khách hàng |
