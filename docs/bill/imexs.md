@@ -4,7 +4,7 @@
 
 ## Request
 
-See [common request params](/api.md#request)
+See [common request params](/docs/api.md#request)
 
 The search param - \(Data array\)
 
@@ -16,8 +16,8 @@ The search param - \(Data array\)
 | toDate | string | No | Định dạng: yyyy-mm-dd. Ngày XNK. |
 |id	|Int	|No	|ID sản phẩm xuất nhập kho|
 |billId	|Int	|No	|ID phiếu xuất nhập kho|
-|type	|Int	|No	|Tìm kiếm theo [loại XNK](/glossary.md#inventory)|
-|mode	|Int	|No	|Tìm kiếm theo [kiểu XNK](/glossary.md#inventory)|
+|type	|Int	|No	|Tìm kiếm theo [loại XNK](/docs/glossary.md#inventory)|
+|mode	|Int	|No	|Tìm kiếm theo [kiểu XNK](/docs/glossary.md#inventory)|
 |depotId	|Int	|No	|ID kho|
 |relatedDepotId	|Int	|No	|ID kho liên quan|
 |supplierId	|Int	|No	|ID nhà cung cấp|
