@@ -4,7 +4,7 @@
 - Các website bình thường không sử dụng chức năng này.
 
 ## Request
-- See [common request params](/api.md#request)
+- See [common request params](/docs/api.md#request)
 - The data structure of the store: 
 
 Key | Data type(Max-length) | Mandatory | Description
@@ -21,6 +21,6 @@ website | string(255) | No | <p></p>
 
 ## Response: 
 
-- See: [Response](/api.md#response)
+- See: [Response](/docs/api.md#response)
 
 
