@@ -5,7 +5,7 @@ Website của bạn cần đăng kí một URL để nhận phản hồi khiếu
 ## Request {#request}
 
 * Nhanh.vn send a POST request to your listen URL. See
-  [common request params](https://developers.nhanh.vn/api.html#request)
+  [common request params](/docs/api.md#request)
   .
 * Decode data string \(JSON\) to get the data object:
 
