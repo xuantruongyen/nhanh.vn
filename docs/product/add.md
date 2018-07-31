@@ -3,7 +3,7 @@
 - Tính năng này dùng để gửi thông tin sản phẩm từ website của bạn sang Nhanh.vn.
 
 ## Request
-- See [common request params](/api.md#request)
+- See [common request params](/docs/api.md#request)
 
 - The **data array**:
 
@@ -19,7 +19,7 @@
 Key | Data type | Mandatory | Description
 ----------- | -------- | -------- | -----------
 id| string(20) | Yes | id của sản phẩm
-idNhanh | bigint | No | id sản phẩm trên Nhanh.vn ([idNhanh đồng bộ từ Listen product updated from Nhanh.vn](listen.html))
+idNhanh | bigint | No | id sản phẩm trên Nhanh.vn ([idNhanh đồng bộ từ Listen product updated from Nhanh.vn](/docs/product/listen.md))
 code | string(255) | No | Mã sản phẩm
 barcode | string(20) | No | Mã vạch của sản phẩm
 name | string(255) | Yes | Tên sản phẩm
