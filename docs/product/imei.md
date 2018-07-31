@@ -2,7 +2,7 @@
  - Tính năng này dùng để lấy danh sách imei sản phẩm ở trên Nhanh.vn. Dữ liệu sẽ được phân trang, mỗi trang tối đa không quá 100 sản phẩm.
  
  ## Request
- - See [common request params](/api.md#request)
+ - See [common request params](/docs/api.md#request)
  
  - The search params:
 
