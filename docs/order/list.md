@@ -83,6 +83,8 @@ data =
             "calcTotalMoney" : double, // Tổng thu của khách
             "trafficSourceId" : int // Id nguồn đơn hàng 
             "trafficSourceName" : string // Tên nguồn đơn hàng
+            "saleId": int // ID nhân viên bán hàng
+            "saleName": string // Tên nhân viên bán hàng
             "products": array, // Xem bảng Order Product bên dưới
         ],
         [
