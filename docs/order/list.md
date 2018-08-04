@@ -81,6 +81,8 @@ data =
             "statusCode": string, // Mã trạng thái
             "statusName": string, // Trạng thái đơn hàng
             "calcTotalMoney" : double, // Tổng thu của khách
+            trafficSourceId: int // Id nguồn đơn hàng
+            trafficSourceName: string // Tên nguồn đơn hàng
             "products": array, // Xem bảng Order Product bên dưới
         ],
         [
