@@ -52,6 +52,7 @@ JSON decode the response to get the structure:
 | customerId | int | ID khách hàng |
 | customerName | string | Tên khách hàng |
 | customerMobile | string | Số điện thoại khách hàng |
+| saleId | int | ID nhân viên bán hàng |
 | saleName | string | Nhân viên bán hàng |
 | createdByName | string | Nhân viên thu ngân |
 | discount | double | Chiết khấu hóa đơn |
