@@ -54,6 +54,7 @@ JSON decode the response to get the structure:
 | customerMobile | string | Số điện thoại khách hàng |
 | saleId | int | ID nhân viên bán hàng |
 | saleName | string | Nhân viên bán hàng |
+| createdById | int | ID nhân viên thu ngân |
 | createdByName | string | Nhân viên thu ngân |
 | discount | double | Chiết khấu hóa đơn |
 | money | double | Tổng tiền hóa đơn |
