@@ -24,6 +24,7 @@
 | shippingType | int | No | Loại chuyển hàng:<br>- [G] Chuyển hàng tận nhà <br> - [Đ] Đổi sản phẩm <br> - [T] Khách trả lại hàng |
 |customerCityId |int	| No | Mã thành phố của người nhận hàng (Lấy từ [/api/shipping/location](/docs/shipping/location.md))|
 |customerDistrictId | int	| No |Mã quận huyện của người nhận hàng (Lấy từ [/api/shipping/location](/docs/shipping/location.md))|
+|handoverId | int | No | ID biên bản bàn giao
 
 
 ## Response
