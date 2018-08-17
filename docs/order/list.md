@@ -21,7 +21,7 @@
 | carrierId |int |	No | id hãng vận chuyển (Lấy từ [/api/shipping/fee](/docs/shipping/fee.md)) |
 | carrierCode | string(36) | No | Mã vận đơn hãng vận chuyển |
 | type	|string	 |No |Loại đơn hàng, giá trị có thể là: “Shipping” (Chuyển hàng) hoặc “Shopping” (Khách tới mua tại cửa hàng).“PreOrder”(Khách đặt hàng trước).Giá trị mặc định là Shipping.|
-| shippingType | int | No | Loại chuyển hàng:<br>- [G] Chuyển hàng tận nhà <br> - [Đ] Đổi sản phẩm <br> - [T] Khách trả lại hàng |
+| shippingType | string | No | Loại chuyển hàng:<br>- [G] Chuyển hàng tận nhà <br> - [Đ] Đổi sản phẩm <br> - [T] Khách trả lại hàng |
 |customerCityId |int	| No | Mã thành phố của người nhận hàng (Lấy từ [/api/shipping/location](/docs/shipping/location.md))|
 |customerDistrictId | int	| No |Mã quận huyện của người nhận hàng (Lấy từ [/api/shipping/location](/docs/shipping/location.md))|
 |handoverId | int | No | ID biên bản bàn giao
