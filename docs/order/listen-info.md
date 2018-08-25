@@ -7,6 +7,7 @@
 - Decode data string (JSON) to get the data object:
 
 | Param | Data type (Max-length) | Description| 
+| --- | ---- | ---- | 
  |storeId | String (20)| id của gian hàng trên các sàn thương mại điện tử (các website bình thường không cần quan tâm đến tham số này)|
  | data|string |Json encoded string: json_decode chuỗi này được một mảng: xem bên dưới |
  | checksum| String (32)|Sử dụng secretKey và data nhận về để tạo checksum và so sánh với tham số checksum.|
