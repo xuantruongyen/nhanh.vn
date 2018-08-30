@@ -24,13 +24,11 @@ height |int |No | Chiều cao gói hàng tính theo cm.
 
   **Chú ý**: API này có 2 tình huống:
   
-- Website của bạn tự tính tổng trọng lượng shippingWeight của đơn hàng này.
-   
 - Nếu các sản phẩm được đồng bộ từ Nhanh.vn sang website của bạn (Nhanh.vn đã có thông tin shippingWeight của các sản phẩm này): website của bạn có thể gửi sang 1 mảng productIds, Nhanh.vn sẽ tự tính toán tổng trọng lượng của đơn hàng này.
-    
-**Chú ý**: 
 
-  Nếu bạn có truyền sang các tham số length, width, height: Nhanh.vn sẽ tính toán trọng lượng của đơn hàng theo công thức quy ra kg: A = dài \* rộng \* cao / 6000 (so sánh số A và shippingWeight tham số nào lớn hơn sẽ lấy theo tham số đó để tính toán cước phí) và trả về kết quả đánh dấu nếu gói hàng thuộc loại hàng cồng kềnh
+- Website của bạn tự tính tổng trọng lượng shippingWeight của đơn hàng này.
+
+  Nếu bạn có truyền sang các tham số length, width, height: Nhanh.vn sẽ tính toán trọng lượng của đơn hàng theo công thức quy ra kg: A = dài \* rộng \* cao / 6000 (so sánh số A và shippingWeight tham số nào lớn hơn sẽ lấy theo tham số đó để tính toán cước phí) và trả về kết quả đánh dấu nếu gói hàng thuộc loại hàng cồng kềnh.
 
 ## Response 
 - JSON decode the response to get the structure:
