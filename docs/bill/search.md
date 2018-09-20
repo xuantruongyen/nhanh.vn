@@ -59,6 +59,7 @@ JSON decode the response to get the structure:
 | createdByName | string | Nhân viên thu ngân |
 | discount | double | Chiết khấu hóa đơn |
 | money | double | Tổng tiền hóa đơn |
+| saleBonus | double | Hoa hồng bán hàng
 | payment | double | Tổng tiền đã thanh toán |
 | relatedBillId | int | ID hóa đơn được trả hàng| 
 | relatedUserName | string | Người tạo hóa đơn được trả hàng|
