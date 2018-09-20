@@ -14,7 +14,7 @@
 | icpp | int | No | Số lượng đơn hàng trên 1 trang. Mặc định là 10. Tối đa không quá 20. |
 | id | int | No | Tìm kiếm theo ID phiếu XNK |
 | type | int | No | Tìm kiếm theo [loại XNK](/docs/glossary.md#inventory) |
-| mode | int | No | Tìm kiếm theo [kiểu XNK](/docs/glossary.md#inventory) |
+| modes | array | No | Tìm kiếm theo [kiểu XNK](/docs/glossary.md#inventory) |
 | customerId | int | No | Tìm kiếm theo ID khách hàng |
 | customerMobile | string| No | Tìm kiếm theo số điện thoại khách hàng |
 | fromDate | date | No | Tìm kiếm ngày XNK &gt;= fromeDate. Format yyyy-mm-dd \(.e.g. 2015-07-16\) |
