@@ -27,7 +27,7 @@ customerDistrictName | string(255) | Yes | Tên quận huyện của người nh
 customerAddress | string(255) | Yes |Địa chỉ người nhận hàng
 customerName | string(255) | Yes | Tên người nhận hàng
 customerMobile | string(255) | Yes | Mobile của người nhận hàng
-customerEmail | string(255) | Yes | Địa chỉ email đặt hàng
+customerEmail | string(255) | No | Địa chỉ email đặt hàng
 moneyDiscount | int | No | Tiền chiết khấu
 moneyTransfer | int | No | Số tiền khách chuyển khoản
 paymentMethod | string | No | Các giá trị có thể là: <br>COD //Thanh toán tại nhà<br>Store // Thanh toán tại cửa hàng<br> Gateway // Thanh toán qua cổng thanh toán<br>Online // thanh toán Online
