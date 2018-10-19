@@ -62,6 +62,7 @@ quantity | int | Yes | số lượng đặt hàng
 name | string(255) | Yes | Bắt buộc để thêm sản phẩm mới trong tình huống sản phẩm chưa tồn tại (giúp cho việc đồng bộ đơn hàng không bị gián đoạn nếu sản phẩm chưa được đồng bộ trước đó)
 code | string(255) | No | Mã sản phẩm
 imei | string(255) | No | Số IMEI sản phẩm
+type | string(255) | No | Loại sản phẩm (Product, Voucher, IMEI)
 price | int | Yes | Giá của sản phẩm. Bắt buộc để thêm sản phẩm mới trong tình huống sản phẩm chưa tồn tại
 importPrice | int | No | Giá nhập của sản phẩm
 description | string | No |Mô tả riêng của từng sản phẩm trong đơn hàng
