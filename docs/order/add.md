@@ -64,6 +64,7 @@ code | string(255) | No | Mã sản phẩm
 imei | string(255) | No | Số IMEI sản phẩm
 type | string(255) | No | Loại sản phẩm (Product, Voucher, IMEI)
 price | int | Yes | Giá của sản phẩm. Bắt buộc để thêm sản phẩm mới trong tình huống sản phẩm chưa tồn tại
+weight | int | No | Khối lượng sản phẩm
 importPrice | int | No | Giá nhập của sản phẩm
 description | string | No |Mô tả riêng của từng sản phẩm trong đơn hàng
 gifts | Array | No | Quà tặng của sản phẩm trong đơn hàng <br> [<br>&nbsp;&nbsp;&nbsp;0 => [<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Id => id sản phẩm trên website ,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;productStoreId => id sản phẩm trên Nhanh , <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quantity => Số lượng, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value => Giá sản phẩm quà tặng<br>&nbsp;&nbsp;&nbsp;],<br>&nbsp;&nbsp;&nbsp;1 => [<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Id => id sản phẩm trên website,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;productStoreId => id sản phẩm trên Nhanh,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quantity => Số lượng, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value => Giá sản phẩm quà tặng<br>&nbsp;&nbsp;&nbsp;]<br>...<br>]
