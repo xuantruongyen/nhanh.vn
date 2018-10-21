@@ -7,7 +7,7 @@
 
 - The **data array**:
 ```js
-// each request can send maximum 50 customer
+// each request can send maximum 50 customers
 [
 	[ // customer 1 ], // see the structure in the table below
 	[ // customer  2 ],
