@@ -64,7 +64,7 @@ data =
             "codFee": double, // Phí thu tiền hộ,
             "customerShipFee": double,// Phí thu của khách,
             "returnFee": double,// Phí chuyển hoàn,
-            "overWeightShipFee ": double,// Phí vượt cân,
+            "overWeightShipFee": double,// Phí vượt cân,
             "carrierServiceName": string, // Dịch vụ vân chuyển
             "description": string, // ghi chú của khách hàng
             "privateDescription" string, // ghi chú của CSKH
