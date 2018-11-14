@@ -10,7 +10,6 @@
 Key | Data type(Max-length) | Mandatory | Description
 -------- | ---------- | ----------- | ---------
 id | string(20) | Yes | the storeId in e-commerce platform
-serviceType | string(30) | No | specify the service type of store (This feature is only available for merchant some specific merchants).The value can be:<br> fulfillment<br> gold <br>silver
 name | string(255) | Yes | e.g. shopmp3 (can be the registered store name on e-commerce website: [http://vatgia.com/shopmp3](http://vatgia.com/shopmp3))
 displayName | string(255) | Yes | e.g. MP3 Store (can be the business name of the store)
 address | string(255) | Yes | <p></p>
