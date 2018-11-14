@@ -1,10 +1,10 @@
 # Listen link
 
-Link listen config cho shop
+Config webhooks listen URL
 
 ## Request {#request}
 
-* Nhanh.vn send a POST request to your listen URL. See
+* You can send a POST request to change your listen URL. See
   [common request params](/docs/api.md#request)
 
 * The data structure of an config:
