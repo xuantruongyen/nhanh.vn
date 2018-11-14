@@ -49,5 +49,4 @@
 * [Listen change level, add point, subtract point](/bill/listenchange.md)
 * [Listen info when customer add order](/order/listen-info.md)
 * [Listen complain](/order/listen-complain.md)
-* [Listen link](/order/link.md)
 
