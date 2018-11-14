@@ -2,7 +2,7 @@
 
 Config webhooks listen URL
 
-## Request {#request}
+## Request
 
 * You can send a POST request to change your listen URL. See
   [common request params](/docs/api.md#request)
