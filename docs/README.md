@@ -69,4 +69,4 @@ Dữ liệu về hoá đơn:
 * [Listen change level, add point, subtract](/docs/bill/listenchange): Nhận thông tin thay đổi cấp độ, tặng điểm, trừ điểm khách hàng cập nhật từ Nhanh.vn 
 * [Listen info when customer add order from](/docs/order/listen-info.md): Nhận thông tin khi khách hàng thêm hóa đơn mới từ Nhanh.vn hoặc từ website.    
 * [Listen complain](/docs/order/listen-complain.md): Nhận thông tin về khiếu nại đơn hàng từ Nhanh.vn
-* [Listen link](/docs/order/listen-link.md): Nhận thông tin link webhooks config cho shop
+* [Listen link](/docs/order/link.md): Link webhooks config cho shop
