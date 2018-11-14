@@ -39,6 +39,7 @@
 * [/api/order/update](/order/update.md)
 * [api/order/addcomplain](/order/addComplain.md)
 * [/api/customer/add](/customer/add.md)
+* [/api/store/configwebhooks](/order/link.md)
 
 ## Listen webhooks from Nhanh.vn
 
