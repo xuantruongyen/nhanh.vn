@@ -1,8 +1,8 @@
 
 ## Get API Account
 
-Please contact **chukhanhvan@gmail.com** to get an API account.
-    (or Skype: **chukhanhvan**).
+Please contact email **chukhanhvan@gmail.com** or Skype: **chukhanhvan** to get an API account.
+    .
 
 The register form will be available soon.
 
