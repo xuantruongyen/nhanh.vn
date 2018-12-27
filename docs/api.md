@@ -15,11 +15,10 @@ secretKey | string(32) | used to [create the checksum](#create-checksum)
 
 ## Environment
 
-- Môi trường kiểm thử (testing domain): https://dev.nhanh.vn
-- Môi trường thật (production domain): https://graph.nhanh.vn
-- Mỗi một API request có 1 URL, nối testing domain hoặc production domain để có 1 đường dẫn request đầy đủ. VD:
+- Testing: https://dev.nhanh.vn
+- Production: https://graph.nhanh.vn
  
-Môi trường kiểm thử | Môi trường thật
+Testing | Production
 ---- | ------------
 [https://dev.nhanh.vn/api/order/add](/docs/order/add.md)|[https://graph.nhanh.vn/api/order/add](/docs/order/add.md)
 [https://dev.nhanh.vn/api/product/add](/docs/product/add.md)|[https://graph.nhanh.vn/api/product/add](/docs/product/add.md)
