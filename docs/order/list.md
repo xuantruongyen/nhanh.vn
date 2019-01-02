@@ -109,7 +109,7 @@ data =
         "price": double, // Giá sản phẩm
         "quantity": double, // Số lượng sản phẩm
         "weight": int , // Trọng lượng sản phẩm
-        "imei": string, // Imei sản phẩm
+        "imei": string, // IMEI của sản phẩm
         "discount": double, // Chiết khấu theo sản phẩm
         "description": string, // Mô tả sản phẩm
     ],
