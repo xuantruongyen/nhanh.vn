@@ -4,6 +4,8 @@
 ## Request
 See [common request params](/docs/api.md#request)
 
+- The search param: data = array ( [NhanhProductId](https://github.com/nhanhapi/nhanh.vn/blob/master/src/get/product.php) )
+
 ## Response
 
 JSON decode the response to get the structure:
