@@ -2,7 +2,7 @@
 - Tính năng này dùng để lấy thông tin chi tiết của sản phẩm. Nếu sản phẩm được đồng bộ từ Nhanh.vn sang website của bạn, đôi khi bạn sẽ muốn lấy thêm thông tin chi tiết của sản phẩm đó.
 
 ## Request
-See [common request params](/docs/api.md#request)
+- See [common request params](/docs/api.md#request)
 
 - The search param: data = array ( [NhanhProductId](https://github.com/nhanhapi/nhanh.vn/blob/master/src/get/product.php) )
 
