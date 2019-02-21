@@ -47,6 +47,7 @@ data =
         [
             // Đơn hàng 1
             "id": int, // ID đơn hàng
+            "privateId": string, // ID website tích hợp
             "depotId": int, // Mã kho
             "depotName": string, // Tên Cửa hàng
             "typeId": int, //mã loại đơn hàng
