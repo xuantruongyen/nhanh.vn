@@ -28,8 +28,8 @@ The search param - \(Data array\)
 |internalCategoryId	|Int	|No	|ID danh mục nội bộ sản phẩm|
 |brandId	|Int	|No	|ID thương hiệu sản phẩm|
 |productStoreTypeId	|Int	|No	|Loại sản phẩm: <br>1: Sản phẩm<br>2: Voucher<br>3: Sản phẩm cân đo<br>4: Sản phẩm theo IMEI<br>5: Gói sản phẩm<br>6: Dịch vụ |
-|imeiId	|Int	|No	|Imei Id
-|imei	|string	|No	|Số imei (Chỉ hỗ trợ tìm IMEI trong các hóa đơn bán lẻ, các phiếu nhập nhà cung cấp, chuyển kho sẽ không hỗ trợ tìm kiếm theo IMEI)
+|imeiId	|Int	|No	| Tìm theo imeiId
+|imei	|string	|No	| Tìm theo IMEI (Chỉ hỗ trợ tìm trong các hóa đơn bán lẻ, các phiếu nhập nhà cung cấp, chuyển kho sẽ không hỗ trợ tìm kiếm theo IMEI)
 |warrantyBillId	|Int	|No	|ID phiếu bảo hành
 
 ## Response
