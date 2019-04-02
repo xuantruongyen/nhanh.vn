@@ -32,21 +32,7 @@ data = [
 	]
 ]
 ```
-Xem bảng [products](/docs/product/imei.md#products) bên dưới.
 
-Lưu ý:
-
-Nếu tìm chính xác theo mã IMEI (imeiCode) thì data sẽ trả về dạng:
-```js
-data = [
-	totalPages: int,
-	histories: [ 
-		{  }, // each product item, all properties are listed in the table below
-		...
-	]
-]
-```
-Xem bảng [histories](/docs/product/imei.md#histories) bên dưới.
 
 ### Products
 Key | Data Type(Max-length) | Description
@@ -73,6 +59,7 @@ createdById | int | Người tạo
 createdDateTime | date|Ngày tạo
 activatedById| int| Người kích hoạt
 activatedByDateTime | date | Ngày kích hoạt
+imeiHistories | array | Xem [tại đây](/docs/product/imei.md#histories) (Chỉ trả về khi lọc chính xác Imei)
 
 ### Histories
 Key | Data Type(Max-length) | Description
