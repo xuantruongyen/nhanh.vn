@@ -85,7 +85,7 @@ productBarcode | string | Mã vạch sản phẩm
 imeiCode | string | Imei sản phẩm
 imeiId | int | Imei ID
 step | int | Hành động
-itemTypeName | int | Sản phẩm
+itemTypeName | string | Sản phẩm
 itemId | string | Mã sản phẩm
 createdById | int | Người tạo
 createdDateTime | date|Ngày tạo
