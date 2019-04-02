@@ -26,13 +26,16 @@ data | [ ] | is an array of product imei list
 ```js
 data = [
 	totalPages: int,
-	products: [ // xem bảng [products](/docs/product/imei.md#products) bên dưới
+	products: [ 
 		{  }, // each product item, all properties are listed in the table below
 		...
 	]
 ]
+```
+Xem bảng [products](/docs/product/imei.md#products) bên dưới.
 Lưu ý:
 Nếu tìm chính xác theo mã IMEI (imeiCode) thì data sẽ trả về dạng:
+```js
 data = [
 	totalPages: int,
 	histories: [ // xem bảng [histories](/docs/product/imei.md#products) bên dưới
@@ -41,7 +44,7 @@ data = [
 	]
 ]
 ```
-
+Xem bảng [histories](/docs/product/imei.md#histories) bên dưới.
 ### products
 Key | Data Type(Max-length) | Description
 ------- | --------- | -----------
@@ -68,7 +71,21 @@ createdDateTime | date|Ngày tạo
 activatedById| int| Người kích hoạt
 activatedByDateTime | date | Ngày kích hoạt
 
-
+### histories
+Key | Data Type(Max-length) | Description
+------- | --------- | -----------
+idNhanh | bigint(20) | ID sản phẩm trên Nhanh.vn
+merchantProductId | int | ID sản phẩm phi độc quyền (tính năng này chỉ phục vụ cho các sàn TMĐT)
+productName | string | Tên sản phẩm
+productCode |string | Mã sản phẩm
+productBarcode | string | Mã vạch sản phẩm
+imeiCode | string | Imei sản phẩm
+imeiId | int | Imei ID
+step | int | Hành động
+itemTypeName | int | Sản phẩm
+itemId | string | Mã sản phẩm
+createdById | int | Người tạo
+createdDateTime | date|Ngày tạo
 
 
 
