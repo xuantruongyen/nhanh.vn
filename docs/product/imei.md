@@ -26,13 +26,23 @@ data | [ ] | is an array of product imei list
 ```js
 data = [
 	totalPages: int,
-	products: [
+	products: [ // xem bảng [products](/docs/product/imei.md#products) bên dưới
+		{  }, // each product item, all properties are listed in the table below
+		...
+	]
+]
+Lưu ý:
+Nếu tìm chính xác theo mã IMEI (imeiCode) thì data sẽ trả về dạng:
+data = [
+	totalPages: int,
+	histories: [ // xem bảng [histories](/docs/product/imei.md#products) bên dưới
 		{  }, // each product item, all properties are listed in the table below
 		...
 	]
 ]
 ```
 
+### products
 Key | Data Type(Max-length) | Description
 ------- | --------- | -----------
 idNhanh | bigint(20) | ID sản phẩm trên Nhanh.vn
