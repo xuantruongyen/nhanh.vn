@@ -40,7 +40,7 @@ Nếu tìm chính xác theo mã IMEI (imeiCode) thì data sẽ trả về dạng
 ```js
 data = [
 	totalPages: int,
-	histories: [ // xem bảng [histories](/docs/product/imei.md#products) bên dưới
+	histories: [ 
 		{  }, // each product item, all properties are listed in the table below
 		...
 	]
