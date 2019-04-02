@@ -64,16 +64,15 @@ imeiHistories | array | Xem bảng [Histories](/docs/product/imei.md#histories) 
 ### Histories
 Key | Data Type(Max-length) | Description
 ------- | --------- | -----------
-idNhanh | bigint(20) | ID sản phẩm trên Nhanh.vn
-merchantProductId | int | ID sản phẩm phi độc quyền (tính năng này chỉ phục vụ cho các sàn TMĐT)
+step | int | Hành động
+itemTypeName | string | Tên loại mặt hàng
+itemId | string | Mã mặt hàng
+productId | string | ID sản phẩm
 productName | string | Tên sản phẩm
 productCode |string | Mã sản phẩm
 productBarcode | string | Mã vạch sản phẩm
 imeiCode | string | Imei sản phẩm
 imeiId | int | Imei ID
-step | int | Hành động
-itemTypeName | string | Sản phẩm
-itemId | string | Mã sản phẩm
 createdById | int | Người tạo
 createdDateTime | date|Ngày tạo
 
