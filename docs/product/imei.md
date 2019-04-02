@@ -59,7 +59,7 @@ createdById | int | Người tạo
 createdDateTime | date|Ngày tạo
 activatedById| int| Người kích hoạt
 activatedByDateTime | date | Ngày kích hoạt
-imeiHistories | array | Xem [tại đây](/docs/product/imei.md#histories) (Chỉ trả về khi lọc chính xác Imei)
+imeiHistories | array | Xem bảng [Histories](/docs/product/imei.md#histories) bên dưới (Chỉ trả về khi lọc chính xác Imei)
 
 ### Histories
 Key | Data Type(Max-length) | Description
