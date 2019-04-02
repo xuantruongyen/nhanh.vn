@@ -65,16 +65,15 @@ imeiHistories | array | Xem bảng [Histories](/docs/product/imei.md#histories) 
 Key | Data Type(Max-length) | Description
 ------- | --------- | -----------
 step | int | Hành động
-itemTypeName | string | Tên loại mặt hàng
-itemId | string | Mã mặt hàng
+itemTypeName | string | Tên loại
+itemId | string | Mã loại
 productId | string | ID sản phẩm
 productName | string | Tên sản phẩm
 productCode |string | Mã sản phẩm
 productBarcode | string | Mã vạch sản phẩm
-imeiCode | string | Imei sản phẩm
-imeiId | int | Imei ID
-createdById | int | Người tạo
-createdDateTime | date|Ngày tạo
+createdById | int | ID người tạo
+createdByName | string | Người tạo
+createdDateTime | date | Ngày tạo
 
 
 
