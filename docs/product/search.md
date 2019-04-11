@@ -108,6 +108,8 @@
             "holding": int // số lượng đang tạm giữ
             "damage": int //  số lượng lỗi
             "available": int // số lượng có thể bán (sử dụng để hiển thị trên website, chặn đặt hàng khi hết số tồn hoặcvượt quá số tồn).
+            "warranty": int // số lượng bảo hành
+            "warrantyHolding": int // Số lượng đang bảo hành
         ],
         "depotId" => [
             // ...
