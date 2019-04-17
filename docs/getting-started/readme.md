@@ -1,6 +1,6 @@
 # Tổng quan hệ thống
 
-[Nhanh.vn](https://nhanh.vn) là giải pháp quản lý bán hàng trên nền tảng điện toán đám mây, đồng bộ dữ liệu với website, dịch vụ vận chuyển, giúp doanh nghiệp quản lý toàn bộ quy trình bán hàng, chăm sóc khách hàng, tăng doanh thu, giảm chi phí, phát triển kinh doanh hiệu quả hơn.
+[Nhanh.vn](https://nhanh.vn) là giải pháp quản lý bán hàng trên nền tảng điện toán đám mây, đồng bộ dữ liệu với website, dịch vụ vận chuyển, giúp doanh nghiệp quản lý toàn bộ quy trình bán hàng, chăm sóc khách hàng, tăng doanh thu, giảm chi phí, phát triển kinh doanh hiệu quả hơn. Các sản phẩm chính của Nhanh.vn bao gồm:
 
 * [Phần mềm quản lý bán hàng](https://nhanh.vn)
 * [Dịch vụ vận chuyển](https://nhanh.vn/dich-vu-van-chuyen)
