@@ -1,10 +1,8 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Tổng quan hệ thống](README.md)
 
 ## Getting Started
-
-* [Tổng quan hệ thống](getting-started/readme.md)
 * [Thuật ngữ](getting-started/glossary.md)
 * [API Request, Response](getting-started/api.md)
 * [Một số lỗi thường gặp](getting-started/errors.md)
