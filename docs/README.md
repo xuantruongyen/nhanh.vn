@@ -38,7 +38,7 @@ Nhanh.vn hỗ trợ đồng bộ sản phẩm 2 chiều:
   * Khi khách đặt hàng: Đồng bộ thông tin đơn hàng về Nhanh.vn.
   * Khi khách hủy đơn hoặc thanh toán online cho đơn hàng: Cập nhật thông tin đơn hàng
   * Khi nhân viên xử lý các đơn hàng ở Nhanh.vn, Nhanh.vn sẽ gửi webhooks về hệ thống của bạn để cập nhật trạng thái đơn hàng, lịch trình vận đơn.
-* Nhanh.vn hỗ trợ các API về tính phí vận chuyển, và các cài đặt [gửi Email](https://nhanh.vn/manual/item/view?id=449), [gửi SMS](https://nhanh.vn/manual/item/view?id=450) để thông báo cho khách hàng về thông tin đơn hàng.
+* Nhanh.vn hỗ trợ các API về [tính phí vận chuyển](get-data-from-nhanh.vn/fee.md), và các cài đặt [gửi Email](https://nhanh.vn/manual/item/view?id=449), [gửi SMS](https://nhanh.vn/manual/item/view?id=450) để thông báo cho khách hàng về thông tin đơn hàng.
 
 ### Get data from Nhanh.vn
 
