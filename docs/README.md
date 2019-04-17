@@ -30,15 +30,15 @@ Nhanh.vn hỗ trợ đồng bộ sản phẩm 2 chiều:
 #### Đồng bộ tồn kho
 
 * Tồn kho chỉ được đồng bộ từ Nhanh.vn sang các hệ thống khác, Nhanh.vn không nhận cập nhật tồn kho từ bên ngoài. 
-* Khi tồn kho trên Nhanh.vn có thay đổi, hệ thống của bạn sẽ nhận được 1 webhooks \(xem thêm mục [Listen Inventory](https://developers.nhanh.vn/listen-webhooks-from-nhanh.vn/listen-2)\).
+* Khi tồn kho trên Nhanh.vn có thay đổi, hệ thống của bạn sẽ nhận được 1 webhooks \(xem thêm mục [Listen Inventory](listen-webhooks-from-nhanh.vn/listen-2).
 
-### Đồng bộ đơn hàng
+#### Đồng bộ đơn hàng
 
 * Nhanh.vn hỗ trợ đồng bộ đơn hàng từ các hệ thống khác về, thường dùng khi bạn có website từ trước:
   * Khi khách đặt hàng: Đồng bộ thông tin đơn hàng về Nhanh.vn.
   * Khi khách hủy đơn hoặc thanh toán online cho đơn hàng: Cập nhật thông tin đơn hàng
   * Khi nhân viên xử lý các đơn hàng ở Nhanh.vn, Nhanh.vn sẽ gửi webhooks về hệ thống của bạn để cập nhật trạng thái đơn hàng, lịch trình vận đơn.
-* Nhanh.vn hỗ trợ các tính năng về tính phí vận chuyển, cài đặt gửi Email / SMS để thông báo cho khách hàng về thông tin đơn hàng. Xem thêm hướng dẫn sử dụng: Cài đặt gửi email / Cài đặt gửi SMS.
+* Nhanh.vn hỗ trợ các API về tính phí vận chuyển, và các cài đặt [gửi Email](https://nhanh.vn/manual/item/view?id=449), [gửi SMS](https://nhanh.vn/manual/item/view?id=450) để thông báo cho khách hàng về thông tin đơn hàng.
 
 ### Get data from Nhanh.vn
 
