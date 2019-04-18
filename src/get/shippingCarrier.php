@@ -20,7 +20,6 @@ if($response->code) {
 	echo "<td>ID Hãng vận chuyển</td>";
 	echo "<td>Logo</td>";
 	echo "<td>Tên hãng</td>";
-	echo "<td>Tên đầy đủ</td>";
 	echo "<td>Các dịch vụ của hãng</td>";
 	echo "</tr>";
 	foreach($response->data as $carrier) {
@@ -28,7 +27,6 @@ if($response->code) {
 		echo "<td>{$carrier->id}</td>";
 		echo "<td><img width='150px' src='{$carrier->logo}' /></td>";
 		echo "<td>{$carrier->name}</td>";
-		echo "<td>{$carrier->businessName}</td>";
 		echo "<td>";
 			if(isset($carrier->services) && count($carrier->services)) {
 				echo "<ul>";
