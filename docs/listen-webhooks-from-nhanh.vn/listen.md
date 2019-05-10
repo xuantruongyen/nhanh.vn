@@ -1,6 +1,6 @@
 # Listen order status
 
-* Website của bạn cần đăng kí một URL để nhận trạng thái đơn hàng cập nhật từ Nhanh.vn \(cập nhật realtime khi trạng thái đơn hàng thay đổi bên trong Nhanh.vn\).
+* Website của bạn cần đăng kí một URL để nhận trạng thái đơn hàng cập nhật từ Nhanh.vn \(cập nhật realtime khi trạng thái đơn hàng thay đổi bên trong Nhanh.vn\). [Xem thêm](https://developers.nhanh.vn/send-data-to-nhanh.vn/link)
 * Nhanh.vn chỉ gửi trạng thái các đơn hàng từ hệ thống khác bắn sang Nhanh.vn, các đơn hàng tạo trực tiếp ở Nhanh.vn sẽ không phát sinh việc cập nhật trạng thái này.
 
 ## Request
