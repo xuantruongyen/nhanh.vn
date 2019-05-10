@@ -9,7 +9,7 @@ Config webhooks listen URL
 
 | Key | Data type | Mandatory | Description |
 | :--- | :--- | :--- | :--- |
-| uriListenProduct | string |  | Link thêm sản phẩm |
+| uriListenProductAdd | string |  | Link thêm sản phẩm |
 | uriListenInventory | string |  | Link tồn kho |
 | uriListenOrderStatus | string |  | Link trạng thái đơn hàng |
 
