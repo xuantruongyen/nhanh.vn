@@ -1,6 +1,7 @@
 # Listen product data
 
 * Mỗi website cần đăng kí 1 URL để nhận cập nhật thông tin sản phẩm từ Nhanh.vn \(cập nhật realtime khi sản phẩm được thêm, sửa trong Nhanh.vn\). Để sử dụng tính năng này, website của bạn phải thêm 1 trường để lưu **idNhanh** ứng với từng sản phẩm được đồng bộ từ Nhanh.vn sang, mỗi khi nhận được 1 request từ Nhanh, website sử dụng **idNhanh** để kiểm tra xem sản phẩm này đã tồn tại hay chưa để áp dụng việc thêm mới hoặc cập nhật thông tin sản phẩm tương ứng theo key **idNhanh**.
+* Xem thêm [Config webhooks](https://developers.nhanh.vn/send-data-to-nhanh.vn/link)
 
 ## Request
 
