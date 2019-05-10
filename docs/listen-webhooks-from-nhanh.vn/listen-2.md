@@ -1,6 +1,7 @@
 # Listen inventory updated
 
 * Website của bạn cần đăng kí một URL để nhận thông tin tồn kho cập nhật từ Nhanh.vn \(Cập nhật realtime ngay khi số tồn bị thay đổi bên trong Nhanh.vn\)
+* Xem thêm [Config webhooks](https://developers.nhanh.vn/send-data-to-nhanh.vn/link)
 
 ## Request
 
