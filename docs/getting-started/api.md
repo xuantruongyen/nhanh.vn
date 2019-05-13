@@ -2,9 +2,9 @@
 
 ## Get API Account
 
-Please contact email **chukhanhvan@gmail.com** or Skype: **chukhanhvan** to get an API account. .
+Hiện tại tài khoản API chỉ cấp cho khách hàng đã kí hợp đồng với Nhanh.vn, xin vui lòng liên hệ với nhân viên Nhanh.vn đã kí hợp đồng với anh/chị để được trợ giúp.
 
-The register form will be available soon.
+(The register form will be available soon)
 
 An API account includes:
 
