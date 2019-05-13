@@ -10,11 +10,13 @@
 
 ![](../.gitbook/assets/pasted_image_0.png)  
 Trong đó: 
+```php
 **merchantId**: merchant id \(deprecated\) 
 **apiUsername**: apiUsername 
 **storeId**: id của gian hàng 
 **orderId**: id của đơn hàng 
 **checksum**: md5(md5(SECRET_KEY . $data) . $data)
+```
 
 ```php
 $data = $merchantId . $privateStoreId . $privateId; // @deprecated
