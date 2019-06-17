@@ -11,8 +11,8 @@
 | :--- | :--- | :--- | :--- |
 | page | Int | No | Phân trang \(giá trị mặc định là 1\) |
 | icpp | Int | No | lượng sản phẩm trên 1 trang. Mặc định là 10. Tối đa không quá 20. |
-| fromDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày tạo phiếu yêu cầu \(hoặc ngày duyệt yêu cầu\) |
-| toDate | string | No | Định dạng: Ngày/Tháng/Năm. Ngày tạo phiếu yêu cầu \(hoặc ngày duyệt yêu cầu\) |
+| fromDate | string | No | Định dạng: Năm-tháng-ngày. Ngày tạo phiếu yêu cầu \(hoặc ngày duyệt yêu cầu\) |
+| toDate | string | No | Định dạng: Năm-tháng-ngày. Ngày tạo phiếu yêu cầu \(hoặc ngày duyệt yêu cầu\) |
 | id | Int | No | ID phiếu sản phẩm yêu cầu xuất nhập kho |
 | billId | Int | No | ID phiếu yêu cầu xuất nhập kho |
 | type | Int | No | Loại xuất nhập kho |
