@@ -11,13 +11,12 @@
 | :--- | :--- | :--- | :--- |
 | page | int | No | Phân trang, giá trị mặc định sẽ là 1. |
 | icpp | int | No | Số lượng sản phẩm trên 1 trang. Tối đa không quá 50. Mặc định nếu không set giá trị gì sẽ là 20. |
-| fromDate | string | No | Ngày tạo imei (từ ngày) định dạng yyyy-mm-dd|
-| toDate | string | No |  Ngày tạo imei (đến ngày) định dạng yyyy-mm-dd |
+| fromDate | string | No | Ngày bán imei (từ ngày) định dạng yyyy-mm-dd|
+| toDate | string | No |  Ngày bán imei (đến ngày) định dạng yyyy-mm-dd |
 | ids | int | No | ID những sản phẩm /api/product/search |
 | id | int | No | ID sản phẩm /api/product/search |
 | brandId | int | No | Tìm theo thương hiệu |
 | type | int | No | Chỉ cho phép loại imei là xuất kho |
-| mode | int | No | Chỉ cho phép tìm theo mode là: bán lẻ và chuyển hàng |
 
 ## Response
 
@@ -58,7 +57,7 @@ data = [
 | :--- | :--- | :--- |
 | phone | string | Số điện thoại khách hàng |
 | name | string | Tên khách hàng |
-| email | string | Email |
-| address | string | Địa chỉ |
+| email | string | Email khách hàng|
+| address | string | Địa chỉ khách hàng |
 
 
