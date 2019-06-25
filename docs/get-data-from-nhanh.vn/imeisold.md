@@ -16,7 +16,6 @@
 | ids | int | No | ID những sản phẩm /api/product/search |
 | id | int | No | ID sản phẩm /api/product/search |
 | brandId | int | No | Tìm theo thương hiệu |
-| type | int | No | Chỉ cho phép loại imei là xuất kho |
 
 ## Response
 
