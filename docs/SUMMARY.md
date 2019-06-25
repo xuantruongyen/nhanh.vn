@@ -21,7 +21,7 @@
 * [/api/product/detail](get-data-from-nhanh.vn/detail.md)
 * [/api/product/gift](get-data-from-nhanh.vn/gift.md)
 * [/api/product/imei](get-data-from-nhanh.vn/imei.md)
-* [/api/product/imeisold](get-data-from-nhanh.vn/imeisold.md)
+* [/api/product/imeisold](get-data-from-nhanh.vn/imeisold.md) 
 * [/api/customer/search](get-data-from-nhanh.vn/search-1.md)
 * [/api/article/categories](get-data-from-nhanh.vn/categories.md)
 * [/api/article/search](get-data-from-nhanh.vn/search-2.md)
