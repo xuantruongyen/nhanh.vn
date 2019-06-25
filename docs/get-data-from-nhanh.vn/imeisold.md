@@ -2,7 +2,7 @@
 
 * Tính năng này dùng để tra cứu danh sách IMEI bán ra theo ngày ở trên Nhanh.vn. Dữ liệu sẽ được phân trang, mỗi trang tối đa không quá 50 IMEI.
 
-  **Request**
+**Request**
 
 * See [common request params](../getting-started/api.md#request)
 * The search params:
