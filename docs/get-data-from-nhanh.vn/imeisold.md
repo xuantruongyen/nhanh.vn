@@ -1,6 +1,6 @@
 # /api/product/imeisold
 
-* Tính năng này dùng để tra cứu imei sản phẩm theo ngày ở trên Nhanh.vn. Dữ liệu sẽ được phân trang, mỗi trang tối đa không quá 100 sản phẩm.
+* Tính năng này dùng để tra cứu danh sách IMEI bán ra theo ngày ở trên Nhanh.vn. Dữ liệu sẽ được phân trang, mỗi trang tối đa không quá 50 IMEI.
 
   **Request**
 
@@ -13,8 +13,7 @@
 | icpp | int | No | Số lượng sản phẩm trên 1 trang. Tối đa không quá 50. Mặc định nếu không set giá trị gì sẽ là 50. |
 | fromDate | string | No | Ngày bán imei (từ ngày) định dạng yyyy-mm-dd|
 | toDate | string | No |  Ngày bán imei (đến ngày) định dạng yyyy-mm-dd |
-| ids | int | No | Tìm theo ID những sản phẩm /api/product/search |
-| id | int | No | Tìm theo ID sản phẩm /api/product/search |
+| productIds | int | No | Tìm theo ID những sản phẩm /api/product/search |
 | brandId | int | No | Tìm theo thương hiệu |
 
 ## Response
@@ -30,26 +29,23 @@ JSON decode the response to get the structure:
 ```javascript
 data = [
     [
-      // imei 1 
-      Imei // xem bảng imei bên dưới
+      // IMEI 1, xem bảng IMEI bên dưới
     ],
     [
-      // imei 2
-      ... 
-    ]
-    
+      // IMEI 2
+    ],
+    ...
 ]
 ```
 
-### Imei
+### IMEI
 
 | Key | Data Type\(Max-length\) | Description |
 | :--- | :--- | :--- |
-| imei | string | Imei sản phẩm trên Nhanh.vn |
+| imei | string | IMEI Code |
 | productName | string | Tên sản phẩm |
 | productCode | string | Mã sản phẩm |
-| productBarcode | string | Mã vạch sản phẩm |
-| customer | array | Khách hàng(xem bên dưới) |
+| customer | array | Khách hàng (xem bên dưới) |
 
 ### customer
 | Key | Data Type\(Max-length\) | Description |
