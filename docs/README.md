@@ -62,6 +62,7 @@ Dữ liệu về sản phẩm:
 * [/api/product/detail](get-data-from-nhanh.vn/detail.md): Lấy thông tin chi tiết sản phẩm 
 * [/api/product/gift](get-data-from-nhanh.vn/gift.md): Lấy danh sách quà tặng theo sản phẩm
 * [/api/product/imei](get-data-from-nhanh.vn/imei.md): Lấy danh sách imei sản phẩm
+* [/api/product/imeisold](get-data-from-nhanh.vn/imeisold.md): Tra cứu imei sản phẩm theo ngày
 
 Dữ liệu về khách hàng
 
