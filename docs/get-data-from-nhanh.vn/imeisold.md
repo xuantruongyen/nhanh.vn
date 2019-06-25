@@ -32,7 +32,7 @@ JSON decode the response to get the structure:
 ```javascript
 data = [
     [
-      // imei 1
+      // imei 1 
       Imei // xem bảng imei bên dưới
     ],
     [
