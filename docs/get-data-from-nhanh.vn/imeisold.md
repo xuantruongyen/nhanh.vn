@@ -10,7 +10,7 @@
 | Param | Data Type | Mandatory | Description |
 | :--- | :--- | :--- | :--- |
 | page | int | No | Phân trang, giá trị mặc định sẽ là 1. |
-| icpp | int | No | Số lượng sản phẩm trên 1 trang. Tối đa không quá 50. Mặc định nếu không set giá trị gì sẽ là 20. |
+| icpp | int | No | Số lượng sản phẩm trên 1 trang. Tối đa không quá 50. Mặc định nếu không set giá trị gì sẽ là 50. |
 | fromDate | string | No | Ngày bán imei (từ ngày) định dạng yyyy-mm-dd|
 | toDate | string | No |  Ngày bán imei (đến ngày) định dạng yyyy-mm-dd |
 | ids | int | No | ID những sản phẩm /api/product/search |
