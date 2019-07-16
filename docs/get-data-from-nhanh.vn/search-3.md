@@ -64,6 +64,7 @@ JSON decode the response to get the structure:
 | relatedUserName | string | Người tạo hóa đơn được trả hàng |
 | technicalId | int | Id nhân viên kỹ thuật |
 | technicalName | string | Tên nhân viên kỹ thuật |
+| description | string | ghi chú của hóa đơn |
 | products | array | Danh sách sản phẩm theo hóa đơn \[Xem bảng bên dưới\] |
 
 * Products: Danh sách sản phẩm XNK trong phiếu
