@@ -57,4 +57,23 @@
     // ...
 ]
 ```
+* Nếu **type = WARD**
+
+```javascript
+[
+    [
+      "id": 2, // int
+      "cityId": 2, // int
+      "districtId": 3, // int
+      "name": "Phường Bạch Đằng" // string
+    ],    
+    [
+      "id": 6,
+      "cityId": 2,
+      "districtId": 3,
+      "name": "Phường Bách Khoa"
+    ]
+    // ...
+]
+```
 
