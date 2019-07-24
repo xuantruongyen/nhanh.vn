@@ -11,8 +11,8 @@
 
 | Param |  | Mandatory | Description |
 | :--- | :--- | :--- | :--- |
-| type | string | No | CITY/DISTRICT \(mặc định là CITY\) |
-| parentId | int | No | Nếu type = DISTRICT thì parentId = id của thành phố cần lấy ra danh sách quận huyện. |
+| type | string | No | CITY/DISTRICT/WARD (mặc định là CITY) |
+| parentId | int | No | Nếu type = DISTRICT thì parentId = id của thành phố cần lấy ra danh sách quận huyện,Nếu type = WARD thì parentId = id của quận huyện cần lấy ra. |
 
 ## Response
 
