@@ -43,6 +43,7 @@
 | Key | Data Type \(Max-length\) | Description |
 | :--- | :--- | :--- |
 | id | int | id của khách hàng |
+| type | int | Loại khách hàng (1 = Khách lẻ, 2 = Khách buôn, 3 = Đại lý) |
 | name | string | Tên khách hàng |
 | mobile | int | Số điện thoại của khách hàng |
 | email | string | Email của khách hàng |
