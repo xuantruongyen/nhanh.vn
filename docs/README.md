@@ -7,8 +7,6 @@
 * [Thiết kế website bán hàng](https://nhanh.vn/gioi-thieu-tinh-nang-website)
 * [Phần mềm quản lý Facebook Fanpage](https://vpage.nhanh.vn)
 
-![](https://nhanh.vn/images/v4/banner/bannerRight1.png)
-
 ### Nhanh API là gì?
 
 * API cung cấp các giải pháp để đồng bộ dữ liệu sản phẩm, đơn hàng, khách hàng, tồn kho giữa Nhanh.vn và các hệ thống website khác. Các giải pháp này phù hợp cho cả các website bình thường \(website của 1 cá nhân, công ty\) và cả các sàn thương mại điện tử có nhiều gian hàng.
