@@ -1,6 +1,6 @@
 # /api/store/configwebhooks
 
-Config webhooks listen URL
+Config webhooks listen data send from Nhanh.vn
 
 ## Request
 
@@ -9,7 +9,8 @@ Config webhooks listen URL
 
 | Key | Data type | Mandatory | Description |
 | :--- | :--- | :--- | :--- |
-| uriListenProductAdd | string |  | Link thêm sản phẩm |
-| uriListenInventory | string |  | Link tồn kho |
-| uriListenOrderStatus | string |  | Link trạng thái đơn hàng |
+| uriListenProductAdd | string |  | Link nhận thông báo thêm sản phẩm |
+| uriListenInventory | string |  | Link nhận cập nhật tồn kho |
+| uriListenOrderStatus | string |  | Link nhận cập nhật trạng thái đơn hàng |
+| uriListenNewOrder | string | Link nhận thông báo đơn hàng mới
 
