@@ -12,5 +12,5 @@ Config webhooks listen data send from Nhanh.vn
 | uriListenProductAdd | string |  | Link nhận thông báo thêm sản phẩm |
 | uriListenInventory | string |  | Link nhận cập nhật tồn kho |
 | uriListenOrderStatus | string |  | Link nhận cập nhật trạng thái đơn hàng |
-| uriListenNewOrder | string | Link nhận thông báo đơn hàng mới
+| uriListenNewOrder | string | Link nhận thông báo đơn hàng mới |
 
