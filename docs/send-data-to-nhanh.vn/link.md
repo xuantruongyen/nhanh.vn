@@ -17,11 +17,10 @@ Config webhooks listen data send from Nhanh.vn
 
   ```javascript
   {
-    uriListenProductAdd: 'https://example.com/api/listen-product',
-    uriListenInventory: 'https://example.com/api/listen-inventory',
-    uriListenNewOrder: '', // Để trống nếu bạn không cần Nhanh.vn gửi dữ liệu này
-    uriListenOrderStatus: 'https://example.com/api/listen-order-status'
-    
+    uriListenProductAdd: "https://example.com/api/listen-product",
+    uriListenInventory: "https://example.com/api/listen-inventory",
+    uriListenNewOrder: "", // Để trống nếu bạn không cần Nhanh.vn gửi dữ liệu này
+    uriListenOrderStatus: "https://example.com/api/listen-order-status"
   }
   ```
   
