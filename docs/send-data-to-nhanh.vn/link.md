@@ -11,6 +11,17 @@ Config webhooks listen data send from Nhanh.vn
 | :--- | :--- | :--- | :--- |
 | uriListenProductAdd | string | No | Link nhận thông báo thêm sản phẩm |
 | uriListenInventory | string | No | Link nhận cập nhật tồn kho |
-| uriListenOrderStatus | string | No | Link nhận cập nhật trạng thái đơn hàng |
 | uriListenNewOrder | string | No | Link nhận thông báo đơn hàng mới |
+| uriListenOrderStatus | string | No | Link nhận cập nhật trạng thái đơn hàng |
 
+
+  ```javascript
+  {
+    uriListenProductAdd: 'https://example.com/api/listen-product',
+    uriListenInventory: 'https://example.com/api/listen-inventory',
+    uriListenNewOrder: '', // Để trống nếu bạn không cần Nhanh.vn gửi dữ liệu này
+    uriListenOrderStatus: 'https://example.com/api/listen-order-status'
+    
+  }
+  ```
+  
