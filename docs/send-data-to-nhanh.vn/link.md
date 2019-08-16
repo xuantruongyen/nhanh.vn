@@ -9,8 +9,8 @@ Config webhooks listen data send from Nhanh.vn
 
 | Key | Data type | Mandatory | Description |
 | :--- | :--- | :--- | :--- |
-| uriListenProductAdd | string |  | Link nhận thông báo thêm sản phẩm |
-| uriListenInventory | string |  | Link nhận cập nhật tồn kho |
-| uriListenOrderStatus | string |  | Link nhận cập nhật trạng thái đơn hàng |
-| uriListenNewOrder | string |  | Link nhận thông báo đơn hàng mới |
+| uriListenProductAdd | string | No | Link nhận thông báo thêm sản phẩm |
+| uriListenInventory | string | No | Link nhận cập nhật tồn kho |
+| uriListenOrderStatus | string | No | Link nhận cập nhật trạng thái đơn hàng |
+| uriListenNewOrder | string | No | Link nhận thông báo đơn hàng mới |
 
