@@ -10,7 +10,7 @@ require_once '../NhanhService.php';
 
 $data = array(
     "type" => "DISTRICT", // CITY | DISTRICT
-    "parentId" => "2",
+    "parentId" => "254",
 );
 $service = new NhanhService();
 $response = $service->sendRequest(NhanhService::URI_SHIPPING_LOCATION, $data);
