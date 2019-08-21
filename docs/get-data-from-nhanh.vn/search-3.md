@@ -77,5 +77,5 @@ JSON decode the response to get the structure:
 | quantity | float | Số lượng sản phẩm |
 | price | double | Giá sản phẩm |
 | discount | double | Chiết khấu của sản phẩm |
-| imei | string | IMEI của sản phẩm. Nếu sản phẩm tồn tại IMEI sẽ hiện thêm trường này. |
+| imei | array | danh sách IMEI của sản phẩm. Nếu sản phẩm tồn tại IMEI sẽ hiện thêm trường này. |
 
