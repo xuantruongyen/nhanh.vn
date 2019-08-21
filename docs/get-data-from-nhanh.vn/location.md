@@ -46,12 +46,12 @@
 [
     [
       "id": 2, // int
-      "cityId": 2, // int
+      "cityLocationId": 2, // int
       "name": "Quận Hoàn Kiếm" // string
     ],    
     [
       "id": 6,
-      "cityId": 2,
+      "cityLocationId": 2,
       "name": "Quận Hai Bà Trưng"
     ]
     // ...
@@ -63,14 +63,14 @@
 [
     [
       "id": 2, // int
-      "cityId": 2, // int
-      "districtId": 3, // int
+      "cityLocationId": 2, // int
+      "districtLocationId": 3, // int
       "name": "Phường Bạch Đằng" // string
     ],    
     [
       "id": 6,
-      "cityId": 2,
-      "districtId": 3,
+      "cityLocationId": 2,
+      "districtLocationId": 3,
       "name": "Phường Bách Khoa"
     ]
     // ...
