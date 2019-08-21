@@ -63,13 +63,11 @@
 [
     [
       "id": 2, // int
-      "cityLocationId": 2, // int
       "districtLocationId": 3, // int
       "name": "Phường Bạch Đằng" // string
     ],    
     [
       "id": 6,
-      "cityLocationId": 2,
       "districtLocationId": 3,
       "name": "Phường Bách Khoa"
     ]
