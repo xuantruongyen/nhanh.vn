@@ -12,8 +12,7 @@
 Trong đó: 
 ```php
 apiUsername: apiUsername 
-storeId: id của gian hàng 
-orderId: id của đơn hàng 
+orderId: id đơn hàng bên website tích hợp
 checksum: md5(md5(SECRET_KEY . $data) . $data)
 ```
 
