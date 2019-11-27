@@ -52,8 +52,6 @@
         'estimatedDeliveryTime': int // Thời gian dự kiến giao hàng
         'shipFee': int // phí vận chuyển
         'codFee': int // phí thu tiền hộ
-        'shipFeeDiscount': int // phí vận chuyển được giảm giá
-        'codFeeDiscount': int // phí thu tiền hộ được giảm giá
         'isBulkyGoods': 1 | 0 // Biến đánh dấu hàng cồng kềnh
     }
     // service 2
