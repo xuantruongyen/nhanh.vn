@@ -23,8 +23,8 @@ JSON decode the response to get the structure:
 
 ```javascript
 data = [
-   id1: Tên kho 1,
-   id2: Tên kho 2,
+   depotId1: Tên kho 1,
+   depotId2: Tên kho 2,
    [...]
 ]
 ```
