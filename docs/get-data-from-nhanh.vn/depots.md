@@ -9,7 +9,7 @@
 
 | Param |  | Mandatory | Description |
 | :--- | :--- | :--- | :--- |
-| id | Int | No | Tìm kiếm theo ID kho |
+| depotId | Int | No | Tìm kiếm theo ID kho |
 
 ## Response
 
