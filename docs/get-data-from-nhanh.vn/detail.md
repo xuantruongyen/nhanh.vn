@@ -5,7 +5,7 @@
 ## Request
 
 * See [common request params](../getting-started/api.md#request)
-* The search param: data = array \( [NhanhProductId](https://github.com/nhanhapi/nhanh.vn/blob/master/src/get/product.php) \)
+* The search param: data = string \( [NhanhProductId](https://github.com/nhanhapi/nhanh.vn/blob/master/src/get/product.php) \)
 
 ## Response
 
