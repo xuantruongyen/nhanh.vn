@@ -7,7 +7,7 @@ Một số lỗi thường gặp
 Nếu bạn nhận được response lỗi: authentication failed, xin vui lòng kiểm tra lại các mục sau:
 
 * Kiểm tra lại các thông số apiUsername, secretKey, environment \(dev / production\).
-* Trong code có set biến storeId, biến này chỉ dùng cho các sàn thương mại điện tử có nhiều gian hàng, các website bình thường cần set biến này về null.
+* Trong code có set biến storeId, biến này chỉ dùng cho các sàn thương mại điện tử (VD: Lazada, Tiki, Shopee, Vatgia, Sendo...) có nhiều gian hàng, các website bình thường cần set biến này về null.
 
 ## Invalid checksum
 
