@@ -16,7 +16,7 @@
 | moneyTransfer | int | No | Số tiền khách đã chuyển khoản |
 | paymentCode | string\(255\) | No | Mã giao dịch thanh toán |
 | paymentGateway | string\(255\) | No | Tên của cổng thanh toán |
-| status | string | No | Trạng thái đơn hàng, có thể là: -  Confirmed // Đã xác nhận - Canceled // Khách huỷ\(chỉ đổi được sang trạng thái Khách hủy khi đơn hàng đang ở trạng thái Mới, Đang xác nhận, Đã xác nhận\) - Aborted // Hệ thống hủy \(chỉ đổi được sang trạng thái Hệ thống hủy khi đơn hàng đang ở trạng thái Mới, Đang xác nhận, Đã xác nhận\) |
+| status | string | No | Trạng thái đơn hàng, có thể là: -  Success // Thành công -  Confirmed // Đã xác nhận - Canceled // Khách huỷ\(chỉ đổi được sang trạng thái Khách hủy khi đơn hàng đang ở trạng thái Mới, Đang xác nhận, Đã xác nhận\) - Aborted // Hệ thống hủy \(chỉ đổi được sang trạng thái Hệ thống hủy khi đơn hàng đang ở trạng thái Mới, Đang xác nhận, Đã xác nhận\) |
 | description | string | No | Mô tả lý do hủy đơn hàng |
 
 ## Response
