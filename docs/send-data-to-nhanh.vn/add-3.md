@@ -28,7 +28,7 @@
 | taxCode | string |  | Mã số thuế |
 | points | int |  | điểm tích lũy của khách hàng |
 | gender | int |  | 1 - Nam, 2 - Nữ |
-| birthday | date |  | Sinh nhật khách hàng |
+| birthday | date |  | Sinh nhật khách hàng (ngày/tháng/năm) |
 | cityName | string |  | tên thành phố |
 | districtName | string |  | tên quận huyện |
 | email | string |  | Email khách hàng |
