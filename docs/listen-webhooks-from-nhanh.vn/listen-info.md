@@ -1,8 +1,8 @@
-# Listen info when customer add order
+# Listen info when add new bill
 
-## Listen info when customer add order from Nhanh.vn
+## Listen info when customer has new bill from Nhanh.vn
 
-* Website của bạn cần đăng kí một URL để nhận thông tin khi khách hàng đặt đơn hàng từ Nhanh.vn hoặc từ website của bạn. \(Cập nhật realtime ngay khi khách hàng đặt đơn hàng từ Nhanh.vn hoặc từ website của bạn\)
+* Website của bạn cần đăng kí một URL để nhận thông tin khi khách hàng phát sinh hóa đơn bán hàng mới
 
 ## Request
 
@@ -21,7 +21,7 @@ Mảng data
 [
     “orderId”: ID đơn hàng,
     “customerMobile”: Số điện thoại khách hàng,
-    “type”: addOrder,
+    “type”: addBill,
     “totalAmount”:  Giá trị đơn hàng,
     “discount”:  Tiền chiết khấu,
     “addPoint”: Số điểm được tặng,
