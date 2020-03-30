@@ -94,6 +94,6 @@ Dữ liệu về hoá đơn:
 * [Listen product data](listen-webhooks-from-nhanh.vn/listen-1.md): Nhận thông tin sản phẩm cập nhật từ Nhanh.vn
 * [Listen inventory](https://github.com/nhanhapi/nhanh.vn/tree/61337548cfd92eb09522219d6702a6b66b4edb9f/docs/product/inventory.md): Nhận cập nhật thay đổi tồn kho từ Nhanh.vn
 * [Listen change level, add point, subtract](https://github.com/nhanhapi/nhanh.vn/tree/61337548cfd92eb09522219d6702a6b66b4edb9f/docs/bill/listenchange/README.md): Nhận thông tin thay đổi cấp độ, tặng điểm, trừ điểm khách hàng cập nhật từ Nhanh.vn 
-* [Listen info when customer add order from](listen-webhooks-from-nhanh.vn/listen-info.md): Nhận thông tin khi khách hàng thêm hóa đơn mới từ Nhanh.vn hoặc từ website.    
+* [Listen info when customer has new bill](listen-webhooks-from-nhanh.vn/listen-info.md): Nhận thông tin khi khách hàng phát sinh thêm hóa đơn mới.    
 * [Listen complain](listen-webhooks-from-nhanh.vn/listen-complain.md): Nhận thông tin về khiếu nại đơn hàng từ Nhanh.vn
 
