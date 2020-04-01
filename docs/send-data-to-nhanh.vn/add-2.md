@@ -50,6 +50,8 @@
 | productList | array | Yes | Danh sách sản phẩm của đơn hàng: xem bảng dữ liệu bên dưới. |
 | couponCode | string | No | Mã coupon |
 | allowTest | int | No | 1 - Cho xem hàng, không cho thử 2 - Cho phép thử 3 - Không cho xem  hàng |
+| fromWardLocationName | string | no | Phường xã người gửi |
+| customerWardLocationName | string | no | Phường xã người nhận |
 
 * Các thuộc tính của 1 sản phẩm trong **productList** bao gồm:
 
