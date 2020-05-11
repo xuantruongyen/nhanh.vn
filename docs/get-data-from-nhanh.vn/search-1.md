@@ -55,8 +55,9 @@
 | group | string | Tên nhóm của khách hàng |
 | totalMoney | double | Tổng số tiền khách mua hàng |
 | points | int | Tổng tích điểm của khách hàng |
-| cityId | int | Id thành phố |
-| districtId | int | Id quận huyện |
+| cityLocationId | int | ID thành phố|
+| districtLocationId | int |ID quận huyện|
+| wardLocationId | int | ID phường xã|
 | billList | array | Lịch sử hóa đơn mua hàng, mô  tả chi tiết dưới bảng sau: |
 
 * billList: 
