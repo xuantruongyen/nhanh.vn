@@ -62,6 +62,10 @@ Một vài request sẽ có 1 dataString cố định \(VD như khi lấy danh m
 * dataString = json\_encode\(**data array**\)
 * **checksum** = md5\(md5\(secretKey + dataString\) + dataString\)
 
+## Postman Sample
+
+![Postman Sample](https://raw.githubusercontent.com/nhanhapi/nhanh.vn/master/docs/Postman_Sample.jpg)
+
 ## Code Sample
 
 * PHP SDK: [https://github.com/nhanhapi/nhanh.vn](https://github.com/nhanhapi/nhanh.vn) 
