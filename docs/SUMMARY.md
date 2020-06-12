@@ -28,7 +28,7 @@
 * [/api/bill/search](get-data-from-nhanh.vn/search-3.md)
 * [/api/bill/imexrequirements](get-data-from-nhanh.vn/imexrequirements.md)
 * [/api/bill/imexs](get-data-from-nhanh.vn/imexs.md)
-* [/api/store/depots](get-data-from-nhanh.vn/depots.md)
+* [/api/store/depot](get-data-from-nhanh.vn/depot.md)
 * [/api/order-iframe](get-data-from-nhanh.vn/order-iframe.md)
 * [/api/integrated-elastix](get-data-from-nhanh.vn/integrated-elastix.md)
 
