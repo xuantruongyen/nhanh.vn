@@ -1,7 +1,7 @@
 # /api/store/depots
 
 * Tính năng này dùng để lấy danh sách kho của doanh nghiệp. Hỗ trợ tìm kiếm thông qua ID kho.
-* Deprecated feature: please use [/api/store/depot](../depot.md)
+* Deprecated feature: please use [/api/store/depot](depot.md)
 
 ## Request
 
