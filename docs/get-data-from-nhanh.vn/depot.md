@@ -24,18 +24,24 @@ JSON decode the response to get the structure:
 ```javascript
 data = [
    depotId1: [
-        'name' => string,
-        'city' => string,
-        'district' => string,
-        'ward' => string,
-        'address' => string
+        'name' => Tên kho hàng,
+        'cityId' => ID thành phố,
+        'cityName' => Tên thành phố,
+        'districtId' => ID quận huyện,
+        'districtName' => Tên quận huyện,
+        'wardId' => ID phường xã,
+        'wardName' => Tên phường xã,
+        'address' => Địa chỉ kho
    ],
    depotId2: [
-        'name' => string,
-        'city' => string,
-        'district' => string,
-        'ward' => string,
-        'address' => string
+        'name' => Tên kho hàng,
+        'cityId' => ID thành phố,
+        'cityName' => Tên thành phố,
+        'districtId' => ID quận huyện,
+        'districtName' => Tên quận huyện,
+        'wardId' => ID phường xã,
+        'wardName' => Tên phường xã,
+        'address' => Địa chỉ kho
    ]
 ]
 ```
